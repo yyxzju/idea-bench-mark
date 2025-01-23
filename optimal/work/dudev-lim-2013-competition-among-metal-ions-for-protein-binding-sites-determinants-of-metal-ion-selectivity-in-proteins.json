@@ -1,0 +1,3302 @@
+{
+    "paper_id": "work\\dudev-lim-2013-competition-among-metal-ions-for-protein-binding-sites-determinants-of-metal-ion-selectivity-in-proteins",
+    "header": {
+        "generated_with": "S2ORC 1.0.0",
+        "date_generated": "2024-12-08T10:44:43.251832Z"
+    },
+    "title": "Competition among Metal Ions for Protein Binding Sites: Determinants of Metal Ion Selectivity in Proteins",
+    "authors": [
+        {
+            "first": "Todor",
+            "middle": [],
+            "last": "Dudev",
+            "suffix": "",
+            "affiliation": {},
+            "email": ""
+        },
+        {
+            "first": "Carmay",
+            "middle": [],
+            "last": "Lim",
+            "suffix": "",
+            "affiliation": {
+                "laboratory": "",
+                "institution": "Academia Sinica",
+                "location": {
+                    "postCode": "11529",
+                    "settlement": "Taipei",
+                    "country": "Taiwan"
+                }
+            },
+            "email": ""
+        }
+    ],
+    "year": "",
+    "venue": null,
+    "identifiers": {},
+    "abstract": "Interactions 539 2.1. Metal Properties 539 2.2. Ligand Properties 539 2.3. Composite Metal and Ligand Properties: Metal CN and Geometry 539 2.4. Effect of the Second-Shell Ligands 540 2.5. Effect of the Protein Matrix 540 3. Cellular Ion Concentration Effects 540 4. Monocation-Monocation Competition 541 4.1. K + vs Na + Selectivity in Potassium Ion Channels 541 4.2. Na + vs K + Selectivity in Sodium Ion Channels 542 4.2.1. Vertebrate Na v Channels with the DEKA Motif 542 4.2.2. Bacterial Na v Channels with the EEEE Motif 542 4.3. Na + vs K + Selectivity in Neurotransmitter Receptors and Transporters 543 5. Monocation-Dication Competition 543 5.1. Na + vs Ca 2+ Selectivity in Na v and Ca v Channels with the EEEE Motif 543 5.1.1. Protein Matrix Controlling the Pore's Solvent Accessibility, Rigidity, and Size 544 5.2. Li + vs Mg 2+ Selectivity in Metalloproteins 544 5.2.1. Factors Allowing Li + To Displace Mg 2+ in Proteins 544 5.2.2. Why Li + Replaces Mg 2+ Only in Certain Enzymes 544 5.3. Cu + vs Zn 2+ Selectivity in Copper-Binding Proteins 545 6. Dication-Dication Competition 545 6.1. Ca 2+ vs Mg 2+ Selectivity in Proteins 545 6.1.1. EF-Hand Motifs 545 6.1.2. GLA Domains 546 6.1.3. Ribonuclease H 547 6.2. Mg 2+ vs Zn 2+ Selectivity in Proteins 548 6.2.1. Mg 2+ Proteins 548 6.2.2. Zn 2+ Proteins 548 6.3. Transition-Metal Ion Selectivity in Model Binding Sites 549 6.4. Transition-Metal Ion Selectivity in Proteins 550 6.4.1. Carbonic Anhydrase II 550 6.4.2. Nickel Regulatory Protein NikR 550 6.4.3. Iron Enzymes 551 6.4.4. Periplasmic Mn and Cu Proteins in Cyanobacterium 551 7. Dication-Trication Competition 551 7.1. Ca 2+ vs Ln 3+ Selectivity in Proteins 551 7.2. Mg 2+ vs Al 3+ Selectivity in Proteins 551 8. General Conclusions",
+    "pdf_parse": {
+        "paper_id": "work\\dudev-lim-2013-competition-among-metal-ions-for-protein-binding-sites-determinants-of-metal-ion-selectivity-in-proteins",
+        "_pdf_hash": "",
+        "abstract": [
+            {
+                "text": "Interactions 539 2.1. Metal Properties 539 2.2. Ligand Properties 539 2.3. Composite Metal and Ligand Properties: Metal CN and Geometry 539 2.4. Effect of the Second-Shell Ligands 540 2.5. Effect of the Protein Matrix 540 3. Cellular Ion Concentration Effects 540 4. Monocation-Monocation Competition 541 4.1. K + vs Na + Selectivity in Potassium Ion Channels 541 4.2. Na + vs K + Selectivity in Sodium Ion Channels 542 4.2.1. Vertebrate Na v Channels with the DEKA Motif 542 4.2.2. Bacterial Na v Channels with the EEEE Motif 542 4.3. Na + vs K + Selectivity in Neurotransmitter Receptors and Transporters 543 5. Monocation-Dication Competition 543 5.1. Na + vs Ca 2+ Selectivity in Na v and Ca v Channels with the EEEE Motif 543 5.1.1. Protein Matrix Controlling the Pore's Solvent Accessibility, Rigidity, and Size 544 5.2. Li + vs Mg 2+ Selectivity in Metalloproteins 544 5.2.1. Factors Allowing Li + To Displace Mg 2+ in Proteins 544 5.2.2. Why Li + Replaces Mg 2+ Only in Certain Enzymes 544 5.3. Cu + vs Zn 2+ Selectivity in Copper-Binding Proteins 545 6. Dication-Dication Competition 545 6.1. Ca 2+ vs Mg 2+ Selectivity in Proteins 545 6.1.1. EF-Hand Motifs 545 6.1.2. GLA Domains 546 6.1.3. Ribonuclease H 547 6.2. Mg 2+ vs Zn 2+ Selectivity in Proteins 548 6.2.1. Mg 2+ Proteins 548 6.2.2. Zn 2+ Proteins 548 6.3. Transition-Metal Ion Selectivity in Model Binding Sites 549 6.4. Transition-Metal Ion Selectivity in Proteins 550 6.4.1. Carbonic Anhydrase II 550 6.4.2. Nickel Regulatory Protein NikR 550 6.4.3. Iron Enzymes 551 6.4.4. Periplasmic Mn and Cu Proteins in Cyanobacterium 551 7. Dication-Trication Competition 551 7.1. Ca 2+ vs Ln 3+ Selectivity in Proteins 551 7.2. Mg 2+ vs Al 3+ Selectivity in Proteins 551 8. General Conclusions",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Abstract",
+                "sec_num": null
+            }
+        ],
+        "body_text": [
+            {
+                "text": "Metal cations are indispensable components of the cellular machinery and are involved in numerous essential tasks ranging from nucleic acid and protein structure stabilization to enzyme catalysis, signal transduction, muscle contraction, hormone secretion, taste and pain sensation, respiration, and photosynthesis. [1] [2] [3] [4] They are the simplest, but most versatile, cofactors in protein biochemistry with a plethora of distinctive properties such as electron-acceptor ability, positive charge, flexible coordination sphere, specific ligand affinity, varying valence state, low-or high-spin configuration, and mobility/diffusivity. Over the course of 2-3 billion years of evolution, about two dozen (biogenic) metal species have been selected on the basis of their specific physicochemical properties and bioavailability. 5 Among these biogenic metal cations, Na + , K + , Mg 2+ , Ca 2+ , Zn 2+ , Mn 2+ , Fe 2+/3+ , Co 2+/3+ , Ni 2+ , and Cu +/2+ are frequently found to participate in biochemical/biophysical processes. 1, 3, 4 Intracellular and extracellular fluids contain a mixture of metal cations present in different concentrations. For example, the average concentrations of free Na + , K + , Mg 2+ , and Ca 2+ in the blood plasma are \u223c145, \u223c4, \u223c1.5, and \u223c1.8 mM, respectively, while those in the cytosol are \u223c12, \u223c139, \u223c0.8, and <0.2 \u00d7 10 -3 mM, respectively. 6 At the same time, the intracellular concentration of the free transition metals such as Zn 2+ (10 -10 -10 -15 M) [7] [8] [9] and Cu + (\u223c10 -18 M) 10 is kept very low, yet the cellular/extracellular proteins in a healthy organism select with high fidelity the \"right\" metal ion against a background of, sometimes, higher concentrations of competing cations. This raises the following intriguing questions:",
+                "cite_spans": [
+                    {
+                        "start": 316,
+                        "end": 319,
+                        "text": "[1]",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 320,
+                        "end": 323,
+                        "text": "[2]",
+                        "ref_id": "BIBREF1"
+                    },
+                    {
+                        "start": 324,
+                        "end": 327,
+                        "text": "[3]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 328,
+                        "end": 331,
+                        "text": "[4]",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 830,
+                        "end": 831,
+                        "text": "5",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1029,
+                        "end": 1031,
+                        "text": "1,",
+                        "ref_id": "BIBREF0"
+                    },
+                    {
+                        "start": 1032,
+                        "end": 1034,
+                        "text": "3,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1035,
+                        "end": 1036,
+                        "text": "4",
+                        "ref_id": "BIBREF3"
+                    },
+                    {
+                        "start": 1377,
+                        "end": 1378,
+                        "text": "6",
+                        "ref_id": "BIBREF5"
+                    },
+                    {
+                        "start": 1492,
+                        "end": 1495,
+                        "text": "[7]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1496,
+                        "end": 1499,
+                        "text": "[8]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1500,
+                        "end": 1503,
+                        "text": "[9]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1525,
+                        "end": 1527,
+                        "text": "10",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": "1."
+            },
+            {
+                "text": "\u2022 How does the cell machinery choose the right metal ion in performing the desired task? \u2022 How does the native metal cofactor protect itself from displacement by rival biogenic metal cations? \u2022 How vulnerable are the metal-binding sites to attacks from nonbiogenic (alien) metal cations, which might substitute for the native metal cofactor and disrupt the normal protein function? \u2022 What physical principles govern the competition and selection among different metal ions in proteins? Herein, we endeavor to address the above questions by summarizing recent findings in the field of metal ion competition/selectivity in biological systems. Before summarizing these findings, we first discuss the properties of the metal and ligands that determine the structure and properties of isolated metal complexes and the effects of the second-shell ligands and the protein matrix on the metal-ligand interactions. We also discuss the general relationship between the strength of the metal-ligand interactions and the magnitude of the metal ion concentrations in biological compartments, but not the mechanisms of metal homeostasis since this topic has already been covered in several reviews. 9, [11] [12] [13] [14] [15] [16] [17] [18] [19] Then we summarize findings on the competition between metal cations of the same charge (e.g., Na + vs K + ) and metal ions of different charges in various types of proteins. For each system, we will present the background and question and outline the approach, relying on the original references to provide details on the experimental/computational methodology. We will then attempt to answer the questions posed, highlighting the physical basis and/or the implications of the key findings.",
+                "cite_spans": [
+                    {
+                        "start": 1185,
+                        "end": 1187,
+                        "text": "9,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1188,
+                        "end": 1192,
+                        "text": "[11]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1193,
+                        "end": 1197,
+                        "text": "[12]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1198,
+                        "end": 1202,
+                        "text": "[13]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1203,
+                        "end": 1207,
+                        "text": "[14]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1208,
+                        "end": 1212,
+                        "text": "[15]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1213,
+                        "end": 1217,
+                        "text": "[16]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1218,
+                        "end": 1222,
+                        "text": "[17]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1223,
+                        "end": 1227,
+                        "text": "[18]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1228,
+                        "end": 1232,
+                        "text": "[19]",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "INTRODUCTION",
+                "sec_num": "1."
+            },
+            {
+                "text": "For a given ligand, its free energy of binding to different metal cations depends mainly on the following metal properties: 20 (1) Valence state. Increasing the metal's net charge increases the strength of the charge-dipole and charge-charge interactions in metal complexes with noncharged and anionic ligands, respectively, and hence, the free energies for dications binding to a given ligand are much more favorable than those for monocations.",
+                "cite_spans": [
+                    {
+                        "start": 124,
+                        "end": 126,
+                        "text": "20",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "FACTORS DETERMINING METAL-LIGAND INTERACTIONS 2.1. Metal Properties",
+                "sec_num": "2."
+            },
+            {
+                "text": "(2) Ionic radius, R ion . Increasing the metal's R ion decreases its charge density. Thus, the metal-binding free energy of a given ligand becomes less favorable (less negative) in going down group IA or IIA but not group IB or IIB, as relativistic effects become significant for the heaviest ions (Au + in group IB and Hg 2+ in group IIB). Relative to those of Ag + and Cd 2+ , relativistic stabilization of the 5d and 6s orbitals of Au + and Hg 2+ enhances the charge-accepting ability (see below) and thus the affinities of Au + and Hg 2+ for a given ligand. 21 For example, the computed free energies for water binding to Au + (-30.4 kcal/mol) and Hg 2+ (-85.2 kcal/mol) are more favorable than those to Ag + (-24.0 kcal/mol) and Cd 2+ (-74.1 kcal/mol). 20 (3) Charge-accepting ability. Between two cations with the same formal charge and similar R ion values, the metal ion that is a better electron acceptor or Lewis acid binds more favorably to the same ligand. For example, although Mg 2+ and Zn 2+ have the same charge and similar ionic radii (differing by only 0.02 \u00c5), Zn 2+ can accept more charge from a given ligand than Mg 2+ , 22 and the charge-transfer energy component for a Zn complex is more favorable than that for the corresponding Mg complex with the same set of ligands. 23 Hence, Zn complexes are more stable than their Mg counterparts.",
+                "cite_spans": [
+                    {
+                        "start": 562,
+                        "end": 564,
+                        "text": "21",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 758,
+                        "end": 760,
+                        "text": "20",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1142,
+                        "end": 1144,
+                        "text": "22",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1294,
+                        "end": 1296,
+                        "text": "23",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "FACTORS DETERMINING METAL-LIGAND INTERACTIONS 2.1. Metal Properties",
+                "sec_num": "2."
+            },
+            {
+                "text": "For a given metal ion, its free energy of binding to different amino acid (aa) ligands depends mainly on the following ligand characteristics: 20 (1) Net charge. Negatively charged aa ligands such as deprotonated Asp -/Glu -and Cys -side chains have more favorable charge-charge interactions with a given metal ion than noncharged ligands with weaker dipole-charge interactions.",
+                "cite_spans": [
+                    {
+                        "start": 143,
+                        "end": 145,
+                        "text": "20",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Ligand Properties",
+                "sec_num": "2.2."
+            },
+            {
+                "text": "(2) Dipole moment and polarizability. Polar uncharged aa ligands such as Asn/Gln and His side chains as well as peptide backbone groups have more favorable metal-binding energies than those with smaller dipole moments and polarizabilities such as Ser/Thr side chains. 24 (3) Charge-donating/accepting ability. Polarizable atoms such as the thiolate S -and carboxylate O -transfer more charge to the metal upon binding than less polarizable atoms such as the hydroxyl oxygen or imidazole nitrogen; thus, the Cys -and Asp -/Glu -side chains exhibit higher affinity for a given metal than the Ser/Thr/Tyr or His side chain. 23 Charge-donor ligands generally yield small metal d-orbital splitting, favoring high-spin complexes with open-shell transition metals, whereas ligands that accept back-donated electrons from the metal, e.g., carbon monoxide, give rise to large d-orbital splittings and favor low-spin complexes. 25 (4) Number of metal-bound atoms in a ligand. Increasing the number of atoms in a single ligand that can bind to a metal cofactor (termed denticity) in a buried cavity enhances the metal's affinity for the ligand. An example of a polydentate ligand is the rare \u03b3-carboxyglutamic acid, Gla, which has a side chain like Glu except that a second carboxylate (COO -) replaces a hydrogen of the second methylene group in Glu; i.e., the Gla side chain is -CH 2 CH(COO -) 2 . In a buried cavity, Ca 2+ binding is more favorable if it interacts with both carboxylate groups of a single Gla monodentately (via one of the carboxylate oxygen atoms) in a chelation bidentate mode rather than with a pair of Glu residues monodentately. 26 Thus, replacing two Glu residues with a single Gla increases the affinity for Ca 2+ in a buried cavity.",
+                "cite_spans": [
+                    {
+                        "start": 268,
+                        "end": 270,
+                        "text": "24",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 621,
+                        "end": 623,
+                        "text": "23",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 918,
+                        "end": 920,
+                        "text": "25",
+                        "ref_id": "BIBREF24"
+                    },
+                    {
+                        "start": 1643,
+                        "end": 1645,
+                        "text": "26",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Ligand Properties",
+                "sec_num": "2.2."
+            },
+            {
+                "text": "A quantity that captures properties of both the metal ion and its ligands is the metal coordination number (CN), defined as the number of ligand atoms bound to the metal. The metal CN and coordination geometry (the 3D arrangement of the ligands around the metal) are key determinants of the structure and properties of metal complexes, as they affect the strength of the metal-ligand interactions. 27 According to valence bond order theory, the bonding power of an atom for an additional ligand decreases as the number of ligands already bound increases. 28 Hence, increasing the CN weakens each metal-ligand bond, [29] [30] [31] [32] [33] in both the inner and outer coordination spheres. Notably, the metal CN perturbs the metal-ligand distances more than the environment (gas phase, solid state, or water) of the metal complex. 34 For example, the average Mg 2+ -O distances for tetrahydrated (1.98 \u00c5) and hexahydrated (2.08 \u00c5) Mg 2+ from high-level ab initio calculations differ by 0.10 \u00c5, 31 whereas the mean Mg 2+ -O(water) distances from octahedral structures in the crystalline state (2.07 \u00b1 0.03 \u00c5) 35 and in aqueous solution (2.09 \u00b1 0.04 \u00c5) 36 are essentially the same (to within experimental error).",
+                "cite_spans": [
+                    {
+                        "start": 398,
+                        "end": 400,
+                        "text": "27",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 555,
+                        "end": 557,
+                        "text": "28",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 615,
+                        "end": 619,
+                        "text": "[29]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 620,
+                        "end": 624,
+                        "text": "[30]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 625,
+                        "end": 629,
+                        "text": "[31]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 630,
+                        "end": 634,
+                        "text": "[32]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 635,
+                        "end": 639,
+                        "text": "[33]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 831,
+                        "end": 833,
+                        "text": "34",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 994,
+                        "end": 996,
+                        "text": "31",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1108,
+                        "end": 1110,
+                        "text": "35",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1151,
+                        "end": 1153,
+                        "text": "36",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Composite Metal and Ligand Properties: Metal CN and Geometry",
+                "sec_num": "2.3."
+            },
+            {
+                "text": "How does the metal CN depend on (1) the metal's size, charge, and charge-accepting ability for a given set of ligands and ( 2) the ligand's size, charge, charge-donating ability, and denticity for a given metal ion? These questions have been addressed by determining the CNs of 98 types of metal ions in Cambridge Structural Database (CSD) structures. 37 For a given uncharged ligand, the metal CN depends on the metal's size more than its charge/charge-accepting ability. Compared to a metal with a small ionic radius, a larger metal forms longer and weaker metal-ligand bonds, reducing the Pauli repulsion among the first-shell ligands, allowing more ligands to be bound to compensate for the weaker metal-ligand interactions. For a given metal type, the metal CN depends on the ligand's charge and charge-donating ability more than its size or denticity. Uncharged polar ligands donate less electron density to a given metal and repel one another less than the same number of negatively charged ligands, allowing the metal cation to coordinate more uncharged ligands than anionic ligands. While the metal's size and ligand's charge and charge-donating ability affect the metal CN, the protein environment seems to have relatively little effect: The most common metal CNs found in small complexes are similar to those in metalloproteins (Table 1 ).",
+                "cite_spans": [
+                    {
+                        "start": 352,
+                        "end": 354,
+                        "text": "37",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1346,
+                        "end": 1347,
+                        "text": "1",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Composite Metal and Ligand Properties: Metal CN and Geometry",
+                "sec_num": "2.3."
+            },
+            {
+                "text": "Ligands from the metal's second coordination sphere, via hydrogen bonds and/or salt bridges with the first-shell partners, can influence the properties of the metal-binding site. PDB surveys and density functional theory combined with continuum dielectric calculations have revealed that the structure and composition of the outer coordination sphere are closely correlated with those of the inner sphere. [39] [40] [41] [42] During evolution, the second-shell partner may have evolved in accordance with the chemical properties of the first-shell ligand, enabling favorable first-second shell interactions that are beneficial for the metalloprotein:",
+                "cite_spans": [
+                    {
+                        "start": 406,
+                        "end": 410,
+                        "text": "[39]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 411,
+                        "end": 415,
+                        "text": "[40]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 416,
+                        "end": 420,
+                        "text": "[41]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 421,
+                        "end": 425,
+                        "text": "[42]",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Effect of the Second-Shell Ligands",
+                "sec_num": "2.4."
+            },
+            {
+                "text": "(1) The metal's second coordination sphere generally stabilizes the metal-binding site and enhances its metal affinity. For example, the second coordination layer has been found to substantially increase the binding site affinity for (i) Zn 2+ in human carbonic anhydrase II, [43] [44] [45] (ii) Fe 2+ in human serum transferrin, 46 and (iii) Mg 2+ , Mn 2+ , Ca 2+ , and Zn 2+ in model metal-binding sites. 40 (2) The outer coordination sphere can efficiently discriminate between metal ions with different coordination geometries and/or ionic radii. 40 (3) Favorable interactions between first-shell Asp/Glu and second-shell Asn/Gln/backbone peptide group or Lys/Arg may alleviate the repulsion among the negatively charged inner-shell carboxylates and affect the maximum number of carboxylate ligands bound to the metal, Max COO . For a given metal cofactor with charge q, Max COO is q + 1 in sites lacking interactions between the first and second coordination spheres but is q + 2 in sites with stabilizing inner-outer shell contacts. 42 (4) In some proteins, especially those containing Zn finger domains, the second-shell ligands encapsulate and insulate the inner-shell core from unfavorable interactions or reactions. 41 Notably, hydrogen-bonding interactions from second-shell ligands to the Zn-bound S atoms suppress the reactivity not only of these S atoms, but also of other Zn-bound S atoms that do not form hydrogen bonds with second-shell ligands. 47 (5) Second-shell ligand(s) may help to properly orient and polarize the first-shell ligand involved in an enzymatic reaction. Triads of the type M 2+ -H 2 O-Asp/Glu or M 2+ -His-Asp/Glu (M = Mg, Mn, Ca, Zn) are commonly found in many catalytic active sites. 40, 43, 44, [48] [49] [50] ",
+                "cite_spans": [
+                    {
+                        "start": 276,
+                        "end": 280,
+                        "text": "[43]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 281,
+                        "end": 285,
+                        "text": "[44]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 286,
+                        "end": 290,
+                        "text": "[45]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 330,
+                        "end": 332,
+                        "text": "46",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 407,
+                        "end": 409,
+                        "text": "40",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 551,
+                        "end": 553,
+                        "text": "40",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1039,
+                        "end": 1041,
+                        "text": "42",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1226,
+                        "end": 1228,
+                        "text": "41",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1463,
+                        "end": 1465,
+                        "text": "47",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1724,
+                        "end": 1727,
+                        "text": "40,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1728,
+                        "end": 1731,
+                        "text": "43,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1732,
+                        "end": 1735,
+                        "text": "44,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1736,
+                        "end": 1740,
+                        "text": "[48]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1741,
+                        "end": 1745,
+                        "text": "[49]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1746,
+                        "end": 1750,
+                        "text": "[50]",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Effect of the Second-Shell Ligands",
+                "sec_num": "2.4."
+            },
+            {
+                "text": "The protein matrix (excluding ligands in the first and second metal coordination spheres) and coupled solvent interactions also affect metal-ligand interactions in the following ways:",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Effect of the Protein Matrix",
+                "sec_num": "2.5."
+            },
+            {
+                "text": "(1) The protein matrix may allow or hinder access of water molecules into the metal-binding site, enhancing or attenuating ion-solvent interactions relative to ion-protein interactions. The relative solvent accessibility also affects the ligand-binding mode to the metal ion. A buried (low dielectric) metal-binding cavity favors inner-shell binding of aa ligands directly to the metal, whereas a solvent-accessible (high dielectric) binding pocket favors outer-shell binding. 51, 52 A high-dielectric medium also favors metal-assisted deprotonation of Cys side chain ligands. 39, 53 (2) The protein matrix may enhance the rigidity of the metal-binding site, whose structure had been optimized to best fit the coordination requirements of the cognate metal ion, thus helping to select the \"native\" metal cofactor over the other competing metal species. [54] [55] [56] [57] (3) The protein matrix may affect the kinetics of metalassisted enzyme catalysis by raising the free energy barrier to unfavorable dead-end structures. 58 ",
+                "cite_spans": [
+                    {
+                        "start": 477,
+                        "end": 480,
+                        "text": "51,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 481,
+                        "end": 483,
+                        "text": "52",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 577,
+                        "end": 580,
+                        "text": "39,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 581,
+                        "end": 583,
+                        "text": "53",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 853,
+                        "end": 857,
+                        "text": "[54]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 858,
+                        "end": 862,
+                        "text": "[55]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 863,
+                        "end": 867,
+                        "text": "[56]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 868,
+                        "end": 872,
+                        "text": "[57]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1025,
+                        "end": 1027,
+                        "text": "58",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Effect of the Protein Matrix",
+                "sec_num": "2.5."
+            },
+            {
+                "text": "Apart from the properties of the metal cation, its ligands in the first and second coordination spheres, and the protein matrix, another crucial factor influencing metal binding/selectivity in proteins is the free metal concentration in the respective biological compartments. The optimal metal concentration, which has been established during billions of years of cell evolution to secure the normal functioning of an organism, is tightly regulated by the cell machinery. Maintaining proper metal homeostasis involves well-synchronized actions of many cellular devises such as metal uptake proteins, metal efflux proteins, sensors, transport proteins, and storage proteins. We refer the reader to several comprehensive reviews for details on the processes and the role of key players involved in cellular metal homeostasis. 9, [11] [12] [13] [14] [15] [16] [17] [18] [19] In general, the affinity of a divalent metal ion for a given ligand (or set of ligands) is correlated with the second ionization enthalpy of the metal. 59 It follows the Irving-Williams series, 60 which ranks the relative stability of complexes formed by divalent metal ions in the following order: 61",
+                "cite_spans": [
+                    {
+                        "start": 825,
+                        "end": 827,
+                        "text": "9,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 828,
+                        "end": 832,
+                        "text": "[11]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 833,
+                        "end": 837,
+                        "text": "[12]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 838,
+                        "end": 842,
+                        "text": "[13]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 843,
+                        "end": 847,
+                        "text": "[14]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 848,
+                        "end": 852,
+                        "text": "[15]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 853,
+                        "end": 857,
+                        "text": "[16]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 858,
+                        "end": 862,
+                        "text": "[17]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 863,
+                        "end": 867,
+                        "text": "[18]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 868,
+                        "end": 872,
+                        "text": "[19]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1025,
+                        "end": 1027,
+                        "text": "59",
+                        "ref_id": "BIBREF58"
+                    },
+                    {
+                        "start": 1067,
+                        "end": 1069,
+                        "text": "60",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "CELLULAR ION CONCENTRATION EFFECTS",
+                "sec_num": "3."
+            },
+            {
+                "text": "< < < < < > + + + + + + + Mg Mn Fe Co Ni Cu Zn 2 2 2 2 2 2 2",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "CELLULAR ION CONCENTRATION EFFECTS",
+                "sec_num": "3."
+            },
+            {
+                "text": "Metal ions to the right of the Irving-Williams series (e.g., Cu 2+ and Zn 2+ ) form more stable complexes with a set of ligands than those to the left (e.g., Mg 2+ and Mn 2+ ). By regulating the concentrations of the competing metal ions, the cell machinery can, if needed, tilt the balance in favor of the weaker binding cation (by increasing its concentration or decreasing that of its competitor), thus enhancing its competitiveness for the target protein.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "CELLULAR ION CONCENTRATION EFFECTS",
+                "sec_num": "3."
+            },
+            {
+                "text": "The cellular concentrations of biogenic ions in the resting cell in Table 2 show that they generally correlate inversely with the Irving-Williams series: the greater the affinity of a cation for a given set of ligands, the smaller its cytosolic concentration (e.g., the free Zn 2+ concentration is in the pico-to femtomolar range). This is needed to prevent strong-binding cations such as Cu 2+ and Zn 2+ from displacing weaker binding ones (e.g., Mg 2+ ) in proteins. Nickel and copper proteins that are loaded with the respective cognate metal ions by specialized delivery proteins do not rely on sequestering the metal cofactors from the intracellular fluids. This special relationship between the binding strength and cellular abundance of biogenic dications may have been established billions of years ago in the early stages of cell evolution: The chemistry of the first cells utilized mainly Mg 2+ and Fe 2+ because of their bioavailability in the primordial ocean, and the cells adjusted their life cycle in accordance with the specific physicochemical properties of these metal ions. 5 Later, other transition metals (cobalt, nickel, copper, and zinc) became bioavailable 61 and added new features to the biochemistry of metalloproteins. However, the new \"comers\" had to be kept under strict homeostatic control so that they did not interfere with the cell metabolism based mostly on Mg 2+ -and Fe 2+ -containing proteins that were already functional.",
+                "cite_spans": [
+                    {
+                        "start": 1093,
+                        "end": 1094,
+                        "text": "5",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1181,
+                        "end": 1183,
+                        "text": "61",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 74,
+                        "end": 75,
+                        "text": "2",
+                        "ref_id": "TABREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "CELLULAR ION CONCENTRATION EFFECTS",
+                "sec_num": "3."
+            },
+            {
+                "text": "Metal selectivity in Na + and K + ion channels, pore-forming proteins that play crucial biological roles, illustrates the competition between the biogenic monovalent ions Na + and K + . Monovalent ion channels are involved in regulating (i) the homeostasis of blood and body fluids, (ii) cardiac, skeletal, and smooth muscle contraction, (iii) taste and pain sensation, (iv) hormone secretion, and (v) signal transduction. [70] [71] [72] They exhibit remarkable metal selectivity, conducting the native ion while rejecting its monovalent contender and other ions in the cellular/extracellular milieu. Potassium channels select K + over Na + by a ratio of \u223c1000:1. 71 Epithelial Na + channels exhibit a Na + /K + selectivity ratio >500:1, 73, 74 while bacterial and vertebrate voltage-gated Na + channels exhibit Na + /K + permeability ratios of 170 75 and 33, 76 respectively.",
+                "cite_spans": [
+                    {
+                        "start": 423,
+                        "end": 427,
+                        "text": "[70]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 428,
+                        "end": 432,
+                        "text": "[71]",
+                        "ref_id": "BIBREF70"
+                    },
+                    {
+                        "start": 433,
+                        "end": 437,
+                        "text": "[72]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 664,
+                        "end": 666,
+                        "text": "71",
+                        "ref_id": "BIBREF70"
+                    },
+                    {
+                        "start": 738,
+                        "end": 741,
+                        "text": "73,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 742,
+                        "end": 744,
+                        "text": "74",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 849,
+                        "end": 862,
+                        "text": "75 and 33, 76",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MONOCATION-MONOCATION COMPETITION",
+                "sec_num": "4."
+            },
+            {
+                "text": "The selectivity filter, the narrowest part of the open pore in the ion channel, controls metal selectivity. How do the selectivity f ilters of these monovalent ion channels distinguish between Na + and K + , which have the same charge, similar physicochemical properties, and similar ionic radii (1.02 and 1.38 \u00c5 for hexacoordinated Na + and K + , 77 respectively)? The competition between the native ion, nM + , and its rival monocation, rM + , can be assessed by the free energy for replacing nM + with rM + in the selectivity filter of the ion channel: 78, 79 -+ -",
+                "cite_spans": [
+                    {
+                        "start": 556,
+                        "end": 559,
+                        "text": "78,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 560,
+                        "end": 562,
+                        "text": "79",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MONOCATION-MONOCATION COMPETITION",
+                "sec_num": "4."
+            },
+            {
+                "text": "EQUATION",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [
+                    {
+                        "start": 0,
+                        "end": 8,
+                        "text": "EQUATION",
+                        "ref_id": "EQREF",
+                        "raw_str": "\u2192 - + - + + + + [rM sln] [nM channel] [rM channel] [nM sln]",
+                        "eq_num": "(1)"
+                    }
+                ],
+                "section": "MONOCATION-MONOCATION COMPETITION",
+                "sec_num": "4."
+            },
+            {
+                "text": "where \"sln\" and \"channel\" represent the metal ions outside and bound inside the channel's selectivity filter, respectively. The channel is selective for its native ion only if the free energy for reaction 1 is positive. Below, we summarize the findings on how the competition between K + and Na + in potassium and sodium ion channels depends on the properties of the metal ion, the coordinating ligands, and the protein matrix. The crystal structures of several K + channels [80] [81] [82] [83] [84] [85] [86] [87] [88] [89] such as the KcsA channel show that the selectivity filter is a tetralayered ringlike structure lined with backbone carbonyl groups, donated by each of the four identical pore-forming domains (Figure 1 ).",
+                "cite_spans": [
+                    {
+                        "start": 475,
+                        "end": 479,
+                        "text": "[80]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 480,
+                        "end": 484,
+                        "text": "[81]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 485,
+                        "end": 489,
+                        "text": "[82]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 490,
+                        "end": 494,
+                        "text": "[83]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 495,
+                        "end": 499,
+                        "text": "[84]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 500,
+                        "end": 504,
+                        "text": "[85]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 505,
+                        "end": 509,
+                        "text": "[86]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 510,
+                        "end": 514,
+                        "text": "[87]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 515,
+                        "end": 519,
+                        "text": "[88]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 520,
+                        "end": 524,
+                        "text": "[89]",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 724,
+                        "end": 725,
+                        "text": "1",
+                        "ref_id": "FIGREF0"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "MONOCATION-MONOCATION COMPETITION",
+                "sec_num": "4."
+            },
+            {
+                "text": "The backbone carbonyl oxygen atoms protrude toward the pore lumen and interact with the permeating metal ion, while their negative charges repel anions, explaining the rejection of anions. Simulation studies suggest that divalent ions block the K + channels because they are bound so tightly that they are unlikely to leave, even with the aid of repulsion from nearby cations. 90, 91 Several studies have examined how the selectivity for K + over Na + in potassium ion channels depends on (i) the dehydration penalty 85, 92, 93 and hydration number 55 of the permeating cations, (ii) the number and ligating strength of the metal-coordinating groups lining the pore, 55, [90] [91] [92] [94] [95] [96] [97] [98] [99] (iii) the rigidity and solvent exposure of the channel pore, 55, 85, 93, 94, 100 (iv) the architecture of the metal-binding site, 55, 85, 97, 98, [101] [102] [103] [104] [105] [106] [107] and (v) the long-range interactions between the ion/selectivity filter and the rest of the channel molecule. 105, 108 The selectivity for K + over Na + in the channel's selectivity filter was found to depend on the following factors:",
+                "cite_spans": [
+                    {
+                        "start": 377,
+                        "end": 380,
+                        "text": "90,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 381,
+                        "end": 383,
+                        "text": "91",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 517,
+                        "end": 520,
+                        "text": "85,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 521,
+                        "end": 524,
+                        "text": "92,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 525,
+                        "end": 527,
+                        "text": "93",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 549,
+                        "end": 551,
+                        "text": "55",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 667,
+                        "end": 670,
+                        "text": "55,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 671,
+                        "end": 675,
+                        "text": "[90]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 676,
+                        "end": 680,
+                        "text": "[91]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 681,
+                        "end": 685,
+                        "text": "[92]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 686,
+                        "end": 690,
+                        "text": "[94]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 691,
+                        "end": 695,
+                        "text": "[95]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 696,
+                        "end": 700,
+                        "text": "[96]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 701,
+                        "end": 705,
+                        "text": "[97]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 706,
+                        "end": 710,
+                        "text": "[98]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 711,
+                        "end": 715,
+                        "text": "[99]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 777,
+                        "end": 780,
+                        "text": "55,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 781,
+                        "end": 784,
+                        "text": "85,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 785,
+                        "end": 788,
+                        "text": "93,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 789,
+                        "end": 792,
+                        "text": "94,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 793,
+                        "end": 796,
+                        "text": "100",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 846,
+                        "end": 849,
+                        "text": "55,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 850,
+                        "end": 853,
+                        "text": "85,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 854,
+                        "end": 857,
+                        "text": "97,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 858,
+                        "end": 861,
+                        "text": "98,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 862,
+                        "end": 867,
+                        "text": "[101]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 868,
+                        "end": 873,
+                        "text": "[102]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 874,
+                        "end": 879,
+                        "text": "[103]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 880,
+                        "end": 885,
+                        "text": "[104]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 886,
+                        "end": 891,
+                        "text": "[105]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 892,
+                        "end": 897,
+                        "text": "[106]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 898,
+                        "end": 903,
+                        "text": "[107]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1013,
+                        "end": 1017,
+                        "text": "105,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1018,
+                        "end": 1021,
+                        "text": "108",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MONOCATION-MONOCATION COMPETITION",
+                "sec_num": "4."
+            },
+            {
+                "text": "(1) Metal CN. Increasing the number of metal ligands increases the ligand repulsion around Na + more than that around the larger K + , thus favoring K + over Na + .",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MONOCATION-MONOCATION COMPETITION",
+                "sec_num": "4."
+            },
+            {
+                "text": "(2) Ligand's ligating strength. Decreasing the ligating strength of the metal ligand favors K + over Na + , as a lowfield-strength ligand would not provide sufficient favorable interaction with Na + to offset the larger dehydration penalty of Na + compared to that of K + .",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MONOCATION-MONOCATION COMPETITION",
+                "sec_num": "4."
+            },
+            {
+                "text": "(3) Protein matrix controlling the pore's rigidity and solvent accessibility. Increasing the rigidity of the potassium channel pore forces Na + to adopt the CN of K + rather than its preferred CN, thus disfavoring Na + . Furthermore, the protein matrix can limit solvent accessibility of the channel pore. Decreasing the solvent exposure (i.e., the local effective dielectric constant) of the pore correlates with a larger hydration number of K + relative to that of Na + ; 104 thus, more water molecules are released upon binding of K + in the rigid pore compared to binding of Na + , 55 which favors K + .",
+                "cite_spans": [
+                    {
+                        "start": 586,
+                        "end": 588,
+                        "text": "55",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MONOCATION-MONOCATION COMPETITION",
+                "sec_num": "4."
+            },
+            {
+                "text": "In summary, a well-balanced combination of several factors involving the metal ion, the metal-coordinating ligands, and the protein matrix favors K + over Na + in potassium channels. Notably, the KcsA potassium channel achieves high K + /Na + selectivity by a four-layered solvent-inaccessible selectivity filter providing eight carbonyl ligands to the passing ion that is stiff enough to force the competing Na + to adopt an unfavorable 8fold coordination; the eight carbonyl oxygen atoms would repel one another if they tried to move closer to optimize their interactions with Na + . 55 ",
+                "cite_spans": [
+                    {
+                        "start": 586,
+                        "end": 588,
+                        "text": "55",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "MONOCATION-MONOCATION COMPETITION",
+                "sec_num": "4."
+            },
+            {
+                "text": "To elucidate the principles governing Na + vs K + selectivity in Na + channels, various selectivity filters have been modeled and the qualitative effects of various factors determining the competition between Na + and K + in binding to sodium ion channels have been examined. These include (i) the number and ligating strength of the metal-coordinating groups lining the pore, (ii) the size/rigidity and solvent exposure of the pore, and (iii) the hydration number and CN of the metal cation. 56 The same factors influencing the K + /Na + selectivity in potassium ion channels also affect the Na + /K + selectivity in sodium ion channels but in different ways:",
+                "cite_spans": [
+                    {
+                        "start": 493,
+                        "end": 495,
+                        "text": "56",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Na + vs K + Selectivity in Sodium Ion Channels",
+                "sec_num": "4.2."
+            },
+            {
+                "text": "(1) Metal CN. Decreasing the number of metal ligands reduces the steric repulsion among the bulky protein ligands around the small Na + more than that around K + .",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Na + vs K + Selectivity in Sodium Ion Channels",
+                "sec_num": "4.2."
+            },
+            {
+                "text": "(2) Ligand's ligating strength. Increasing the ligating strength of the metal ligand favors Na + over K + , as a ligand with greater charge/charge-donating ability provides more favorable interactions with Na + than with K + , thus helping to offset the larger dehydration penalty of Na + compared to that of K + .",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Na + vs K + Selectivity in Sodium Ion Channels",
+                "sec_num": "4.2."
+            },
+            {
+                "text": "(3) Protein matrix controlling the pore's size and solvent accessibility. Increasing the rigidity of the sodium channel pore favors Na + , as K + cannot fit well in a constricted pore optimized for Na + . Furthermore, increasing the solvent exposure of the pore also favors Na + , as it correlates with a lower hydration number of six rather than eight for K + , so both Na + and K + would release the same number of water molecules upon binding to the rigid pore; thus, unlike binding K + in a potassium ion channel, there is no entropy gain.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Na + vs K + Selectivity in Sodium Ion Channels",
+                "sec_num": "4.2."
+            },
+            {
+                "text": "One or more of these factors may dominate for a specific Na + channel, as summarized below.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Na + vs K + Selectivity in Sodium Ion Channels",
+                "sec_num": "4.2."
+            },
+            {
+                "text": "4.2.1. Vertebrate Na v Channels with the DEKA Motif. The above findings help to elucidate the mechanism of metal selectivity in the vertebrate voltage-gated sodium (Na v ) channel, which is composed of four nonidentical domains, labeled I-IV. Although its metal-bound 3D structure has not yet been solved, the key residues lining the selectivity filter have been identified as Asp (D), Glu (E), Lys (K), and Ala (A) from domains I, II, III, and IV, respectively. These four highly conserved residues forming the so-called DEKA motif/locus are responsible for the channel's ion selectivity, 76, [109] [110] [111] [112] [113] [114] especially Lys: mutation of this Lys to another aa residue, even to a positively charged Arg, drastically reduces (or even reverses) the channel's selectivity for Na + . 76, [115] [116] [117] In accordance with points 1-3 in section 4.2, the DEKA filter is selective for Na + over K + because it provides three rather than four metalcoordinating ligands (Figure 2 ), two of which (Asp and Glu) have strong charge-donating carboxylate groups. Lys does not directly coordinate the metal cation; instead, its side chain constricts and rigidifies the pore by forming a tight hydrogen bond network with neighboring Glu and Ala residues, so any deviation from the pore's optimal size and stiffness would decrease the selectivity for Na + over K + . 56 4.2.2. Bacterial Na v Channels with the EEEE Motif. Whereas Asp, Glu, Lys, and Ala residues from four different domains line an asymmetric selectivity filter (DEKA locus) in vertebrate Na v channels, 76, [109] [110] [111] [112] [113] [114] four Glu residues from four identical subunits comprise a symmetrical selectivity filter (EEEE locus) in bacterial Na v channels. 75, 118 In line with mutagenesis studies, 75 the 2.7 \u00c5 X-ray structure of a bacterial Na v channel captured in a closed-pore, metal-free conformation reveals four Glu side chains lining a short, water-filled selectivity filter. 118 Without the Lys to constrict or rigidif y the pore, how does the symmetrical EEEE f ilter preferentially bind Na + to K + ? In accord with the original hypothesis of Payandeh et al., 118 molecular dynamics (MD) simulations show that the ion inside the large EEEE selectivity filter is partially hydrated and coordinates directly to only one or two Glu side chains and indirectly to the other Glu carboxylates via its first-shell water molecules. [119] [120] [121] [122] They also show that the Na + /K + selectivity in the bacterial Na v channels can be attributed to the following two factors:",
+                "cite_spans": [
+                    {
+                        "start": 590,
+                        "end": 593,
+                        "text": "76,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 594,
+                        "end": 599,
+                        "text": "[109]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 600,
+                        "end": 605,
+                        "text": "[110]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 606,
+                        "end": 611,
+                        "text": "[111]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 612,
+                        "end": 617,
+                        "text": "[112]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 618,
+                        "end": 623,
+                        "text": "[113]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 624,
+                        "end": 629,
+                        "text": "[114]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 800,
+                        "end": 803,
+                        "text": "76,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 804,
+                        "end": 809,
+                        "text": "[115]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 810,
+                        "end": 815,
+                        "text": "[116]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 816,
+                        "end": 821,
+                        "text": "[117]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1373,
+                        "end": 1375,
+                        "text": "56",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1576,
+                        "end": 1579,
+                        "text": "76,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1580,
+                        "end": 1585,
+                        "text": "[109]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1586,
+                        "end": 1591,
+                        "text": "[110]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1592,
+                        "end": 1597,
+                        "text": "[111]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1598,
+                        "end": 1603,
+                        "text": "[112]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1604,
+                        "end": 1609,
+                        "text": "[113]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1610,
+                        "end": 1615,
+                        "text": "[114]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1746,
+                        "end": 1749,
+                        "text": "75,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1750,
+                        "end": 1753,
+                        "text": "118",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1974,
+                        "end": 1977,
+                        "text": "118",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2144,
+                        "end": 2160,
+                        "text": "Payandeh et al.,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2161,
+                        "end": 2164,
+                        "text": "118",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2424,
+                        "end": 2429,
+                        "text": "[119]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2430,
+                        "end": 2435,
+                        "text": "[120]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2436,
+                        "end": 2441,
+                        "text": "[121]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2442,
+                        "end": 2447,
+                        "text": "[122]",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 992,
+                        "end": 993,
+                        "text": "2",
+                        "ref_id": "FIGREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Na + vs K + Selectivity in Sodium Ion Channels",
+                "sec_num": "4.2."
+            },
+            {
+                "text": "(1) Ligand's ligating strength. Negatively charged carboxylate residues favor binding to Na + over that to K + (see point 2 in section 4.2), as replacing the glutamates with uncharged residues decreases or abolishes the channel selectivity. 122 (2) Protein matrix controlling the pore's size/rigidity. The aperture of the relatively rigid EEEE filter is compatible with partially hydrated Na + , ensuring optimal interaction between Na + and the EEEE filter, 122 but it is too small for the bulkier hydrated K + to fit in-plane with water molecules bridging to the carboxylates, so K + binding inside the filter is less favorable. 119, 122 The rigidity of the selectivity filter is secured by hydrogen bonds between the nonligating carboxylate oxygen atoms of Glu side chains and backbone amide groups from neighboring residues. A number of neurotransmitter receptors and transporters require monovalent ions for normal activity. The LeuT transporter and GluR5 kainate receptor possess metal-binding sites that are selective for Na + over K + . MD simulations 123, 124 have elucidated the key determinants of the observed Na + /K + selectivity, which, not surprisingly, overlap with those regulating the Na + /K + selectivity in sodium channels (see above):",
+                "cite_spans": [
+                    {
+                        "start": 241,
+                        "end": 244,
+                        "text": "122",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 631,
+                        "end": 635,
+                        "text": "119,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 636,
+                        "end": 639,
+                        "text": "122",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1060,
+                        "end": 1064,
+                        "text": "123,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1065,
+                        "end": 1068,
+                        "text": "124",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Na + vs K + Selectivity in Sodium Ion Channels",
+                "sec_num": "4.2."
+            },
+            {
+                "text": "(1) Ligand's ligating strength: The strong electrostatic field provided by the negatively charged carboxylate group of the leucine substrate in the LeuT Na1 binding site 126, 128 and the two acidic residues (D513 and E509) in the GluR5 metalbinding pocket favors Na + binding more than K + binding. 124 (2) Protein matrix controlling the pore's rigidity/size. The rigidity of the metal-binding site secures an optimal cavity size for Na + binding. The MD simulations show that the backbone structure of the GluR5 metal-binding site is one of the most rigid regions in the entire molecule. 124 In the second, less selective Na2 binding site of LeuT comprising only neutral ligands, the structural stiffness of the binding site imposed by the local hydrogen-bond network appears to be the major factor determining the Na + /K + selectivity. 123 Like the bacterial Na v channels, four Glu residues also comprise the selectivity filter of the high-voltage-activated Ca v channel and are key determinants of ion selectivity from mutagenesis studies. [125] [126] [127] [128] [129] [130] [131] However, the high-voltage-activated Ca v channels are highly selective for Ca 2+ over Na + by a ratio of \u223c1000:1, 71, 132 whereas the bacterial Na v channels are weakly selective for Na + over Ca 2+ by a ratio of \u223c15. 75 This prompts an intriguing question: Why do voltage-gated Ca 2+ and bacterial Na + channels with the same EEEE motif in their selectivity f ilters confer opposite metal selectivities? A plausible answer to this question has been obtained by mapping the experimentally observed metal hydration structure in these two types of channels to the computed free energy for replacing Ca 2+ with Na + in model EEEE selectivity filters with varying pore size and degree of hydration of the passing cation. 57, 133 Although voltage-gated Ca 2+ and bacterial Na + channels share the same EEEE motif in their selectivity filters, their experimentally observed pore sizes are different, resulting in different numbers of water molecules bound to Ca 2+ and Na + in the pore. In high-voltage-activated Ca v channels, studies on the permeation of large organic cations estimate a pore aperture area of 18-19 \u00c5 2 , which fits Ca 2+ with a single water molecule. 134 As shown in Figure 3a ,b, a pore fitting a dehydrated or monohydrated cation is highly selective for Ca 2+ over Na + (large positive \u0394G x ; x = 4-30), as Ca 2+ provides more positive charge than Na + in the same volume to balance the negative charge of the carboxylate oxygens. [135] [136] [137] In bacterial Na v channels, the crystal structure of NavAb shows a wide, water-filled pore with an aperture area of \u223c21 \u00c5 2 that can accommodate a metal ion, retaining two water molecules in the plane of the EEEE ring. 118 As shown in Figure 3c ,d, a large solvent-accessible pore that binds indirectly to the metal cation via two or more water molecules confers moderate selectivity for Na + over Ca 2+ (negative \u0394G 30 ) due to the loss of one or more direct metal-carboxylate contacts and longer metal-O(carboxylate) distances, which disfavor Ca 2+ binding more than Na + binding. 133 5.1.1. Protein Matrix Controlling the Pore's Solvent Accessibility, Rigidity, and Size. The protein matrix can enhance or attenuate ion-protein interactions relative to ionsolvent interactions, thus dictating whether an EEEE selectivity filter preferentially binds Ca 2+ or Na + . The protein matrix can enhance ion-protein interactions relative to ion-solvent interactions in an EEEE selectivity filter by limiting solvent access, constricting the pore to fit only dehydrated or monohydrated Ca 2+ and favoring deprotonation of all four Glu ligands; in this case, ion-protein electrostatic interactions dictate ion selectivity, favoring dicationic Ca 2+ over monocationic Na + (see section 2.1). Conversely, the protein matrix can enhance ion-solvent interactions relative to ion-protein interactions in an EEEE selectivity filter by allowing water inside the pore, enlarging the pore to bind indirectly to the cation via two or more water molecules or protonating two or more Glu residues comprising the EEEE filter; in this case, solvation effects dictate ion selectivity, favoring Na + , which has a smaller dehydration penalty than Ca 2+ .",
+                "cite_spans": [
+                    {
+                        "start": 170,
+                        "end": 174,
+                        "text": "126,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 175,
+                        "end": 178,
+                        "text": "128",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 299,
+                        "end": 302,
+                        "text": "124",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 589,
+                        "end": 592,
+                        "text": "124",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 839,
+                        "end": 842,
+                        "text": "123",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1045,
+                        "end": 1050,
+                        "text": "[125]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1051,
+                        "end": 1056,
+                        "text": "[126]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1057,
+                        "end": 1062,
+                        "text": "[127]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1063,
+                        "end": 1068,
+                        "text": "[128]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1069,
+                        "end": 1074,
+                        "text": "[129]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1075,
+                        "end": 1080,
+                        "text": "[130]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1081,
+                        "end": 1086,
+                        "text": "[131]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1201,
+                        "end": 1204,
+                        "text": "71,",
+                        "ref_id": "BIBREF70"
+                    },
+                    {
+                        "start": 1205,
+                        "end": 1208,
+                        "text": "132",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1305,
+                        "end": 1307,
+                        "text": "75",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1687,
+                        "end": 1689,
+                        "text": "2+",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1804,
+                        "end": 1807,
+                        "text": "57,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1808,
+                        "end": 1811,
+                        "text": "133",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2252,
+                        "end": 2255,
+                        "text": "134",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2534,
+                        "end": 2539,
+                        "text": "[135]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2540,
+                        "end": 2545,
+                        "text": "[136]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2546,
+                        "end": 2551,
+                        "text": "[137]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2771,
+                        "end": 2774,
+                        "text": "118",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 3135,
+                        "end": 3138,
+                        "text": "133",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 2275,
+                        "end": 2277,
+                        "text": "3a",
+                        "ref_id": "FIGREF6"
+                    },
+                    {
+                        "start": 2794,
+                        "end": 2796,
+                        "text": "3c",
+                        "ref_id": "FIGREF6"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Na + vs K + Selectivity in Sodium Ion Channels",
+                "sec_num": "4.2."
+            },
+            {
+                "text": "Another example of the competition between monocations and dications is provided by Li + , a nonbiogenic metal ion used (in the form of soluble salts) to treat bipolar disorder, and the biogenic Mg 2+ . 138 One of the leading hypotheses postulates a competition between the \"alien\" Li + and native Mg 2+ for metalbinding sites of key enzymes involved in specific neurotransmission pathways such as G-proteins, glycogen synthase kinase-3\u03b2, inositol monophosphatase, inositol polyphosphate phosphatase, and fructose-1,6-bisphosphatase, thus inhibiting these enzymes. [138] [139] [140] Clearly, for Li + to work as a drug, it cannot dislodge the native cofactor in essential Mg 2+ proteins in the cell, so why does Li + replace Mg 2+ only in certain enzymes, especially those involved in bipolar disorder, but not in Mg 2+ proteins essential to cells? To shed light on this question, the free energies for replacing Mg 2+ with Li + in various model metalbinding sites differing in (i) the number of Mg 2+ cations, (ii) the number, chemical type, and charge of the protein ligating groups, and (iii) the solvent exposure have been computed. 141 Li + can displace Mg 2+ only if the free energy for eq 2 is negative.",
+                "cite_spans": [
+                    {
+                        "start": 203,
+                        "end": 206,
+                        "text": "138",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 565,
+                        "end": 570,
+                        "text": "[138]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 571,
+                        "end": 576,
+                        "text": "[139]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 577,
+                        "end": 582,
+                        "text": "[140]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1137,
+                        "end": 1140,
+                        "text": "141",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Li + vs Mg 2+ Selectivity in Metalloproteins",
+                "sec_num": "5.2."
+            },
+            {
+                "text": "- + - \u2192 - + - + + + + [Li sln] [Mg protein] [Li protein] [Mg sln] 2 2",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Li + vs Mg 2+ Selectivity in Metalloproteins",
+                "sec_num": "5.2."
+            },
+            {
+                "text": "(2)",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Li + vs Mg 2+ Selectivity in Metalloproteins",
+                "sec_num": "5.2."
+            },
+            {
+                "text": "To Displace Mg 2+ in Proteins. (1) Net charge of the metal complex, Q. For Mg 2+ complexes with a net charge >2, Li + may replace Mg 2+ in a buried cavity as this reduces the net positive charge in the protein interior. As the net charge of the metal complex, Q, increases from -1 to +3, the gas-phase free energy for replacing Mg 2+ with Li + (reflecting a solvent-inaccessible cavity) decreases linearly and becomes negative when Q = 3 (see Figure 4 ). ( 2) Protein matrix controlling solvent accessibility.",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 450,
+                        "end": 451,
+                        "text": "4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Factors Allowing Li +",
+                "sec_num": "5.2.1."
+            },
+            {
+                "text": "For Mg 2+ complexes with Q = 2, increasing the solvent accessibility (i.e., local effective dielectric constant, \u03b5) of the binding site favors Li + over Mg 2+ due mainly to the favorable solvation of the outgoing divalent Mg 2+ , which outweighs the relatively small dehydration penalty of the incoming monovalent Li + (see eq 2).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Factors Allowing Li +",
+                "sec_num": "5.2.1."
+            },
+            {
+                "text": "5.2.2. Why Li + Replaces Mg 2+ Only in Certain Enzymes. Enzymes that are targets for Li + therapy have Mg 2+ -binding sites with high positive charge density and/or high solvent exposure (Figure 4 , negative \u0394G x ). For example, the GSK-3\u03b2 enzyme has a binuclear Mg 2+ -binding site with an overall +3 charge, while inositol monophosphatase has a solvent-exposed, trinuclear Mg 2+ -binding site with an overall +2 charge. On the other hand, essential Mg 2+ enzymes are known to have functional Mg 2+ -binding sites containing at least one acidic Asp or Glu residue and are deeply/partially buried. 24, 52 Such sites are predicted to be protected against Li + attack (Figure 4 , positive \u0394G x ). They would be further protected from Li + invasion if binding of Mg 2+ to an essential Mg 2+ enzyme were concomitant with binding of a negatively charged substrate group such as phosphate/polyphosphate. 141",
+                "cite_spans": [
+                    {
+                        "start": 598,
+                        "end": 601,
+                        "text": "24,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 602,
+                        "end": 604,
+                        "text": "52",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 195,
+                        "end": 196,
+                        "text": "4",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 674,
+                        "end": 675,
+                        "text": "4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Factors Allowing Li +",
+                "sec_num": "5.2.1."
+            },
+            {
+                "text": "Copper, in the form of Cu + , Cu 2+ , and, more rarely, Cu 3+ , is an essential microelement for living organisms involved in various vital processes ranging from respiration to oxidative damage protection, proper growth and development of body tissues, mobilization of Fe 2+ , red blood cell formation, metabolism of glucose and cholesterol, and immune system stimulation. Monocationic Cu + is highly reactive and, if left free in the body fluids, may cause oxidative damage. Therefore, the concentration of the free Cu + is subject to tight regulation by the cellular machinery and is kept at very low levels (in the attomolar, 10 -18 M, range 10 ). Copper-regulating proteins control Cu + homeostasis (uptake/efflux), while copper chaperones maintain Cu + transport inside the cell by tightly binding the cognate metal and delivering it to the target protein, thus avoiding cell damage or copper binding to adventitious binding sites. 16 These copper proteins are characterized by their high affinity for the native metal cation, which enables efficient discrimination between Cu + and other competing metal species from the surrounding fluids, in particular Zn 2+ (Table 3 ). Since monovalent cations have less favorable interactions with partner ligands than their divalent contenders (see section 2.1) and are expected to interact more weakly with the protein binding sites, how do the copperregulating and transport proteins preferentially bind the monocationic Cu + over the dicationic Zn 2+ (and other divalent biogenic metal species)? Experimental (metal titration of transcription assays, X-ray analysis, molecular spectroscopy measurements) 142, 143 and theoretical (quantum chemical and quantum mechanical (QM)/molecular mechanical (MM) calculations) 144 studies have addressed this question and disclosed the key determinants of the selectivity of Cu + over Zn 2+ in these systems:",
+                "cite_spans": [
+                    {
+                        "start": 646,
+                        "end": 648,
+                        "text": "10",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 938,
+                        "end": 940,
+                        "text": "16",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1653,
+                        "end": 1657,
+                        "text": "142,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1658,
+                        "end": 1661,
+                        "text": "143",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1764,
+                        "end": 1767,
+                        "text": "144",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1175,
+                        "end": 1176,
+                        "text": "3",
+                        "ref_id": "TABREF3"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Cu + vs Zn 2+ Selectivity in Copper-Binding Proteins",
+                "sec_num": "5.3."
+            },
+            {
+                "text": "(1) Metal coordination number and geometry. Cu + is bound to two cysteines in a distorted linear geometry (Atx1, Atox1, CueR, CopZ; Figure 5 ) or to two cysteines and a histidine in a trigonal geometry (CsoR, Sco1p). Thus, compared to Zn 2+ , which prefers a CN of 4, 5, or 6 (Table 1 ), the CN and geometry in these copper proteins are more compatible with Cu + , which favors lower CNs in its complexes. 37, 145 (2) Second-shell ligands and protein matrix. Basic aa residues from the second coordination sphere and the positive helix dipole near the binding site contribute to the Cu + /Zn 2+ selectivity, as charge-charge interactions with the negatively charged copper cores ([Cu(Cys 2 )] -or [Cu(Cys 2 His)] -) are more favorable than charge-dipole interactions with the uncharged Zn cores ([Zn(Cys 2 )] 0 or [Zn(Cys 2 His)] 0 ).",
+                "cite_spans": [
+                    {
+                        "start": 406,
+                        "end": 409,
+                        "text": "37,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 410,
+                        "end": 413,
+                        "text": "145",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 139,
+                        "end": 140,
+                        "text": "5",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 283,
+                        "end": 284,
+                        "text": "1",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Cu + vs Zn 2+ Selectivity in Copper-Binding Proteins",
+                "sec_num": "5.3."
+            },
+            {
+                "text": "(3) Dehydration penalty of the metal ion. The lower desolvation penalty of the monovalent cation compared to that of its divalent contender (125 kcal/mol for Cu + vs 467 kcal/ mol for Zn 2+ in aqueous solution 146 ) enhances the competitiveness of Cu + over Zn 2+ .",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Cu + vs Zn 2+ Selectivity in Copper-Binding Proteins",
+                "sec_num": "5.3."
+            },
+            {
+                "text": "Compared to Ca 2+ , Mg 2+ with higher charge density is a better charge acceptor 35 and is present in higher concentrations in the cytosol, so it would be expected to bind more tightly to protein binding sites. However, several calcium proteins (for example, those containing the EF-hand or C2 binding domains) have evolved to bind specifically to Ca 2+ and appear to be well protected against substitution from other competing metal species from the cellular milieu, in particular Mg 2+ . How do calcium proteins achieve this task? Mutagenesis studies and free energy calculations have helped to shed light on this intriguing question, as summarized below.",
+                "cite_spans": [
+                    {
+                        "start": 81,
+                        "end": 83,
+                        "text": "35",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Ca 2+ vs Mg 2+ Selectivity in Proteins",
+                "sec_num": "6.1."
+            },
+            {
+                "text": "6.1.1. EF-Hand Motifs. The EF-hand motif is a signature domain found in a large group of calcium signaling and transport proteins such as calmodulin, parvalbumin, troponin C, recoverin, calcineurin, calbindin D 9k , and S100 protein. The canonical EF-hand motif consists of a 12-residue Ca 2+ -binding loop flanked by two helices, creating a helix-loop-helix motif. 11 The highly conserved Glu at the last position of the EF-hand binding loop (Glu-12) binds Ca 2+ bidentately via both carboxylate oxygens, whereas Asp/Glu residues at loop positions 1, 3, and 5 coordinate Ca 2+ monodentately via one of the carboxylate oxygen atoms; in addition, the backbone carbonyl oxygen of loop residue 7 binds Ca 2+ , which often retains a water molecule, to complement the binding site architecture in pentagonal bipyramidal geometry (see Figure 6a ).",
+                "cite_spans": [
+                    {
+                        "start": 366,
+                        "end": 368,
+                        "text": "11",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 836,
+                        "end": 838,
+                        "text": "6a",
+                        "ref_id": "FIGREF8"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Ca 2+ vs Mg 2+ Selectivity in Proteins",
+                "sec_num": "6.1."
+            },
+            {
+                "text": "EF-Hand Properties. The EF-hand motif preferentially binds the \"native\" Ca 2+ against the background of much higher concentrations of the competing cytosolic Mg 2+ by a factor of 10 3 -10 4 . 51 Extensive mutagenesis studies have revealed the following key determinants of this selectivity: 149 \u2022 Ligand net charge. The EF-hand cavity provides a high level of negative charge density that favors dications over monocations such as K + and Na + , whose cellular concentrations are 10 5 -10 6 -fold higher than that of Ca 2+ . \u2022 Binding cavity size. Interactions among the metal ligands rigidify the Ca-binding loop and constrain the metal cavity to an optimal size for Ca 2+ that disfavors larger cations.",
+                "cite_spans": [
+                    {
+                        "start": 192,
+                        "end": 194,
+                        "text": "51",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 291,
+                        "end": 294,
+                        "text": "149",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Ca 2+ vs Mg 2+ Selectivity in Proteins",
+                "sec_num": "6.1."
+            },
+            {
+                "text": "\u2022 Binding site geometry. The EF-hand binding site's pentagonal bipyramidal geometry and relatively large size prevent the smaller Mg 2+ , which strongly prefers octahedral geometry, 27 from binding. Cellular Metal Homeostasis. Under physiological conditions, however, the competition between Ca 2+ and Mg 2+ for the EF-hand binding site depends not only on the structure and properties of the EF-hand binding site, but also on the fluctuations in the cytosolic concentrations of the two competing cations. In the resting cell, the concentration of free Ca 2+ (\u223c10 -7 M) is 3-5 orders of magnitude lower than that of Mg 2+ (\u223c10 -3 M) and does not promote Ca 2+ binding; instead, Mg 2+ occupies (at least partially) the EF-hand binding sites. However, Mg 2+ , unlike Ca 2+ , is hexacoordinated with Glu-12 monodentately rather than bidentately bound (Figure 6b ), and Mg 2+ binding to EF-hand sites does not trigger the extensive conformational changes characteristic of the Ca 2+activated proteins; thus, no signaling response occurs. 11 Upon membrane depolarization or extracellular/intracellular messengers, the intracellular concentration of Ca 2+ increases to 10 -5 M. This, along with the intrinsic properties of the EF-hand binding site (see above), favors Ca 2+ binding to the protein over Mg 2+ . Unlike Mg 2+ , Ca 2+ is heptacoordinated with Glu-12 bidentately bound (Figure 6a ), and Ca 2+ binding to EF-hand sites is accompanied by large conformational changes, triggering a cascade of events along the signal transduction pathway. This shows how the EF-hand binding site and the different cytosolic metal concentrations can select a specific cation and turn a signal \"on\" (Ca 2+ bound) or \"off\" (Mg 2+ bound).",
+                "cite_spans": [
+                    {
+                        "start": 182,
+                        "end": 184,
+                        "text": "27",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1034,
+                        "end": 1036,
+                        "text": "11",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 856,
+                        "end": 858,
+                        "text": "6b",
+                        "ref_id": "FIGREF8"
+                    },
+                    {
+                        "start": 1383,
+                        "end": 1385,
+                        "text": "6a",
+                        "ref_id": "FIGREF8"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Ca 2+ vs Mg 2+ Selectivity in Proteins",
+                "sec_num": "6.1."
+            },
+            {
+                "text": "Protein Dynamics. The EF-hand motif often occurs in pairs, forming a stable four-helix bundle where the distance between the two bound Ca 2+ ions is \u223c11 \u00c5. 150 Calcium binding in such a pair is sequential and proceeds with positive cooperativity; i.e., binding of a Ca 2+ to the first site increases the affinity and selectivity of the second site for the cognate ion. 11 This results in enhanced sensitivity of the EF-hand pair to elevated Ca 2+ concentrations, as compared to that of the isolated EF-hand motif, and consequently to greater signal transduction efficiency. Such a cooperative effect is not in place for Mg 2+ , as it does not bind with positive cooperativity. 151 Protein dynamics plays a central role in selecting the second Ca 2+ : 11 Binding of the first Ca 2+ decreases the backbone dynamics and flexibility of the EF-hand loops and stabilizes the proper conformation of ligands in the second Ca 2+ -binding site, particularly Glu-12. Hence, the second Ca 2+ binds with higher affinity, as the binding of the first Ca 2+ has already covered the costs of structural reorganization and loss in flexibility and internal dynamics.",
+                "cite_spans": [
+                    {
+                        "start": 156,
+                        "end": 159,
+                        "text": "150",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 369,
+                        "end": 371,
+                        "text": "11",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 677,
+                        "end": 680,
+                        "text": "151",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 751,
+                        "end": 753,
+                        "text": "11",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Ca 2+ vs Mg 2+ Selectivity in Proteins",
+                "sec_num": "6.1."
+            },
+            {
+                "text": "6.1.2. GLA Domains. GLA domains are an integral part of several extracellular proteins involved in the blood coagulation process such as factors II (prothrombin), VII, IX, and X, protein C, and protein S. These domains contain a constellation of Gla residues bound to 7-8 Ca 2+ ions and, in some sites, Mg 2+ ions, which stabilize the structure and maintain the proper protein conformation for subsequent membrane docking. The rare Gla residue is produced by posttranslational carboxylation of a specific Glu residue by a vitamin K-stimulated reaction. 152 Gla prefers to bind the metal ion in a chelation bidentate mode where both carboxylates are monodentately bound. 26 When only Mg 2+ ions are present in the GLA domain, an essential membrane-binding loop becomes disordered and fails to dock properly to the target membrane, thus disrupting the coagulation process. On the other hand, Ca 2+ ions can stabilize this loop and are absolutely required for blood to coagulate. Experimental studies have shown that Glacontaining proteins are tuned to preferentially bind Ca 2+ , [153] [154] [155] but why does Gla prefer to bind to Ca 2+ rather than Mg 2+ ? To address this question, the free energies of Gla binding to hexahydrated Mg 2+ and heptahydrated Ca 2+ in different dielectric media have been evaluated (see Figure 7 ). 26 Ring Strain, Partial Covalent Bonding, and Solvation Effects. Since Mg 2+ is a better charge acceptor than Ca 2+ , 35 the charge on Mg 2+ in the [Mg-(H 2 O) 4 -Gla] 0 complex is less than that on the respective Ca 2+ complex, indicating more charge transfer from Gla 2-to Mg 2+ than to Ca 2+ (by 0.28 e). Thus, Mg 2+ would be expected to bind more favorably to Gla 2- than Ca 2+ , yet the Gla side chain interacts more favorably with Ca 2+ than with Mg 2+ by \u223c3 kcal/mol in the gas phase and by \u223c9 kcal/mol in a buried protein cavity (Figure 7 ). This is because, upon metal binding, Gla forms a six-membered ring, which is less strained in the [Ca-(H 2 O) 5 -Gla] 0 complex (Figure 7b ) than in the corresponding [Mg-(H 2 O) 4 -Gla] 0 complex (Figure 7a ). 26 By splitting the metal's outer-shell density according to its ability to form a partly covalent bond involving charge transfer, Ca 2+ ions can form partially covalent charge transfer networks with the carboxylate oxygen lone pairs, whereas Mg 2+ cannot. 156 Furthermore, the Ca 2+ -Gla complex is better solvated than its Mg 2+ counterpart. Hence, ring strain, partial covalent bonding, and solvation of the metal complex are key determinants of the competition between Ca 2+ and Mg 2+ for Gla 2-.",
+                "cite_spans": [
+                    {
+                        "start": 553,
+                        "end": 556,
+                        "text": "152",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 670,
+                        "end": 672,
+                        "text": "26",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1078,
+                        "end": 1083,
+                        "text": "[153]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1084,
+                        "end": 1089,
+                        "text": "[154]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1090,
+                        "end": 1095,
+                        "text": "[155]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1329,
+                        "end": 1331,
+                        "text": "26",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1447,
+                        "end": 1449,
+                        "text": "35",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2090,
+                        "end": 2092,
+                        "text": "26",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2347,
+                        "end": 2350,
+                        "text": "156",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 1324,
+                        "end": 1325,
+                        "text": "7",
+                        "ref_id": "FIGREF9"
+                    },
+                    {
+                        "start": 1874,
+                        "end": 1875,
+                        "text": "7",
+                        "ref_id": "FIGREF9"
+                    },
+                    {
+                        "start": 2015,
+                        "end": 2017,
+                        "text": "7b",
+                        "ref_id": "FIGREF9"
+                    },
+                    {
+                        "start": 2084,
+                        "end": 2086,
+                        "text": "7a",
+                        "ref_id": "FIGREF9"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Ca 2+ vs Mg 2+ Selectivity in Proteins",
+                "sec_num": "6.1."
+            },
+            {
+                "text": "6.1.3. Ribonuclease H. The enzyme ribonuclease H (RNase H), a member of the nucleotidyl-transferase superfamily, is a sequence-nonspecific, Mg 2+ (or Mn 2+ )-dependent endonuclease that specifically cleaves the RNA strand of DNA/ RNA hybrids. 157, 158 It has a DED\u2032 metal-binding motif comprising three conserved carboxylates. In Escherichia coli RNase HI, mutation of the third D\u2032 carboxylate (D70) to Asn inactivates the enzyme even when Mg 2+ is present. 159 This catalytically essential residue is bound indirectly via a bridging water molecule to Mg 2+ , whereas the first two carboxylates of the DED\u2032 metal-binding motif are bound directly to the native cofactor in the Mg 2+ -bound X-ray structure of E. coli RNase HI 160 (see Figure 8a ). Although Mg 2+ is expected to bind with greater affinity to the protein than the bulkier Ca 2+ (see above), in vitro experiments surprisingly show that Ca 2+ binds more tightly (by 2.2 kcal/mol) than Mg 2+ , but the Ca 2+ -bound enzyme is inactive. 161 Why does Ca 2+ bind more tightly than Mg 2+ to RNase H but inhibit enzyme activity, and how does the enzyme select Mg 2+ when it binds tighter to Ca 2+ ? To answer these questions, the free energies of alkaline-earth-metal dications (Mg 2+ , Ca 2+ , Sr 2+ , Ba 2+ ) binding to E. coli RNase HI have been measured and computed using a thermodynamic integration approach. 162 Furthermore, free energy barriers for the binding of the catalytically essential D\u2032 to Mg 2+ and Ca 2+ in E. coli RNase H have been computed using free energy simulations with a classical force field. 163 The results show that Ca 2+ binds more tightly to the enzyme active site because it binds directly to the third D\u2032 carboxylate bidentately in addition to the Mg 2+ ligands (Figure 8b ). 162 The protein architecture and coupled protein-water interactions also favor Ca 2+ binding to all three acidic residues of the DED\u2032 metal-binding motif by lowering the free energy barrier for binding of the D\u2032 aspartate to Ca 2+ compared to that for binding of D\u2032 to the native Mg 2+ cofactor. 163 The metal-binding mode of D\u2032 also elucidates why Ca 2+ binding to E. coli RNase HI abolishes enzymatic activity: When the catalytically essential D\u2032 residue is bidentately bound to Ca 2+ , it cannot serve as a proton/hydrogen-bond acceptor during the catalytic reaction; furthermore, its coordination to Ca 2+ changes the net charge of the metal complex from 0 to -1, which in turn could affect Note that, even though RNase H could bind Ca 2+ tighter than Mg 2+ in vitro, it selects Mg 2+ over Ca 2+ in vivo, as the cellular concentration of Mg 2+ is much higher than that of Ca 2+ (by a factor of 10 3 -10 4 ).",
+                "cite_spans": [
+                    {
+                        "start": 243,
+                        "end": 247,
+                        "text": "157,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 248,
+                        "end": 251,
+                        "text": "158",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 458,
+                        "end": 461,
+                        "text": "159",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 996,
+                        "end": 999,
+                        "text": "161",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1575,
+                        "end": 1578,
+                        "text": "163",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1765,
+                        "end": 1768,
+                        "text": "162",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2061,
+                        "end": 2064,
+                        "text": "163",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 741,
+                        "end": 743,
+                        "text": "8a",
+                        "ref_id": "FIGREF10"
+                    },
+                    {
+                        "start": 1759,
+                        "end": 1761,
+                        "text": "8b",
+                        "ref_id": "FIGREF10"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Ca 2+ vs Mg 2+ Selectivity in Proteins",
+                "sec_num": "6.1."
+            },
+            {
+                "text": "Whereas Mg 2+ is a better charge acceptor than Ca 2+ , it is a much weaker Lewis acid than Zn 2+ (see section 2.1). Furthermore, Mg 2+ is almost exclusively hexacoordinated, whereas Zn 2+ is predominantly tetracoordinated (and sometimes penta-or hexacoordinated). Therefore, can Zn 2+ replace Mg 2+ in magnesium-dependent proteins? Conversely, can Mg 2+ replace Zn 2+ in f lexible Zn 2+ -binding sites that allow Mg 2+ to adopt its preferred CN of 6? To address these questions, the free energies for replacing Mg 2+ with Zn 2+ in various model mono/ polynuclear metal-binding sites characterized by dielectric constants ranging from 4 for buried sites to 80 for fully solvent-exposed sites have been computed.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Mg 2+ vs Zn 2+ Selectivity in Proteins",
+                "sec_num": "6.2."
+            },
+            {
+                "text": "6.2.1. Mg 2+ Proteins. Cellular Metal Homeostasis. The computed free energies for replacing Mg 2+ with Zn 2+ in rigid and flexible metal-binding pockets show that all types of Mg 2+binding pockets are vulnerable to substitution by Zn 2+ . 22, 164 For example, the free energies for replacing Mg 2+ in model buried mono-, bi-, and trinuclear Mg 2+ -binding sites are all favorable (Figure 9 , negative \u0394G 4 ). Experimentally, Zn 2+ is found to displace the native Mg 2+ cofactor in certain proteins (e.g., CheY 165 ) and to inhibit enzymes such as alkaline phospha-tase, 166,167 tyrosine Csk kinase, 168 avian sarcoma virus integrase, 169 \u03b2-galactosidase, 170 and casein kinase-II. 171 Thus, it is primarily the cell machinery that selects Mg 2+ among other competing dications (e.g., Ca 2+ and Zn 2+ ) by maintaining a high concentration ratio of Mg 2+ to its biogenic competitor in various biological compartments, while keeping the cytosolic concentration of free Zn 2+ at \"safe\" picomolar to femtomolar levels. 7, 8 In principle, the protein could help to select Mg 2+ over Zn 2+ by creating a polynuclear site on its solvent-exposed surface. For example, replacing Mg 2+ in a solvent-exposed trinuclear binding site depicted in Figure 9c with Zn 2+ is unfavorable (positive \u0394G 80 ), as the central metal cation is bound to two \"superligands\", [(CH 3 COO)Mg(H 2 O) 3 (CH 3 COO) 2 ] -, which are poor charge donors compared to CH 3 COO -in the mononuclear complex. 164 However, solvent-exposed polynuclear Mg-binding sites, especially those with positive charge density, might be prone to substitution by monovalent ions such as Li + (see Figure 4 ).",
+                "cite_spans": [
+                    {
+                        "start": 239,
+                        "end": 242,
+                        "text": "22,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 243,
+                        "end": 246,
+                        "text": "164",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1014,
+                        "end": 1016,
+                        "text": "7,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1017,
+                        "end": 1018,
+                        "text": "8",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1281,
+                        "end": 1283,
+                        "text": "80",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 388,
+                        "end": 389,
+                        "text": "9",
+                        "ref_id": "FIGREF11"
+                    },
+                    {
+                        "start": 1239,
+                        "end": 1241,
+                        "text": "9c",
+                        "ref_id": "FIGREF11"
+                    },
+                    {
+                        "start": 1648,
+                        "end": 1649,
+                        "text": "4",
+                        "ref_id": null
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Mg 2+ vs Zn 2+ Selectivity in Proteins",
+                "sec_num": "6.2."
+            },
+            {
+                "text": "6.2.2. Zn 2+ Proteins. The above results imply that zinc proteins such as cellular zinc fingers can bind Zn 2+ against the background of a much higher Mg 2+ concentration. For zinc proteins, their properties generally dictate the binding site specificity for Zn 2+ . 39 The type/size of metal ligands, 172 overall charge, and shape of the cavity of a zinc protein help to select the borderline Zn 2+ over other biogenic metal ions. ",
+                "cite_spans": [
+                    {
+                        "start": 267,
+                        "end": 269,
+                        "text": "39",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Mg 2+ vs Zn 2+ Selectivity in Proteins",
+                "sec_num": "6.2."
+            },
+            {
+                "text": "To determine the outcome of the competition among biologically important transition-metal cations such as Co 2+ , Ni 2+ , Cu 2+ , Zn 2+ , Cd 2+ , and Hg 2+ for protein binding sites, various metal-binding sites with different overall symmetry and exhaustive combinations of biologically relevant ligands have been modeled, and those that are most specific for a given metal cation have been identified. [173] [174] [175] [176] On the basis of the theoretical predictions, metal-specific peptides have been synthesized and experimentally characterized. 177 These studies have revealed the following factors determining the competition between these transition metals:",
+                "cite_spans": [
+                    {
+                        "start": 403,
+                        "end": 408,
+                        "text": "[173]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 409,
+                        "end": 414,
+                        "text": "[174]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 415,
+                        "end": 420,
+                        "text": "[175]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 421,
+                        "end": 426,
+                        "text": "[176]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 552,
+                        "end": 555,
+                        "text": "177",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Transition-Metal Ion Selectivity in Model Binding Sites",
+                "sec_num": "6.3."
+            },
+            {
+                "text": "(1) Metal type. Among the first-row transition-metal ions (Co 2+ , Ni 2+ , Cu 2+ , and Zn 2+ ), a given aa ligand interacts most favorably (most negative interaction energy) with Cu 2+ , regardless of the overall symmetry of the binding site (see Figure 10 ). In going down group IIB of the periodic table (Zn 2+ , Cd 2+ , and Hg 2+ ), the metal ion becomes increasingly \"soft\". 178,179 Thus, the \"hard\" carboxylate O/carbonyl O generally prefers Zn 2+ to the softer Cd 2+ and Hg 2+ , whereas the \"borderline\" imidazole N and \"soft\" thiolate S prefer Hg 2+ to Cd 2+ and Zn 2+ .",
+                "cite_spans": [],
+                "ref_spans": [
+                    {
+                        "start": 254,
+                        "end": 256,
+                        "text": "10",
+                        "ref_id": "FIGREF12"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Transition-Metal Ion Selectivity in Model Binding Sites",
+                "sec_num": "6.3."
+            },
+            {
+                "text": "(2) Ligand type. Among aa residues most frequently found to coordinate to transition metals in proteins, 40, 180 anionic Cys -is the most discriminative (largest energy deviations for different metal cations in part b compared to parts a, c, and d of Figure 10 ). It exhibits a strong preference for the soft Cu 2+ and Hg 2+ . Like Cys -, the negativly charged Asp -and Glu - carboxylates also bind to different metal ions with different energies, whereas the uncharged His side chain and peptide backbone group bind to different metal ions with more similar energies.",
+                "cite_spans": [
+                    {
+                        "start": 105,
+                        "end": 108,
+                        "text": "40,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 109,
+                        "end": 112,
+                        "text": "180",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 258,
+                        "end": 260,
+                        "text": "10",
+                        "ref_id": "FIGREF12"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Transition-Metal Ion Selectivity in Model Binding Sites",
+                "sec_num": "6.3."
+            },
+            {
+                "text": "(3) Metal CN and geometry. The highest metal ion selectivity is reflected by the largest interaction energy differences among the metal ions. In agreement with the experimental observations (Table 1 ), 27 the most selective binding site geometry is octahedral for Co 2+ and Ni 2+ , square planar for Cu 2+ , tetrahedral for Zn 2+ and Cd 2+ , and linear for Hg 2+ . 175 6.4. Transition-Metal Ion Selectivity in Proteins 6.4.1. Carbonic Anhydrase II. Carbonic anhydrase II (CAII) is a Zn 2+ metalloenzyme that catalyzes the reversible hydration/dehydration of CO 2 /H 2 CO 3 in the cytosol. The native Zn 2+ cofactor is tetrahedrally coordinated to three histidine side chains and a water molecule (Figure 11a ) and plays a catalytic role. Other divalent transition metals such as Mn 2+ , Co 2+ , Ni 2+ , Cu 2+ , and Cd 2+ can also bind to CAII, albeit with different affinities. Notably, Cu 2+ binds more tightly to the enzyme than the native Zn 2+ in vitro, but the Cu 2+ -substituted wild-type CAII is catalytically inactive. 181, 182 This raises the following intriguing question: In vivo, what factors control the selectivity for Zn 2+ over other competing divalent cations in this prototypical zinc enzyme, in particular Cu 2+ , which can inactivate CAII? This question has been elucidated largely by the measured binding affinities of various divalent transition-metal ions to wild-type CAII and to a series of CAII variants, where one of the His metal ligands has been mutated to Asp, Glu, Asn, Gln, and Cys. 182 The measured affinities allow evaluation of the effect of different factors influencing metal ion selectivity, which include (i) the properties of the metal ion, (ii) the polarizability of the metal ligating atom, (iii) the size of the binding site cavity, and (iv) the binding site geometry/architecture. They suggest the following thermodynamic determinants of Zn 2+ ion selectivity in CAII:",
+                "cite_spans": [
+                    {
+                        "start": 202,
+                        "end": 204,
+                        "text": "27",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1027,
+                        "end": 1031,
+                        "text": "181,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1032,
+                        "end": 1035,
+                        "text": "182",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1515,
+                        "end": 1518,
+                        "text": "182",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 197,
+                        "end": 198,
+                        "text": "1",
+                        "ref_id": "TABREF1"
+                    },
+                    {
+                        "start": 704,
+                        "end": 707,
+                        "text": "11a",
+                        "ref_id": "FIGREF13"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Transition-Metal Ion Selectivity in Model Binding Sites",
+                "sec_num": "6.3."
+            },
+            {
+                "text": "(1) Metal's intrinsic properties. The metal ion affinities of wild-type and nearly all mutant CAII increase in the order Mn 2+ < Co 2+ < Ni 2+ < Zn 2+ < Cu 2+ . For example, the measured binding constants (M -1 ) of wild-type CAII are 2.5 \u00d7 10 3 for Mn 2+ , 6.3 \u00d7 10 6 for Co 2+ , 6.3 \u00d7 10 7 for Ni 2+ , 1 \u00d7 10 12 for Zn 2+ , and 1 \u00d7 10 13 for Cu 2+ . The trend in the measured metal ion affinities generally follows the Irving-Williams series. 60 This implies that the Irving-Williams series represents an intrinsic trend in transition-metal-ligand affinity that applies to both low molecular weight chelators and protein binding sites.",
+                "cite_spans": [
+                    {
+                        "start": 445,
+                        "end": 447,
+                        "text": "60",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Transition-Metal Ion Selectivity in Model Binding Sites",
+                "sec_num": "6.3."
+            },
+            {
+                "text": "(2) Cellular metal ion homeostasis. Since Cu 2+ binds to CAII more tightly than the native Zn 2+ in vitro, it is not the protein itself that can withstand the competition from the potentially harmful copper cation. Rather, it is the cell machinery that selects Zn 2+ in vivo, as any free Cu 2+ is reduced to Cu + , 183 whose cellular concentration (\u223c10 -18 M) 10 is much lower than that of Zn 2+ (10 -12 -10 -15 M). 7, 8 (3) Binding site geometry. The tetrahedral geometry of the metal-binding site in CAII favors the natural Zn 2+ cofactor over Mn 2+ , Ni 2+ , and Cu 2+ , which prefer octahedral, octahedral/ square planar, and square planar/trigonal bipyramidal coordination, respectively (see Table 1 ). Although the Cu 2+ binding affinity to CAII remains higher than that of Zn 2+ (in accord with the Irving-Williams series), the higher Zn 2+ :Cu 2+ binding affinity ratio in the protein as compared to that in smallmolecule chelators suggests that the geometrical constraints of the binding cavity are an important factor in tailoring the Zn 2+ / Cu 2+ selectivity in CAII. 182 (4) Binding cavity size. Among the first-row transition metals, Ni 2+ , Cu 2+ , Co 2+ , and Zn 2+ with similar ionic radii (0.55, 0.57, 0.58, and 0.60 \u00c5 for a CN of 4, 77 respectively), the size of the binding pocket has little effect on the selectivity for Zn 2+ in CAII. However, between Zn 2+ and the significantly larger Cd 2+ (R ion = 0.78 \u00c5 for a CN of 4 77 ), the relatively narrow binding pocket, which has been optimized to fit Zn 2+ , disfavors binding of the bulkier Cd 2+ , as reflected by the greater binding affinity for Zn 2+ (1 \u00d7 10 12 M -1 ) compared to Cd 2+ (4.4 \u00d7 10 8 M -1 ).",
+                "cite_spans": [
+                    {
+                        "start": 416,
+                        "end": 418,
+                        "text": "7,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 419,
+                        "end": 420,
+                        "text": "8",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1080,
+                        "end": 1083,
+                        "text": "182",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1445,
+                        "end": 1447,
+                        "text": "77",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 703,
+                        "end": 704,
+                        "text": "1",
+                        "ref_id": "TABREF1"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Transition-Metal Ion Selectivity in Model Binding Sites",
+                "sec_num": "6.3."
+            },
+            {
+                "text": "(5) Ligating group polarizability. Increasing the \"softness\" of the coordinating aa side chain (e.g., mutating His to Cys) enhances the Cd 2+ :Zn 2+ binding affinity ratio (by \u223c10-fold) as compared to that of wild-type CAII. This is not surprising since Cd 2+ , as compared to Zn 2+ , has stronger affinity for Cys over His. Nevertheless, the His 2 Cys mutant still preferentially binds Zn 2+ over Cd 2+ . Its affinity for Zn 2+ (6.3 \u00d7 10 6 M -1 ) is 10 3 times greater than that for Cd 2+ (6.3 \u00d7 10 3 M -1 ).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Transition-Metal Ion Selectivity in Model Binding Sites",
+                "sec_num": "6.3."
+            },
+            {
+                "text": "6.4.2. Nickel Regulatory Protein NikR. NikR is a nickelspecific transcription factor that regulates cellular nickel uptake in E. coli. In response to elevated concentrations of Ni 2+ , NikR binds to the cognate DNA sequence and inhibits the transcription of the respective nickel uptake transporter (NikABCDE import pump). 68, 184, 185 The native Ni 2+ cofactor binds to a high-affinity His 3 Cys binding site of NikR in a square-planar geometry (Figure 11b ). Other divalent transition metals such as Co 2+ , Cu 2+ , Zn 2+ , and Cd 2+ also bind to NikR with appreciable affinity. However, the Ni 2+ -bound form is the most efficient in binding the cognate DNA sequence. 186 Since NikR, like CAII, can accommodate several transition-metal ions, some of which with even higher affinity than the native metal cofactor, do the various factors found to dictate ion selectivity in CAII (see above) apply to Ni 2+ selectivity in NikR? As for CAII, this question has been elucidated by an analysis of the measured binding affinities of various divalent transition-metal ions to wild-type and mutant NikR. 183, 186 The key factors controlling Zn 2+ selectivity in CAII also apply to Ni 2+ selectivity in NikR: (1) Metal's intrinsic properties. The trend in the metal ion affinities generally follows the Irving-Williams series. The measured binding constants (M -1 ) of NikR are 5 \u00d7 10 8 for Co 2+ , 1 \u00d7 10 12 for Ni 2+ , >1 \u00d7 10 12 for Zn 2+ , and 7 \u00d7 10 16 for Cu 2+ . 186 Thus, nickel outcompetes the rival cobalt.",
+                "cite_spans": [
+                    {
+                        "start": 323,
+                        "end": 326,
+                        "text": "68,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 327,
+                        "end": 331,
+                        "text": "184,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 332,
+                        "end": 335,
+                        "text": "185",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 671,
+                        "end": 674,
+                        "text": "186",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1098,
+                        "end": 1102,
+                        "text": "183,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1103,
+                        "end": 1106,
+                        "text": "186",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 454,
+                        "end": 457,
+                        "text": "11b",
+                        "ref_id": "FIGREF13"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Transition-Metal Ion Selectivity in Model Binding Sites",
+                "sec_num": "6.3."
+            },
+            {
+                "text": "(2) Cellular metal ion homeostasis. The metal abundance in the cytosol favors Ni 2+ over Zn 2+ and Cu 2+ . The intracellular concentration of free Ni 2+ is in the nanomolar range 68 (and is expected to rise during Ni 2+ uptake), while that of Zn 2+ or Cu 2+ is much lower (see Table 2 ). This enables NikR to select Ni 2+ over Zn 2+ or Cu + /Cu 2+ in vivo.",
+                "cite_spans": [
+                    {
+                        "start": 179,
+                        "end": 181,
+                        "text": "68",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 283,
+                        "end": 284,
+                        "text": "2",
+                        "ref_id": "TABREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Transition-Metal Ion Selectivity in Model Binding Sites",
+                "sec_num": "6.3."
+            },
+            {
+                "text": "(3) Binding site size/geometry. The square-planar His 3 Cys binding cavity disfavors binding of Co 2+ , Zn 2+ , and Cd 2+ , which prefer octahedral or tetrahedral coordination geometries. The other factor is the size of the metal cavity, which has apparently been optimized to fit Ni 2+ (R ion = 0.55 \u00c5). The bulkier Cd 2+ (R ion = 0.78 \u00c5) requires a larger cavity and binds to NikR with lower binding affinity (1 \u00d7 10 9 M -1 ) than Ni 2+ (1 \u00d7 10 12 M -1 ). 186 6.4.3. Iron Enzymes. Divalent Fe 2+ and Mn 2+ are neighbors in the Irving-Williams series with not only similar ligand affinities, but also similar ionic radii (0.78 and 0.83 \u00c5 for sixcoordinated high-spin metal, respectively 77 ), coordination preferences, 37 solvation free energies (-456.4 and -437.8 kcal/mol 187 ), and cytosolic concentrations (Table 2 ). Not surprisingly, Mn 2+ can substitute for Fe 2+ in vitro and in vivo in several iron enzymes. 188, 189 In these cases, the low selectivity of the metal-binding site appears, at least sometimes, to be beneficial for the cell survival/metabolism (see below).",
+                "cite_spans": [
+                    {
+                        "start": 458,
+                        "end": 461,
+                        "text": "186",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 688,
+                        "end": 690,
+                        "text": "77",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 720,
+                        "end": 722,
+                        "text": "37",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 918,
+                        "end": 922,
+                        "text": "188,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 923,
+                        "end": 926,
+                        "text": "189",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [
+                    {
+                        "start": 818,
+                        "end": 819,
+                        "text": "2",
+                        "ref_id": "TABREF2"
+                    }
+                ],
+                "eq_spans": [],
+                "section": "Transition-Metal Ion Selectivity in Model Binding Sites",
+                "sec_num": "6.3."
+            },
+            {
+                "text": "In several mononuclear Fe 2+ enzymes, Mn 2+ can displace Fe 2+ , regardless of the differences in the binding site composition: two His and two Asp residues in ribulose-5phosphate 3-epimerase, 189 three His residues and one Asp residue in cytosine deaminase, 188 two His residues and one Cys residue in peptide deformylase, 188 and one His, one Asp, and one Cys residue in threonine dehydrogenase. 188 Nonoxidizable Mn 2+ does not react with H 2 O 2 ; hence, the Mn 2+ -loaded enzymes remain active, whereas the \"catalytic\" Fe 2+ is oxidized by H 2 O 2 , resulting in inactivation of the Fe 2+ -bound enzymes. 188 Thus, the Mn 2+ \u2192 Fe 2+ substitution appears to have a protective role for these enzymes and the cell against oxidative damage.",
+                "cite_spans": [
+                    {
+                        "start": 259,
+                        "end": 262,
+                        "text": "188",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 324,
+                        "end": 327,
+                        "text": "188",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 398,
+                        "end": 401,
+                        "text": "188",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Transition-Metal Ion Selectivity in Model Binding Sites",
+                "sec_num": "6.3."
+            },
+            {
+                "text": "Cellular Metal Ion Homeostasis. Under conditions of oxidative stress, the cell machinery ensures favorable conditions for Mn 2+ binding by raising the cytosolic concentration of Mn 2+ relative to that of Fe 2+ . This is achieved in E. coli by activating the Mn 2+ importer MntH to pump in Mn 2+ and the ironsequestration protein Dps to reduce the cytosolic concentration of Fe 2+ . 188, 189 Aside from its role in oxidative damage protection, the Mn 2+ \u2192 Fe 2+ substitution has been implicated as a back-up strategy for cell survival during Fe 2+ deprivation. 64 Thus, compensating the insufficient Fe 2+ supply by Mn 2+ (or some other available dication) warrants uninterrupted cell metabolism when the \"native\" Fe 2+ is scarce. 64, 190 6.4.4. Periplasmic Mn and Cu Proteins in Cyanobacterium. Mn 2+ and Cu 2+ are at opposite ends of the Irving-Williams series: among the first-row transition-metal dications, Mn 2+ exhibits the lowest ligand affinity and Cu 2+ the highest. How can a manganese protein recognize and bind its cognate metal cofactor in the presence of the stronger binding copper? To answer this question, the metal binding and metal-induced protein folding of periplasmic manganese (MncA) and copper (CucA) proteins in cyanobacterium Synechocystis PCC 6803, which have identical cupin folds and metal-binding sites consisting of three His residues and one Glu residue, have been extensively studied experimentally. 191 Cellular Metal Ion Homeostasis. In vitro, both proteins preferentially bind Cu 2+ , but in vivo, the cell machinery enables each protein to select its native metal cofactor by proper compartmentalization of the protein folding events. The nascent MncA protein is secreted and folds in the cytoplasm, entrapping the more abundant Mn 2+ (\u223c10 -6 M) compared to the tight-binding copper (\u223c10 -18 M). Thus, the cytoplasmic environment (with a [Mn 2+ ]:[Cu +/2+ ] ratio of \u223c10 12 ) is much more favorable for Mn 2+ binding than the periplasmic medium, where the competing copper ions are present in higher concentrations (\u223c10 -12 M) 192 and the [Mn 2+ ]:[Cu +/2+ ] ratio is reduced to \u223c10 6 . Once folded, MncA is transported across the cell membrane via the Tat pathway to the periplasm, where Mn 2+ becomes kinetically trapped in MncA and is not exchanged for Cu 2+ . 191,193 CucA, on the other hand, is exported unfolded via the Sec pathway to the periplasm, where it folds and binds highly competitive Cu 2+ with little challenge by Mn 2+ and other metal ions. 191, 193 Thus, the location of the metalinduced protein folding and the relative metal ion concentrations, which are regulated by the cell machinery, appear to be the key determinants of Mn 2+ vs Cu 2+ selectivity in these proteins. 191, 193 7. DICATION-TRICATION COMPETITION 7.1. Ca 2+ vs Ln 3+ Selectivity in Proteins Mg 2+ and Ca 2+ have few chemical properties that can be used to explore their biochemistry in situ. Therefore, lanthanides (Ln 3+ ), nonbiogenic metal species, have been widely used in crystallographic and spectroscopic studies to probe Mg 2+ /Ca 2+binding sites in metalloproteins by replacing the native cofactor. Lanthanum (La 3+ ) appears to be an ideal biomimetic agent for Ca 2+ as it is also a \"hard\" Lewis acid and its ionic radius (1.03 \u00c5 for CN = 6 and 1.16 \u00c5 for CN = 8) is similar to that of Ca 2+ (1.00 and 1.12 \u00c5, respectively). 77 What types of Ca-binding sites in proteins are prone to Ln 3+ substitution? To shed light on this question, the free energies upon substituting Ca 2+ with La 3+ in model Ca-binding sites have been computed using density functional theory combined with continuum dielectric methods. 35 The metal exchange free energies show that the substitution of Ca 2+ with La 3+ is facilitated in binding cavities with (i) an increased number of metal-bound Asp/Glu residues (increased overall negative charge of the binding site), (ii) decreased solvent accessibility (low dielectric environment) and (iii) limited flexibility. Trivalent lanthanide cations have higher affinity toward oxygen-containing biological ligands (Asp/Glu, Asn/Gln/backbone peptide groups) than divalent Ca 2+ and, therefore, can successfully compete and substitute for Ca 2+ in protein binding sites. Although the rivalry between the native Ca 2+ and \"alien\" Ln 3+ does not have immediate implications for biological processes in vivo, the unique physicochemical properties of lanthanide cations make them very useful for probing Ca 2+ and other dication binding sites in vitro. ",
+                "cite_spans": [
+                    {
+                        "start": 382,
+                        "end": 386,
+                        "text": "188,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 387,
+                        "end": 390,
+                        "text": "189",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 560,
+                        "end": 562,
+                        "text": "64",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 730,
+                        "end": 733,
+                        "text": "64,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 734,
+                        "end": 737,
+                        "text": "190",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 1433,
+                        "end": 1436,
+                        "text": "191",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2296,
+                        "end": 2308,
+                        "text": "2+ . 191,193",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2496,
+                        "end": 2500,
+                        "text": "191,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2501,
+                        "end": 2504,
+                        "text": "193",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2729,
+                        "end": 2733,
+                        "text": "191,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2734,
+                        "end": 2737,
+                        "text": "193",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 3360,
+                        "end": 3362,
+                        "text": "77",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 3645,
+                        "end": 3647,
+                        "text": "35",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "Transition-Metal Ion Selectivity in Model Binding Sites",
+                "sec_num": "6.3."
+            },
+            {
+                "text": "protein binding sites, causing malfunction of essential metalloproteins and disrupting the normal functioning of the cell. 194, 195 What types of Mg-binding sites in proteins are prone to Al 3+ substitution? The free energies for replacing Mg 2+ with Al 3+ in various model metal-binding sites have been computed. [196] [197] [198] They show that the competition between Al 3+ and Mg 2+ depends on the following properties of the metal cation, metal-coordinating ligands, and protein matrix:",
+                "cite_spans": [
+                    {
+                        "start": 123,
+                        "end": 127,
+                        "text": "194,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 128,
+                        "end": 131,
+                        "text": "195",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 314,
+                        "end": 319,
+                        "text": "[196]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 320,
+                        "end": 325,
+                        "text": "[197]",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 326,
+                        "end": 331,
+                        "text": "[198]",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "\u5728\u54ea\u6298\u53e0\u5f88\u91cd\u8981",
+                "sec_num": null
+            },
+            {
+                "text": "\u2022 Metal cation's charge. Trivalent Al 3+ interacts more favorably with the aa residues lining a buried, rigid metal cavity than divalent Mg 2+ (see section 2.1). 2+ . In line with experimental observations, the Mg 2+ -binding sites that are most vulnerable to Al 3+ substitution are buried binding pockets lined with two or three acidic aa residues. 197 Since such sites are common in Mg 2+ -binding proteins, 24 this implies that a key factor protecting the native Mg 2+ cofactor from displacement by Al 3+ in proteins is the high millimolar concentrations of Mg 2+ in vivo.",
+                "cite_spans": [
+                    {
+                        "start": 162,
+                        "end": 164,
+                        "text": "2+",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 350,
+                        "end": 353,
+                        "text": "197",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 410,
+                        "end": 412,
+                        "text": "24",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "\u5728\u54ea\u6298\u53e0\u5f88\u91cd\u8981",
+                "sec_num": null
+            },
+            {
+                "text": "Binding the \"right\" metal cofactor is crucial for the functions of many metalloproteins. Therefore, reliable and efficient mechanisms have evolved to enable the right metal ion (among competing cations in the surroundings) to bind to the protein in vivo. Depending on the metal cation, its abundance in the intracellular/extracellular localities, and the protein functions, different selectivity strategies have evolved to secure optimal performance of the metalloprotein.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "GENERAL CONCLUSIONS",
+                "sec_num": "8."
+            },
+            {
+                "text": "A key selectivity strategy lies in the host protein itself, whose metal-binding site has been finely tuned to account for the subtle differences in the properties of the competing cations, thus enabling the protein to preferentially bind the cognate metal cofactor over contending cations. This selectivity strategy is exemplified by ion channel proteins whose selectivity filters can very efficiently discriminate the native ion from other metal cations, some of which exist in concentrations higher than that of the native one. Properties of the metal-binding site such as its relative rigidity and solvent accessibility, as well as the type, number, orientation, and protonation state of the metalcoordinating ligands, which determine the metal cavity size, geometry, and charge density, affect metal ion selectivity. The geometry/architecture of the binding site and the intrinsic properties of the metal cation appear to be key determinants of the competition between cations with the same net charge such as Ca 2+ and Mg 2+ (see section 6.1) or transition-metal dications (section 6.4). On the other hand, the overall charge of the binding cavity and the desolvation penalty of the metal cation appear to dictate the outcome of the contest between cations with different valence states: High negative charge density favors dications over monocations in calcium ion channels (section 5.1) and EF-hand domains (section 6.1.1), as well as trications over dications in Mg 2+ -binding (section 7.2) and Ca 2+ -binding (section 7.1) sites.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "GENERAL CONCLUSIONS",
+                "sec_num": "8."
+            },
+            {
+                "text": "In this review we have also highlighted some interesting key determinants underlying ion selectivity in proteins. The interaction energy of a given ligand binding to a metal ion generally becomes less favorable in going down a main group in the periodic table (see section 2.1). Nevertheless, potassium ion channels can select K + over Na + by a ratio of \u223c1000:1 by forcing the smaller Na + to adopt the larger CN of K + , thus preventing optimal Na + -ligand interactions 55 (see section 4.1). EF-hand domains can select Ca 2+ over the smaller Mg 2+ by creating well-structured, inflexible binding sites that do not fit the strong octahedral coordination preference of Mg 2+ (see section 6.1.1). This shows how the protein can choose the larger cation in the same group of the periodic table using \"negative\" design principles.",
+                "cite_spans": [
+                    {
+                        "start": 473,
+                        "end": 475,
+                        "text": "55",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "GENERAL CONCLUSIONS",
+                "sec_num": "8."
+            },
+            {
+                "text": "Whereas the metal-ligand interaction energy becomes less favorable in going down a main group, it becomes more favorable in going across a row in the periodic table, as the net positive charge on the metal increases (see section 2.1), yet monovalent ions can still displace divalent ions in certain proteins. This is partly due to the lower desolvation penalty of the monovalent ion relative to its divalent contender. In Mg 2+binding proteins, a high positive charge density in the metalbinding site makes the native Mg 2+ cofactor vulnerable to monovalent Li + substitution (section 5.2). In Cu + -binding proteins, favorable electrostatic interactions between the negatively charged copper cores, [Cu(Cys 2 )] -or [Cu-(Cys 2 His)] -, and positively charged aa residues from the second shell and the positive helix dipole near the binding site help to select monovalent Cu + over its divalent contender Zn 2+ (section 5.3).",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "GENERAL CONCLUSIONS",
+                "sec_num": "8."
+            },
+            {
+                "text": "In several cases, the host protein alone is not able to withstand attacks from biogenic or alien metal cations, which could displace the cognate metal cofactor from the binding site. This is the case with most Mg 2+ -binding sites, which are not well protected against substitution from Zn 2+ (section 6.2.1) and sometimes Ca 2+ (section 6.1.3). In addition, some zinc, nickel, and manganese proteins are predisposed to Cu 2+ attack. In such circumstances, it is the cell machinery that controls the selectivity process: metalloregulatory proteins in the cell tightly control metal homeostasis in living organisms by keeping the concentrations of non-native, potentially damaging, metal species sufficiently low compared to those of the native, less competitive cofactor such as Mg 2+ or Mn 2+ . 68, 193, 199, 200 Although both experimental and theoretical studies have provided insight as to how proteins recognize their native metal cofactor, many questions regarding the process of metal selectivity in metalloproteins remain to be addressed. It is not clear how metalloregulatory proteins such as metallothionein take up or release metal ions as required. An in-depth understanding of the competition between essential biogenic metals and toxic heavy metals or nonbiogenic species with a potential therapeutic effect (e.g., Li + 141 ) in proteins is still lacking. The different factors controlling the kinetics of the metal exchange in protein binding sites are not well understood. Ionic strength effects on the processes of metal binding and selectivity have not been thoroughly investigated. Studies on the role of metal ions in causing or preventing/ curing neurodegenerative or psychiatric diseases are still in their infancy. Although our previous study 201 has identified the key determinants of anion selectivity in molybdate transport proteins that bind molybdate as MoO systems. Understanding the various mechanisms of proteinmetal recognition would not only deepen our knowledge about metalloprotein biochemistry, but also provide avenues for developing strategies for treating metal-related diseases, identifying novel drug targets, 47, 141 designing new drugs, and engineering metalloproteins with desired properties.",
+                "cite_spans": [
+                    {
+                        "start": 796,
+                        "end": 799,
+                        "text": "68,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 800,
+                        "end": 804,
+                        "text": "193,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 805,
+                        "end": 809,
+                        "text": "199,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 810,
+                        "end": 813,
+                        "text": "200",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2150,
+                        "end": 2153,
+                        "text": "47,",
+                        "ref_id": null
+                    },
+                    {
+                        "start": 2154,
+                        "end": 2157,
+                        "text": "141",
+                        "ref_id": null
+                    }
+                ],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "GENERAL CONCLUSIONS",
+                "sec_num": "8."
+            },
+            {
+                "text": "dx.doi.org/10.1021/cr4004665 | Chem. Rev. 2014, 114, 538-556 Downloaded via ZHEJIANG UNIV on December 3, 2024 at 11:17:50 (UTC).See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "",
+                "sec_num": null
+            }
+        ],
+        "back_matter": [
+            {
+                "text": "We thank Prof. James Wang and Prof. Tse Wen Chang for their helpful comments. This work is supported by Academia Sinica and the National Science Council, Taiwan (Grant NSC-98-2113-M-001-011). T.D. is supported by the Institute of Biomedical Sciences at Academia Sinica and EU Grant \"Beyond Everest\", FP7-REGPOT-2011-1.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "ACKNOWLEDGMENTS",
+                "sec_num": null
+            },
+            {
+                "text": " 1) unraveling the principles governing biological processes and applying them to guide drug design and identify new drug targets and ( 2) developing new computational techniques/algorithms for studying macromolecular interactions.",
+                "cite_spans": [],
+                "ref_spans": [],
+                "eq_spans": [],
+                "section": "annex",
+                "sec_num": null
+            }
+        ],
+        "bib_entries": {
+            "BIBREF0": {
+                "ref_id": "b0",
+                "title": "The Biological Chemistry of the Elements",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "J R"
+                        ],
+                        "last": "Frausto Da Silva",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J P"
+                        ],
+                        "last": "Williams",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1991,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Frausto da Silva, J. J. R.; Williams, R. J. P. The Biological Chemistry of the Elements; Oxford University Press: Oxford, U.K., 1991.",
+                "links": null
+            },
+            "BIBREF1": {
+                "ref_id": "b1",
+                "title": "Principles of Bioinorganic Chemistry",
+                "authors": [
+                    {
+                        "first": "S",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Lippard",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "M"
+                        ],
+                        "last": "Berg",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1994,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lippard, S. J.; Berg, J. M. Principles of Bioinorganic Chemistry; University Science Books: Mill Valley, CA, 1994.",
+                "links": null
+            },
+            "BIBREF3": {
+                "ref_id": "b3",
+                "title": "Handbook on Metalloproteins",
+                "authors": [
+                    {
+                        "first": "I",
+                        "middle": [],
+                        "last": "Bertini",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "A",
+                        "middle": [],
+                        "last": "Sigel",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "H",
+                        "middle": [],
+                        "last": "Sigel",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Bertini, I., Sigel, A., Sigel, H., Eds. Handbook on Metalloproteins; Marcel Dekker: New York, 2001.",
+                "links": null
+            },
+            "BIBREF5": {
+                "ref_id": "b5",
+                "title": "Molecular Cell Biology",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "F"
+                        ],
+                        "last": "Lodish",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1999,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Lodish, H. F. Molecular Cell Biology; Scientific American Books: New York, 1999.",
+                "links": null
+            },
+            "BIBREF24": {
+                "ref_id": "b24",
+                "title": "Basic Principles of Ligand Field Theory",
+                "authors": [
+                    {
+                        "first": "H",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Schlafer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Gliemann",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1969,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Schlafer, H. L.; Gliemann, G. Basic Principles of Ligand Field Theory; Wiley Interscience: New York, 1969.",
+                "links": null
+            },
+            "BIBREF58": {
+                "ref_id": "b58",
+                "title": "Advanced Inorganic Chemistry",
+                "authors": [
+                    {
+                        "first": "F",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Cotton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "G",
+                        "middle": [],
+                        "last": "Wilkinson",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1988,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Cotton, F. A.; Wilkinson, G. Advanced Inorganic Chemistry; Jon Wiley & Sons: New York, 1988.",
+                "links": null
+            },
+            "BIBREF62": {
+                "ref_id": "b62",
+                "title": "Manganese in Metabolism and Enzyme Function",
+                "authors": [
+                    {
+                        "first": "V",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Schramm",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1986,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Schramm, V. L. Manganese in Metabolism and Enzyme Function; Academic Press: Orlando, FL, 1986.",
+                "links": null
+            },
+            "BIBREF65": {
+                "ref_id": "b65",
+                "title": "Iron and Human Diseases",
+                "authors": [
+                    {
+                        "first": "R",
+                        "middle": [
+                            "R"
+                        ],
+                        "last": "Crichton",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "R",
+                        "middle": [
+                            "J"
+                        ],
+                        "last": "Ward",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1992,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Crichton, R. R.; Ward, R. J. Iron and Human Diseases; CRC Press: Boca Raton, FL, 1992.",
+                "links": null
+            },
+            "BIBREF66": {
+                "ref_id": "b66",
+                "title": "In Encyclopedia of Metalloproteins",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Odaka",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Kobayashi",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2013,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Odaka, M.; Kobayashi, M. In Encyclopedia of Metalloproteins; Uversky, V. N., Kretsinger, R. H., Permyakov, E. A., Eds.; Springer: New York, 2013, p. 670.",
+                "links": null
+            },
+            "BIBREF70": {
+                "ref_id": "b70",
+                "title": "Ionic Channels of Excitable Membranes",
+                "authors": [
+                    {
+                        "first": "B",
+                        "middle": [],
+                        "last": "Hille",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2001,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hille, B. Ionic Channels of Excitable Membranes, 3rd ed.; Sinauer Associates: Sunderland, MA, 2001.",
+                "links": null
+            },
+            "BIBREF131": {
+                "ref_id": "b131",
+                "title": "Hall Textbook of Medical Physiology with Student Consult Online Access",
+                "authors": [
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Hall",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "",
+                        "middle": [],
+                        "last": "Guyton",
+                        "suffix": ""
+                    }
+                ],
+                "year": 2011,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Hall, J. E. Guyton and Hall Textbook of Medical Physiology with Student Consult Online Access, 12th ed.; Elsevier Saunders: Philadelphia, PA, 2011. (133",
+                "links": null
+            },
+            "BIBREF178": {
+                "ref_id": "b178",
+                "title": "Modern Inorganic Chemistry",
+                "authors": [
+                    {
+                        "first": "W",
+                        "middle": [
+                            "L"
+                        ],
+                        "last": "Jolly",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1984,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Jolly, W. L. Modern Inorganic Chemistry; McGraw-Hill: New York, 1984. (180",
+                "links": null
+            },
+            "BIBREF186": {
+                "ref_id": "b186",
+                "title": "Metal Ions in Solution",
+                "authors": [
+                    {
+                        "first": "M",
+                        "middle": [
+                            "A"
+                        ],
+                        "last": "Burgess",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1978,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Burgess, M. A. Metal Ions in Solution; Ellis Horwood: Chichester, England, 1978. (188",
+                "links": null
+            },
+            "BIBREF193": {
+                "ref_id": "b193",
+                "title": "Alzheimer's Disease and Dimentia Syndromes Consecutive to Imbalanced Mineral Methabolisms Subsequent to Blood Brain Barrier Alteration",
+                "authors": [
+                    {
+                        "first": "P",
+                        "middle": [],
+                        "last": "Collery",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "L",
+                        "middle": [],
+                        "last": "Pirer",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "M",
+                        "middle": [],
+                        "last": "Manfait",
+                        "suffix": ""
+                    },
+                    {
+                        "first": "J",
+                        "middle": [
+                            "E"
+                        ],
+                        "last": "Etienne",
+                        "suffix": ""
+                    }
+                ],
+                "year": 1990,
+                "venue": "",
+                "volume": "",
+                "issue": "",
+                "pages": "",
+                "other_ids": {},
+                "num": null,
+                "urls": [],
+                "raw_text": "Collery, P.; Pirer, L.; Manfait, M.; Etienne, J. E. Alzheimer's Disease and Dimentia Syndromes Consecutive to Imbalanced Mineral Methabolisms Subsequent to Blood Brain Barrier Alteration; John Libbey- Eurotext: London, Paris, 1990. (195",
+                "links": null
+            }
+        },
+        "ref_entries": {
+            "FIGREF0": {
+                "uris": null,
+                "num": null,
+                "text": "K + vs Na + Selectivity in Potassium Ion Channels",
+                "fig_num": "1",
+                "type_str": "figure"
+            },
+            "FIGREF1": {
+                "uris": null,
+                "num": null,
+                "text": "Figure 1. PDB structure (1k4c) of K + bound to eight backbone carbonyl groups in the homotetrameric KcsA channel (top view on the left-hand side and side view on the right).",
+                "fig_num": "661",
+                "type_str": "figure"
+            },
+            "FIGREF2": {
+                "uris": null,
+                "num": null,
+                "text": "Figure 2. Model DEKA selectivity filter of a voltage-gated sodium channel bound to Na + (top view on the left and side view on the right). The metal cation is bound to the Asp (D) and Glu (E) carboxylate groups and the Ala (A) backbone carbonyl oxygen of the DEKA motif. The fully optimized B3LYP/6-31+G(3d,p) structure taken from Dudev and Lim 56 is shown with C in green, H in gray, O in red, and N in blue. Adapted from ref 56. Copyright 2010 American Chemical Society.",
+                "fig_num": "2",
+                "type_str": "figure"
+            },
+            "FIGREF3": {
+                "uris": null,
+                "num": null,
+                "text": "118",
+                "fig_num": null,
+                "type_str": "figure"
+            },
+            "FIGREF4": {
+                "uris": null,
+                "num": null,
+                "text": "Na + vs K + Selectivity in Neurotransmitter Receptors and Transporters",
+                "fig_num": "3",
+                "type_str": "figure"
+            },
+            "FIGREF5": {
+                "uris": null,
+                "num": null,
+                "text": "Na + vs Ca 2+ Selectivity in Na v and Ca v Channels with the EEEE Motif",
+                "fig_num": "1",
+                "type_str": "figure"
+            },
+            "FIGREF6": {
+                "uris": null,
+                "num": null,
+                "text": "Figure 3. Gas-phase enthalpies (\u0394H 1 ) and free energies (\u0394G x , x = 1, 4, 10, and 30) in kcal/mol for replacing Ca 2+ with Na + in an EEEE selectivity filter characterized by dielectric constant x. Increasing values of x represent increasing solvent exposure of the EEEE filter. Positive free energies imply calcium-selective filters, whereas negative values imply sodium-selective filters. The metal cation is bound to (a) zero, (b) one, (c) two, and (d) four water molecules inside the EEEE selectivity filter. Fully optimized B3LYP/6-31+G(3d,p) structures taken from Dudev and Lim 133 are shown with C in green, H in gray, O in red, Ca 2+ in yellow, and Na + in magenta. The aperture area of the pore is given in parentheses. Reprinted with permission from ref 133. Copyright 2012 Royal Society of Chemistry.",
+                "fig_num": "3",
+                "type_str": "figure"
+            },
+            "FIGREF7": {
+                "uris": null,
+                "num": null,
+                "text": "Figure 4. Free energies (kcal/mol) for replacing Mg 2+ with Li + in the gas phase (\u0394G 1 , red circles) and in a relatively solvent-exposed site (\u0394G 30 , blue squares) as a function of the net charge of the Mg 2+ complex. The letter \"a\" denotes an acidic, negatively charged residue (Asp/Glu), \"b\" the backbone carbonyl group, \"n\" the asparagine side chain, and \"p\" the phosphate group H 2 PO 4 -. The number before the Mg/letter denotes the number of metal ions/ligands of type \"x\". For example, 3Mg-4a+1b denotes three Mg 2+ ions bound to four acidic residues and one peptide backbone. Reprinted from ref 141. Copyright 2011 American Chemical Society.",
+                "fig_num": "44",
+                "type_str": "figure"
+            },
+            "FIGREF8": {
+                "uris": null,
+                "num": null,
+                "text": "Figure 6. 3D structure of the pike 4.10 parvalbumin metal-binding site occupied by (a) Ca 2+ (yellow) in pentagonal bipyramidal geometry (PDB code 1pal) and (b) Mg 2+ (cyan) in octahedral geometry (PDB code 4pal).",
+                "fig_num": "6",
+                "type_str": "figure"
+            },
+            "FIGREF9": {
+                "uris": null,
+                "num": null,
+                "text": "Figure 7. Free energies (kcal/mol) of Gla 2-binding in the chelation bidentate mode to (a) Mg 2+ (cyan) and (b) Ca 2+ (yellow) in the gas phase (\u0394G 1 ) and in a protein cavity (\u0394G 4 , \u0394G 10 , and \u0394G 20 ). The fully optimized S-VWN/6-31+G* geometries of the metal complexes are taken from Dudev and Lim. 26 Adapted from ref 26. Copyright 2009 American Chemical Society.",
+                "fig_num": "7",
+                "type_str": "figure"
+            },
+            "FIGREF10": {
+                "uris": null,
+                "num": null,
+                "text": "Figure 8. Model structures of the RNase H active site occupied by (a) Mg 2+ (cyan) and (b) Ca 2+ (yellow). The Asp/Glu side chains are modeled as formates, and the backbone peptide group of Gly is modeled as a formamide. The fully optimized B3LYP/6-31++G-(2d,2p) geometries of the metal complexes are taken from Babu et al. 162 Adapted from ref 162. Copyright 2003 American Chemical Society.",
+                "fig_num": "8",
+                "type_str": "figure"
+            },
+            "FIGREF11": {
+                "uris": null,
+                "num": null,
+                "text": "Figure 9. Free energies, \u0394G x (kcal/mol), for replacing Mg 2+ with Zn 2+ in (a) mono-, (b) bi-, and (c) trinuclear Mg 2+ -binding sites characterized by dielectric constant x. Adapted from ref 164. Copyright 2008 American Chemical Society.",
+                "fig_num": "9",
+                "type_str": "figure"
+            },
+            "FIGREF12": {
+                "uris": null,
+                "num": null,
+                "text": "Figure 10. Interaction energies (kcal/mol) of model (a) Asp -, (b) Cys -, (c) His(N \u03b5 ) side chains and (d) backbone peptide group (BKB) in octahedral, tetrahedral, square planar, and linear transition-metal complexes containing a single amino acid residue and water molecules. The energies taken from Tables 2-5 of Rulisek et al. 173 are plotted relative to those in the Co 2+ complex.",
+                "fig_num": "10",
+                "type_str": "figure"
+            },
+            "FIGREF13": {
+                "uris": null,
+                "num": null,
+                "text": "Figure 11. PDB structure of (a) the human carbonic anhydrase II active site occupied by Zn 2+ in tetrahedral geometry (2vva) and (b) the nickel regulatory protein NikR metal-binding site occupied by Ni 2+ in square planar geometry (2hzv).",
+                "fig_num": "11",
+                "type_str": "figure"
+            },
+            "FIGREF14": {
+                "uris": null,
+                "num": null,
+                "text": "elucidating the factors governing anion selectivity in proteins are lacking. In summary, in this review we have outlined the principles and key determinants of metal ion selectivity in various protein Chemical Reviews Review dx.doi.org/10.1021/cr4004665 | Chem. Rev. 2014, 114, 538-556",
+                "fig_num": null,
+                "type_str": "figure"
+            },
+            "TABREF1": {
+                "html": null,
+                "num": null,
+                "content": "<table><tr><td colspan=\"6\">Cambridge Structural Database (CSD) and Protein Data Bank (PDB) Analyses a</td></tr><tr><td>metal cation</td><td>CN from CSD b</td><td>CN from PDB</td><td>metal cation</td><td>CN from CSD b</td><td>CN from PDB</td></tr><tr><td>Mg 2+</td><td>6 (4)</td><td>6</td><td>Cu 2+</td><td>5 (4)</td><td>4</td></tr><tr><td>Mn 2+</td><td>6 (4)</td><td>6 c</td><td>Zn 2+</td><td>4 (6)</td><td>4</td></tr><tr><td>Ca 2+</td><td>6 (7)</td><td>7</td><td>Cd 2+</td><td>4 (6)</td><td>4 or 6</td></tr><tr><td>Co 2+</td><td>6 (4)</td><td>6</td><td>Hg 2+</td><td>2 (4)</td><td>2</td></tr><tr><td>Ni 2+</td><td>6 = 4</td><td>6</td><td/><td/><td/></tr></table>",
+                "text": "Comparison of the Most Common Metal CNs fromThe metal CNs are taken from Dudev et al.37 unless stated otherwise. b The first number is the most common CN, whereas the second number (in parentheses) is the second most common CN; the \"=\" sign means both CNs are equally probable. c From Harding.38",
+                "type_str": "table"
+            },
+            "TABREF2": {
+                "html": null,
+                "num": null,
+                "content": "<table><tr><td>cation</td><td>concn (M)</td><td>ref</td><td>cation</td><td>concn (M)</td><td>ref</td></tr><tr><td>Na</td><td/><td/><td/><td/><td/></tr></table>",
+                "text": "Free Metal Ion Concentrations in the Cytosol",
+                "type_str": "table"
+            },
+            "TABREF3": {
+                "html": null,
+                "num": null,
+                "content": "<table><tr><td>Chemical Reviews</td><td/><td/><td/><td/><td/><td/></tr><tr><td>copper protein/peptide</td><td>type</td><td>K Cu(I)</td><td>K Zn(II)</td><td>K Ni(II)</td><td>K Co(II)</td><td>ref</td></tr><tr><td>Bsu CsoR</td><td>efflux</td><td>\u226510 21</td><td>1.6 \u00d7 10 8</td><td>3.6 \u00d7 10 9</td><td>\u226410 5</td><td>147</td></tr><tr><td>cyclic P C peptide with Atx1 binding motif</td><td>chaperone</td><td>4.0 \u00d7 10 16</td><td>6.3 \u00d7 10 6</td><td/><td/><td>148</td></tr><tr><td>linear P L peptide with Atx1 binding motif</td><td>chaperone</td><td>2.5 \u00d7 10 16</td><td>2.0 \u00d7 10 6</td><td/><td/><td>148</td></tr><tr><td>CopZ</td><td>chaperone</td><td>\u226510 12</td><td/><td/><td>&lt;7 \u00d7 10 4</td><td>143</td></tr></table>",
+                "text": "Experimental Metal-Binding Constants (M -1 ) for Copper-Binding Proteins/Peptides",
+                "type_str": "table"
+            },
+            "TABREF4": {
+                "html": null,
+                "num": null,
+                "content": "<table><tr><td>Chemical Reviews</td></tr></table>",
+                "text": "7.2. Mg 2+ vs Al 3+ Selectivity in ProteinsAlthough Al 3+ is quite abundant in the lithosphere, it has no known function in biology. In high concentrations, however, Al 3+ is harmful to organisms (acting as a neurotoxin) and may cause some health issues in humans. Al 3+ has been hypothesized to exert its toxic effect by displacing the native Mg 2+ from",
+                "type_str": "table"
+            },
+            "TABREF5": {
+                "html": null,
+                "num": null,
+                "content": "<table/>",
+                "text": "Binding cavity's charge. A large number of negatively charged Asp/Glu residues, creating a net negative charge of the metal-binding cavity, enables Al 3+ to replace Mg 2+ . \u2022 Binding cavity's solvent accessibility. A buried, solventinaccessible metal-binding site (characterized by a low effective dielectric constant) enhances charge-charge/ dipole interactions for Al 3+ more than Mg",
+                "type_str": "table"
+            }
+        }
+    }
+}

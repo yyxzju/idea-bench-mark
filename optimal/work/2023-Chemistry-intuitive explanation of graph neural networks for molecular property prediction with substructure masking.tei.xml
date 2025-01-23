@@ -1,0 +1,1816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Chemistry-intuitive explanation of graph neural networks for molecular property prediction with substructure masking</title>
+				<funder ref="#_KdyKYCr">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+				<funder ref="#_BrYbDmN">
+					<orgName type="full">National Key R&amp;D Program of China</orgName>
+				</funder>
+				<funder ref="#_ZcPxe6J">
+					<orgName type="full">Natural Science Foundation of Zhejiang Province of China</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Zhenxing</forename><surname>Wu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Innovation Institute for Artificial Intelligence</orgName>
+								<orgName type="department" key="dep2">Medicine</orgName>
+								<orgName type="department" key="dep3">College of Pharmaceutical Sciences</orgName>
+								<orgName type="institution" key="instit1">Zhejiang University</orgName>
+								<orgName type="institution" key="instit2">Zhejiang University</orgName>
+								<address>
+									<postCode>310058</postCode>
+									<settlement>Hangzhou Zhejiang</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">CarbonSilicon AI Technology Co., Ltd</orgName>
+								<address>
+									<postCode>310018</postCode>
+									<settlement>Hangzhou Zhejiang</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jike</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Innovation Institute for Artificial Intelligence</orgName>
+								<orgName type="department" key="dep2">Medicine</orgName>
+								<orgName type="department" key="dep3">College of Pharmaceutical Sciences</orgName>
+								<orgName type="institution" key="instit1">Zhejiang University</orgName>
+								<orgName type="institution" key="instit2">Zhejiang University</orgName>
+								<address>
+									<postCode>310058</postCode>
+									<settlement>Hangzhou Zhejiang</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">CarbonSilicon AI Technology Co., Ltd</orgName>
+								<address>
+									<postCode>310018</postCode>
+									<settlement>Hangzhou Zhejiang</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">National Engineering Research Center for Multimedia Software</orgName>
+								<orgName type="department" key="dep2">School of Computer Science</orgName>
+								<orgName type="institution">Wuhan University</orgName>
+								<address>
+									<postCode>430072</postCode>
+									<settlement>Wuhan Hubei</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hongyan</forename><surname>Du</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Innovation Institute for Artificial Intelligence</orgName>
+								<orgName type="department" key="dep2">Medicine</orgName>
+								<orgName type="department" key="dep3">College of Pharmaceutical Sciences</orgName>
+								<orgName type="institution" key="instit1">Zhejiang University</orgName>
+								<orgName type="institution" key="instit2">Zhejiang University</orgName>
+								<address>
+									<postCode>310058</postCode>
+									<settlement>Hangzhou Zhejiang</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">CarbonSilicon AI Technology Co., Ltd</orgName>
+								<address>
+									<postCode>310018</postCode>
+									<settlement>Hangzhou Zhejiang</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dejun</forename><surname>Jiang</surname></persName>
+							<idno type="ORCID">0000-0002-2035-5074</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Innovation Institute for Artificial Intelligence</orgName>
+								<orgName type="department" key="dep2">Medicine</orgName>
+								<orgName type="department" key="dep3">College of Pharmaceutical Sciences</orgName>
+								<orgName type="institution" key="instit1">Zhejiang University</orgName>
+								<orgName type="institution" key="instit2">Zhejiang University</orgName>
+								<address>
+									<postCode>310058</postCode>
+									<settlement>Hangzhou Zhejiang</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">CarbonSilicon AI Technology Co., Ltd</orgName>
+								<address>
+									<postCode>310018</postCode>
+									<settlement>Hangzhou Zhejiang</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yu</forename><surname>Kang</surname></persName>
+							<idno type="ORCID">0000-0002-0999-8802</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Innovation Institute for Artificial Intelligence</orgName>
+								<orgName type="department" key="dep2">Medicine</orgName>
+								<orgName type="department" key="dep3">College of Pharmaceutical Sciences</orgName>
+								<orgName type="institution" key="instit1">Zhejiang University</orgName>
+								<orgName type="institution" key="instit2">Zhejiang University</orgName>
+								<address>
+									<postCode>310058</postCode>
+									<settlement>Hangzhou Zhejiang</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dan</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Innovation Institute for Artificial Intelligence</orgName>
+								<orgName type="department" key="dep2">Medicine</orgName>
+								<orgName type="department" key="dep3">College of Pharmaceutical Sciences</orgName>
+								<orgName type="institution" key="instit1">Zhejiang University</orgName>
+								<orgName type="institution" key="instit2">Zhejiang University</orgName>
+								<address>
+									<postCode>310058</postCode>
+									<settlement>Hangzhou Zhejiang</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Peichen</forename><surname>Pan</surname></persName>
+							<idno type="ORCID">0000-0003-1152-7759</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Innovation Institute for Artificial Intelligence</orgName>
+								<orgName type="department" key="dep2">Medicine</orgName>
+								<orgName type="department" key="dep3">College of Pharmaceutical Sciences</orgName>
+								<orgName type="institution" key="instit1">Zhejiang University</orgName>
+								<orgName type="institution" key="instit2">Zhejiang University</orgName>
+								<address>
+									<postCode>310058</postCode>
+									<settlement>Hangzhou Zhejiang</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yafeng</forename><surname>Deng</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">CarbonSilicon AI Technology Co., Ltd</orgName>
+								<address>
+									<postCode>310018</postCode>
+									<settlement>Hangzhou Zhejiang</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dongsheng</forename><surname>Cao</surname></persName>
+							<idno type="ORCID">0000-0003-3604-3785</idno>
+							<affiliation key="aff3">
+								<orgName type="department">Xiangya School of Pharmaceutical Sciences</orgName>
+								<orgName type="institution">Central South University</orgName>
+								<address>
+									<postCode>410004</postCode>
+									<settlement>Changsha Hunan</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Chang-Yu</forename><surname>Hsieh</surname></persName>
+							<idno type="ORCID">0000-0002-6242-4218</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Innovation Institute for Artificial Intelligence</orgName>
+								<orgName type="department" key="dep2">Medicine</orgName>
+								<orgName type="department" key="dep3">College of Pharmaceutical Sciences</orgName>
+								<orgName type="institution" key="instit1">Zhejiang University</orgName>
+								<orgName type="institution" key="instit2">Zhejiang University</orgName>
+								<address>
+									<postCode>310058</postCode>
+									<settlement>Hangzhou Zhejiang</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Tingjun</forename><surname>Hou</surname></persName>
+							<email>tingjunhou@zju.edu.cn</email>
+							<idno type="ORCID">0000-0001-7227-2580</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Innovation Institute for Artificial Intelligence</orgName>
+								<orgName type="department" key="dep2">Medicine</orgName>
+								<orgName type="department" key="dep3">College of Pharmaceutical Sciences</orgName>
+								<orgName type="institution" key="instit1">Zhejiang University</orgName>
+								<orgName type="institution" key="instit2">Zhejiang University</orgName>
+								<address>
+									<postCode>310058</postCode>
+									<settlement>Hangzhou Zhejiang</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Chemistry-intuitive explanation of graph neural networks for molecular property prediction with substructure masking</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5777FA94BADF67FC472D8053EE5079DF</idno>
+					<idno type="DOI">10.1038/s41467-023-38192-3</idno>
+					<note type="submission">Received: 17 September 2022 Accepted: 12 April 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2024-12-06T08:33+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Graph neural networks (GNNs) have been widely used in molecular property prediction, but explaining their black-box predictions is still a challenge. Most existing explanation methods for GNNs in chemistry focus on attributing model predictions to individual nodes, edges or fragments that are not necessarily derived from a chemically meaningful segmentation of molecules. To address this challenge, we propose a method named substructure mask explanation (SME). SME is based on well-established molecular segmentation methods and provides an interpretation that aligns with the understanding of chemists. We apply SME to elucidate how GNNs learn to predict aqueous solubility, genotoxicity, cardiotoxicity and blood-brain barrier permeation for small molecules. SME provides interpretation that is consistent with the understanding of chemists, alerts them to unreliable performance, and guides them in structural optimization for target properties. Hence, we believe that SME empowers chemists to confidently mine structure-activity relationship (SAR) from reliable GNNs through a transparent inspection on how GNNs pick up useful signals when learning from data.</p><p>In the past decades, deep learning (DL) has gained tractions and has been successfully applied to predict a broad range of molecular properties due to its strong capability to model complex nonlinear relationships between structures and properties 1-5 . However, this superior capability to capture intricate nonlinear relationships is originally achieved at the expense of model interpretability, leading to black-box predictions without insights <ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref> . For scientific investigations, such as drug discovery, what we want to know is not only the predictions of a model but also an explanation to validate scientific hypothesis and gain actionable insights to refine our investigations, such as hints for molecular structural optimization 7 .</p><p>Ideally, an insightful interpretation should uncover potentially generalizable principles or actionable insights behind the structure-activity or structure-property relationships, thereby allowing scientists to gauge the reliability of model predictions. In fact, some researchers in medicinal chemistry might value the interpretability of a model over its accuracy <ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref> if a small sacrifice of accuracy can enhance its interpretability. Motivated by the reasons above, many explainable artificial intelligence (XAI) methods have been proposed to address the general lack of interpretability in molecular GNNs in order to augment human reasoning and decision-making <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b12">13</ref> .</p><p>However, most existing methods directly adopt attribution methods for XAI developed in other fields. Different from other unrelated applications, such as natural language processing and image recognition, in which DL has been shown to excel, there is no naturally applicable, complete, and 'raw' molecular representation. After all,</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>molecules themselves are models that scientists conceive <ref type="bibr" target="#b7">8</ref> . The choice of molecular representation could be a limiting factor for model explanation and performance because it inherently determines the kind of chemical information readily available for model training and prediction. A common choice is molecular graphs, which intuitively correspond to chemical structures (nodes to atoms, edges to chemical bonds, and subgraphs to substructures such as functional groups). This observation indicates molecular graphs as a suitable representation with great potential for chemist-friendly interpretability. Recently, several approaches have been proposed to analyze and interpret how GNNs make predictions <ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref> . However, most methods essentially attribute GNNs' predictions to individual nodes, edges, or node features. This kind of interpretability is only partially compatible with chemists' intuition at best. Chemists are more accustomed to comprehending the causal relationship between molecular structures and properties in terms of chemically meaningful substructures, such as functional groups, rather than individual atoms or bonds.</p><p>Following the survey work reported by Yuan et al. <ref type="bibr" target="#b18">19</ref> , existing explanation methods can be categorized into 5 classes: gradients/ features-based methods, decomposition methods, surrogate methods, generation-based methods, and perturbation-based methods. Gradients/features-based methods employ gradient values or feature values to assess the importance of input graph nodes, edges or node features by extending existing image explanation techniques to the graph domain, such as sensitivity analysis (SA) <ref type="bibr" target="#b17">18</ref> , guided backpropagation (GBP) <ref type="bibr" target="#b17">18</ref> and class activation mapping (CAM) <ref type="bibr" target="#b19">20</ref> . Decomposition methods decompose the original model predictions into several terms following the backpropagation and take these terms as the importance scores of the corresponding input features (graph nodes or edges) to explain GNN models, and the representative works in this category include layer-wise relevance propagation (LRP) <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b20">21</ref> , excitation backpropagation (Excitation BP) <ref type="bibr" target="#b19">20</ref> and GNN-LRP <ref type="bibr" target="#b21">22</ref> . The above two types of methods use gradients and closely-related backpropagation to explain models, so they can only be used to explain a single GNN model and cannot be applied to study ensemble methods. Since many high-performing property prediction models are integrated from multiple sub-models, we have to rely on alternative methods to derive explanations. For instance, surrogate methods do not suffer from the above constraints. They employ simple and interpretable models such as linear models based on interpretable descriptors to capture local relationships of deep graph models around the input data, and the representative works include GraphLime <ref type="bibr" target="#b22">23</ref> and PGM-Explainer <ref type="bibr" target="#b16">17</ref> . The explanations of the prediction of a surrogate model are taken as the explanation for the original model. However, the surrogate methods usually do not work with molecular graphs and are not fully compatible with expert knowledge based on reasoning with molecular graphs. XGNN is the only generation-based method that renders high-level explanations of GNNs by generating graph patterns that support the given prediction <ref type="bibr" target="#b23">24</ref> of an underlying GNN model. As the only global GNN interpretation method, it has made a good attempt, but the explainable graph patterns it generates are often meaningless chemical fragments and the explanation related to mutagenicity is not intuitive. There are also perturbation-based methods that identify key features by monitoring the degrees of changes in the predictions through perturbing different input features, such as GNNExplainer <ref type="bibr" target="#b14">15</ref> , PGExplainer <ref type="bibr" target="#b15">16</ref> and SubgraphX <ref type="bibr" target="#b18">19</ref> . GNNExplainer and PGExplainer provide subgraph-level explanations by combining nodes or edges to form subgraphs through post-processing, but the important nodes or edges highlighted by these methods are not guaranteed to be connected as one fragment. Sub-graphX can identify connected subgraphs with Monte Carlo tree search. However, due to the complexity of chemistry rules, the fragments uncovered by these perturbative methods are often not chemically meaningful and prone to generating confusing or even frustrating interpretations for chemists. For example, SubgraphX splits a common functional group such as nitro into oxygen atoms and nitrogen atoms for separate masking, but a nitro group should be treated as a whole when deducing structure-property relationships. Moreover, similar to gradient-based methods, SubgraphX cannot be directly used to study a consensus model integrated by multiple submodels, since it identifies subgraphs through Monte Carlo tree search and different subgraphs may be identified in different sub-models. Given a trained consensus GNN model and an input graph, different sub-models will identify different important subgraphs, so it is difficult to give a consistent and unified important subgraph for a consensus model. As summarized above, all existing methods could potentially be improved to better suit the needs of the chemistry community, and a more detailed account on all these methods can be found in reference <ref type="bibr" target="#b13">14</ref> .</p><p>In short, chemists prefer to investigate molecular properties and reactivity in terms of chemically meaningful fragments rather than individual atoms or bonds without a proper characterization of the atomic environment. For example, when medicinal chemists try to optimize the structure of a lead compound, they often consider the replacement of bioisosteres and functional groups. A toxophore commonly used for toxicity structural alerts is also defined in terms of a chemical group that is responsible for toxic effects rather than a simple atom or bond without context. Similar reasoning can be applied to appreciate the benefits of introducing the concept of pharmacophore in drug design. All in all, it is more natural to explore the molecular properties in terms of fragments/subgraphs rather than atoms/bonds without a proper context. However, no method has been developed to explain the predictions from GNNs by attributing predictions to fragments derived from chemical knowledge. For instance, one can segment a molecule by breaking chemical bonds to generate retrosynthetically feasible chemical substructures (BRICS) <ref type="bibr" target="#b24">25</ref> .</p><p>In this work, motivated by the lack of a proper XAI technique for analyzing molecular GNNs strictly in terms of chemically meaningful fragments, we propose a perturbation-based explanation method named Substructure-Mask Explanation (SME) that effectively identifies the most crucial set of substructures in a molecule that are responsible for a model's prediction. Three different methods for molecular fragmentation (i.e., BRICS substructures <ref type="bibr" target="#b24">25</ref> , Murcko substructures <ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b26">27</ref> , and functional groups) are incorporated into SME in order to give chemists a high flexibility by using various fragment combinations (from different fragmentation methods) to dissect a molecule in a way that is most appropriate for the task at hand and render a transparent view on the structure-property relationships hypothesized by a molecular GNN.</p><p>Four examples (i.e., aqueous solubility, genotoxicity, cardiotoxicity, and blood-brain barrier permeation for small molecules) are used to illustrate how chemists can benefit from using SME to rationalize the predictions of a reliable GNN model for the five aforementioned applications. Different from the previous GNN interpretation methods, SME can be used to explain property prediction models at the level of chemical intuitive fragments rather than at the level of atoms or bonds and hence provide meaningful SAR information to help medicinal chemists in structural optimization and de novo design.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>To verify the effectiveness of SME in explaining molecular property prediction models, four different consensus models (ESOL, Mutagenicity, hERG, and BBBP) are developed. As shown in Table <ref type="table" target="#tab_0">1</ref>, each model achieved excellent performance on the test set. The ESOL model achieves the performance of R 2 of 0.927, and the Mutagenicity, hERG, and BBBP models also achieve sufficiently high ROC-AUC of 0.901, 0.862, and 0.919, respectively.</p><p>To illustrate the benefits of working with an attribution analysis that conforms to chemist's working style, we further discuss five application scenarios in which SME can help us better utilize DL models for molecular property predictions and drug design. Under each scenario, we recommend different fragmentation schemes to go along with SME for analysis. A succinct overview is provided below. Scenarios 1. Mine the SAR for a specific molecule (i.e., local explanation): analyze the attributions of different substructures in a molecule, and it would be better to consider all fragmentation schemes (i.e., a combination of BRICS substructures, Murcko substructures and functional groups); Scenarios 2. Identify the most positive/negative components of a specific molecule: obtain the combined fragments with the most positive/negative attribution through the combination of BRICS substructures and Murcko substructures; Scenarios 3. Mine the SAR for the desired properties (i.e., global explanation) on a statistical basis: analyze the functional group attributions on the whole dataset; Scenarios 4. Provide guidance for structural optimization: compare the average attributions of different functional groups.</p><p>Scenarios 5. Molecule generation for desired properties: recombination of BRICS substructures with SME attribution scores.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SME attribution visualization of Aqueous solubility</head><p>Chemists have explored and broadly understood the effect of a large number of functional groups on water solubility. Hence, solubility is often used to validate model explanation methods and it provides a good setting for testing SME. By masking different substructures (BRICS substructures, Murcko substructures, and functional groups), SME can calculate the attributions of substructures to predictions to help us understand how the model predicts a particular molecule. For example, the visualization of the attributions for compound 1 is shown in Fig. <ref type="figure" target="#fig_0">1a</ref>. The SMILES of compound 1 and the compounds used in the subsequent analysis can be seen in Supplementary Table <ref type="table">4</ref>. As shown in Fig. <ref type="figure" target="#fig_0">1a</ref>, hydroxyl is beneficial to enhance the model's prediction of hydrophilicity, while methyl, isopropyl, and cyclohexyl are beneficial to enhance the model's prediction of hydrophobicity, demonstrating that the attributions of the substructures are consistent with the known chemical knowledge. It can also be found that the attributions of the alkyl groups to hydrophobicity become higher as the number of carbon atoms increases (cyclohexyl&gt;isopropyl&gt;methyl), which also agrees with our chemical knowledge. In addition, through the combination of the BRICS substructures and Murcko substructures, SME can find the most hydrophobic substructure (the alkyl group) and the most hydrophilic substructure (hydroxyl). Although the atom mask in compound 1 can also help to understand the attribution of each atom to hydrophilicity and hydrophobicity, the substructure mask unambiguously reveals a more systematic trend from the data (and easier for chemists to generalize and relate to existing knowledge), such as illustrated in the earlier comment that we may draw the observation that increasing the number of carbon atoms can increase the hydrophobicity of the alkyl groups. As the complexity of compounds increases, the explanation of the substructure mask will be easier to capture the pattern/trend behind the data and to deduce more Only the functional groups that appear more than ten times in the dataset are included in Fig. <ref type="figure" target="#fig_0">1</ref>. Blue colors represent attributions lower than 0 and the substructure is favorable for hydrophilicity, while orange colors represent attributions higher than 0 and the substructure is unfavorable for hydrophilicity. meaningful chemical knowledge than the simple atom mask. As shown in Fig. <ref type="figure" target="#fig_0">1b</ref>, the explanation based on the substructure mask are obviously more intuitive than the atom mask. It is reasonable that cyclopropyl and phenyl are hydrophobic while hydroxymethyl and methoxy are hydrophilic (Fig. <ref type="figure" target="#fig_0">1b</ref>, BRICS substructure).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Functional group attribution analysis and structure optimization of aqueous solubility</head><p>As shown above, different substructures enable us to more precisely describe the boundary of fragments responsible for the predicted molecular property. Moreover, functional groups are predefined molecular substructures and can be used to evaluate the impact of the specific functional groups in the whole dataset. The attributions of different functional groups in the whole ESOL dataset are shown in Fig. <ref type="figure" target="#fig_0">1c</ref>, and the functional groups with less than ten occurrences in the dataset are not considered.</p><p>As shown in Fig. <ref type="figure" target="#fig_0">1c</ref>, SME tends to give positive attributions to common hydrophilic functional groups such as the hydroxyl (-O) and amino (-N) groups, and negative attributions to common hydrophobic groups such as the tert-butyl (-tBu) group. Hence, through the analysis of functional groups, SME can roughly assign the attribution of each functional group to the target property, and help to mine the SAR information.</p><p>Since the Superfast Traversal, Optimization, Novelty, Exploration, and Discovery (STONED) method enables rapid exploration of chemical space without a pre-trained generative model, some interpretability methods combined with STONED can guide structure optimization <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b28">29</ref> . And the functional group attribution generated by SME can also aid in structural optimization. Taking compound 1 as an example, the average attribution of different functional groups can be used to guide the optimization of its hydrophilicity. As shown in Fig. <ref type="figure" target="#fig_0">1a</ref>, the Attribution_N of the methyl group is -0.488, and the attribution of the methyl group is -0.533. To structurally optimize compound 1 to change its water solubility, we can manually change the methyl group to a functional group in Fig. <ref type="figure" target="#fig_0">1c</ref>. The structural optimization result is shown in Fig. <ref type="figure" target="#fig_1">2</ref>, demonstrating that the aqueous solubility of different compounds predicted by the model is highly correlated with the average attributions. The Spearman correlation coefficient between the average attributions and predictions is 0.882 and the p-value is less than 0.05, indicating a significant positive correlation between the average attributions and predictions. Furthermore, by changing the methyl group to a functional group with a smaller average attribution, two of the three molecules are predicted to be less hydrophilic than compound 1, while changing the methyl group to a functional group with a larger average attribution, 13 of the 14 molecules are predicted to be more hydrophilic than compound 1. Hence, the above results demonstrate that SME does give a reasonable explanation. With the change of different functional groups, we can roughly sketch out the trend of the predictions by the model according to the average attributions, and then guide structural optimization.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SME attribution visualization of mutagenicity</head><p>Mutagenicity is of great concern in drug development due to its hazards to human health. Some toxicophores and detoxifying groups are shown in Supplementary Fig. <ref type="figure" target="#fig_0">1</ref>. The attributions of compound 3 based on different types of substructures are shown in Fig. <ref type="figure" target="#fig_2">3</ref>. A positive attribution means that the substructure is favorable for toxicity, and a negative attribution means that the substructure is considered detoxifying. As shown in Fig. <ref type="figure" target="#fig_2">3</ref>, the nitro, amino, and quinone groups are beneficial to enhance the model's prediction of toxicity, while the carboxyl group is beneficial to enhance the model's prediction of non-toxicity. This is consistent with the existing literature reports that the aromatic nitro, aromatic amino, and quinone groups are identified toxicophores and the carboxyl group is an identified detoxifying group (Supplementary Fig. <ref type="figure" target="#fig_0">1</ref>). In addition, through the combination of the BRICS substructures and Murcko substructures, SME can find the most toxic substructure (the aromatic nitro, aromatic amino, and quinone groups) and the most detoxifying substructure (the carboxyl group) as shown in Fig. <ref type="figure" target="#fig_2">3</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The combination can compensate for the flaws of SME in the classification problem</head><p>As shown in Fig. <ref type="figure" target="#fig_2">3</ref>, compared with the regression problem (ESOL), the model assigns less attributions to fragments for the binary classification problem, and even only assigns an attribution of 0.003 to the amino group. The reason is that there are multiple toxic groups in some molecules, for example, there are three toxic groups (i.e., the aromatic nitro, aromatic amino and quinone groups) in compound 3. After removing a nitro group, the molecule still contains two toxic groups (aromatic nitro and quinone groups), so that the model still predicts the remaining part to be toxic. That is, Y sub ≈ Y ≈ 1, which also causes SME to assign an attribution close to 0 to the toxic group. In short, this is why SME assigns an attribution close to 0 to the nitro group.</p><p>Compounds 4, 5, and 6 are used to better illustrate the above flaws of SME. As shown in Supplementary Fig. <ref type="figure" target="#fig_1">2</ref>, SME assigns the attributions close to 0 to the nitro and amino groups in compounds 4 and 5, but assigns a higher attribution value to the phenyl ring. The reason is that after removing the nitro and amino groups, the remaining part of the molecule still contains a toxic group, but when the phenyl ring is removed, the remaining part of the molecule no longer retains any identified toxicophores. This leads SME to judge that the phenyl ring is a very important toxic group, while the nitro and amino groups are not. The azide group is also an identified toxicophore. In compound 6, SME no longer judges the phenyl ring to be an important toxic group, and the reason is that the molecule still retains the azide group as a toxic group after the phenyl ring is removed. The above examples illustrate that SME will underestimate the attributions of toxicophore in molecules in the classification problem, especially when the molecule contains multiple toxic groups. Fortunately, by using our proposed method of taking fragment combinations for attribution analysis, we can largely fix the observed flaws when only individual fragments are considered. As shown in Fig. <ref type="figure" target="#fig_2">3</ref> and Supplementary Fig. <ref type="figure" target="#fig_1">2</ref>, the combination of fragments is always able to find all the toxic groups within the molecules tested in this study.</p><p>Moreover, we also compare the explanation results with the reported GNN explanation methods. The reported explanation results of compound 7 are from Yuan's research and the explanation results for different explanation methods are shown in Fig. <ref type="figure" target="#fig_3">4</ref>. Compared with the identified toxicophores in Supplementary Fig. <ref type="figure" target="#fig_0">1</ref>, compound 7 contains the toxicophores of aromatic nitro and polycyclic aromatic system. The reported methods have only identified a single benzene ring (SubgraphX and MCTS_GNN) or some discrete bonds (PGExplainer and GNNExplainer), and the results do not provide any help in understanding that polyaromatic rings are toxic fragments. Obviously, SME provides more reasonable explanation results than the reported methods through the identification of the attributions to more complete fragments rather than some discrete bonds. As shown in Fig. <ref type="figure" target="#fig_3">4</ref>, SME can find all toxic substructures (aromatic nitro and polycyclic aromatic system) in compound 7.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Functional group attribution analysis and structure optimization of Mutagenicity</head><p>The attributions of different functional groups in the whole Mutagenicity dataset are shown in Fig. <ref type="figure" target="#fig_4">5</ref> and the functional groups with less than ten occurrences are not considered. As shown in Fig. <ref type="figure" target="#fig_4">5</ref>, the functional groups with the positive attributions are often the components of the identified toxic groups, such as nitroso (-N = O), nitro (-NO 2 ) and amino (-N). In addition, the functional groups with the  However, as shown in Supplementary Fig. <ref type="figure" target="#fig_0">1</ref>, the isocyanate group is identified as a toxicophore, but SME always assigns negative attribution to the isocyanate group. And we explore what causes SME to make judgments contrary to the expert knowledge. There are only ten molecules in the dataset containing such functional groups, nine in the training set and one in the test set. In addition, only two of the nine molecules in the training set are toxic, while seven are non-toxic. The small amount of data and highly imbalanced labels cause the model to misjudge the isocyanate group as a detoxifying group. Moreover, the model also incorrectly predicts the only positive molecule in the test set that contains this group as a non-toxic molecule. Combining the SME explanation results and expert knowledge, we are able to discover problems that the model has learned the wrong information, and then provide directions to optimize the model. In other words, careful analysis on SME explanations can help us to judge if the model's predictions for the molecules containing certain structures are unreliable, and more similar molecules should be added to the training set to further improve the model's ability to predict such molecules as done in an active learning loop to improve model reliability with small amount of highly relevant data. For example, to optimize the prediction ability of the mutagenicity model for molecules containing the isocyanate group, it is necessary to add molecules containing the isocyanate group to the training set and provide more balanced data labels.</p><p>We also evaluate whether SME could guide the structural optimization of Mutagenicity, and the results are shown in Supplementary Fig. <ref type="figure" target="#fig_1">2</ref>. We sequentially replace the toxic functional groups in compounds 4, 5, and 6 (the amino, nitro, and isocyanate groups) with detoxifying groups (sulfonyl hydroxide, sulfonamide, and trifluoromethyl). As shown in Supplementary Fig. <ref type="figure" target="#fig_1">2</ref>, after structural optimization, the prediction results of the model all change from close to 1 to close to 0, suggesting that SME really reflects how the model makes predictions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SME can reveal the hERG optimization strategies</head><p>Different from mutagenicity, there are no clearly identified toxicophores for hERG toxicity. Fortunately, in previous works, medicinal chemists have summarized a large number of strategies to reduce hERG toxicity <ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref> . Therefore, we explore whether SME can rediscover these optimization strategies to validate SME. The attributions of functional groups for hERG toxicity are shown in Fig. <ref type="figure" target="#fig_5">6</ref>, and a positive attribution means that the substructure is favorable to toxicity while a negative attribution means that the substructure is unfavorable to toxicity. Introducing the hydroxyl (-O) groups and acidic groups (-C( = O)O) are common optimization strategies to reduce hERG toxicity, and SME also considers that the hydroxyl and acidic groups are unfavorable to hERG toxicity as shown in Fig. <ref type="figure" target="#fig_5">6</ref>. Reducing lipophilicity is also a commonly used strategy to reduce hERG toxicity <ref type="bibr" target="#b31">32,</ref><ref type="bibr" target="#b32">33</ref> . To verify whether SME mine this SAR, we evaluate the correlation of the hERG's functional group attributions and the ESOL's functional group attributions. As shown in Fig. <ref type="figure" target="#fig_6">7</ref>, they are highly negatively correlated with a spearman correlation coefficient of -0.86 and a pvalue of less than 0.05, indicating a high correlation between hERG toxicity and lipophilicity.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Examples of structural optimization for hERG toxicity in the real world</head><p>In the above structural optimization, the examples are consistent with the model prediction results. Changing functional groups with desired attributions can yield molecules with desired properties predicted by models, as exemplified in Fig. <ref type="figure" target="#fig_1">2</ref> and Supplementary Fig. <ref type="figure" target="#fig_1">2</ref>. Here we find some real-world structural optimization examples for hERG toxicity to evaluate whether they meet the guidance provided by the average attributions derived from SME. Since a positive attribution means that the substructure is potentially more toxic while a negative attribution means that the substructure is 'detoxifying', SME can naturally provide three structural optimization strategies to reduce hERG toxicity as follows: 1. adding a functional group with an average attribution &lt;0; 2. removing a functional group with an average attribution &gt;0; 3. replacing a functional group with a more negative attribution. Some realworld structural optimization examples confirm the rationality of the above structural optimization strategies.</p><p>As shown in Fig. <ref type="figure" target="#fig_7">8a</ref>, adding a carboxyl group with the average attribution of -0.465 to compound 8, the hERG toxicity of the compound decreases (IC 50 from 0.8 μM to 76.8 μM) <ref type="bibr" target="#b33">34</ref> . And adding a amide group with average attribution of -0.069 to compound 8 can also reduce the hERG toxicity of the compound (IC 50 from 0.8 μM to 17.1 μM) <ref type="bibr" target="#b33">34</ref> . The above examples can demonstrate the effectiveness of adding a functional group with an average attribution &lt;0 to reduce hERG toxicity. The second structural optimization strategy is to remove a functional group with an average attribution &gt;0 to reduce hERG toxicity. As shown in Fig. <ref type="figure" target="#fig_7">8b</ref>, removing a methoxy group with an average attribution of 0.021 to compound 11 can reduce the hERG toxicity of the compound (IC 50 from 0.35 μM to 0.76 μM) <ref type="bibr" target="#b34">35</ref> . Removing a chlorinated group with an average attribution of 0.036 can reduce the hERG toxicity of the compound (IC 50 from 0.85 μM to 5.49 μM) <ref type="bibr" target="#b34">35</ref> . Another structural optimization strategy is replacing a functional group with a more negative attribution to reduce hERG toxicity. As shown in Fig. <ref type="figure" target="#fig_7">8a</ref>, by replacing the amide group in compound 10 with a more negative carboxylic group to obtain compound 9, the hERG toxicity is significantly reduced (IC 50 from 17.1 μM to 76.8 μM). Moreover, replacing the cyano group with the methylsulphonyl group (having a more negative attribution) reduces hERG toxicity <ref type="bibr" target="#b35">36</ref> . As shown in Fig. <ref type="figure" target="#fig_7">8c</ref>, replacing the amino group with the methylamide group (having a more negative attribution) also reduces the hERG toxicity (IC 50 from 0.12 μM to 2.6 μM) <ref type="bibr" target="#b36">37</ref> . In addition, Rao et al. proposed a subjective method to evaluate the explanatory power of different interpretability methods and provide some hERG cliff molecular pairs. Some hERG cliff molecular pairs that did not appear in our training set also verify the effectiveness of SME in guiding structural optimization, and these results are shown in Supplementary Fig. <ref type="figure" target="#fig_2">3</ref>  <ref type="bibr" target="#b37">38</ref> . All in all, the above real-world examples can demonstrate that SME could guide the structural optimization of hERG toxicity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Attribution-based molecular generation for desired properties</head><p>The generation of molecules with desired properties has attracted the attention of computational chemists and a lot of excellent works based on DL has emerged in recent years. Through the BRICS fragments endowed with the attributions predicted by SME, we provide a molecular generation method that does not require any conditional generative model to generate molecules with target properties. BRICS fragments are originally designed to be recombined for molecular generation. Since SME can assign the attributions of desired properties to different BRICS fragments, it is natural to recombine the BRICS fragments with desired properties to generate molecules with desired properties.</p><p>The "positive BRICS fragments" (attribution&gt;0) and "negative BRICS fragments" (attribution&lt;0) are recombined to yield 3000 molecules, and the desired properties of these molecules are predicted. For different properties, the positive fragments include hydrophilic BRICS fragments, Mutag-toxic BRICS fragments and hERG-toxic BRICS fragments, while the negative fragments include hydrophobic BRICS fragments, Non-Mutag-toxic BRICS fragments and Non-hERG-toxic BRICS fragments. As shown in Fig. <ref type="figure" target="#fig_9">9a</ref>, the distribution of the desired properties of the molecules generated by the recombination of the fragments with the desired attributions is indeed as expected. However, it can also be seen that there is still a partial intersection between the two classes of generated molecules, and even some molecules composed entirely of so-called "non-toxic fragments" are still predicted to be toxic. The main reason is that the attributions given by SME only represents that of the fragments in the current molecules, and their attributions may even be completely opposite in the new molecules. As shown in Fig. <ref type="figure" target="#fig_4">5</ref>, the same fragment may also exhibit different attributions in different molecules. A simple solution to this problem is to sample fragments that are more likely to exhibit negative attributions throughout the dataset, since existing data suggests that these fragments tend to be non-toxic in the vast majority of existing molecules. And these fragments will also more easily retain their non-toxic properties in new molecules, such as sulfonyl hydroxide (-SO3H) and trifluoromethyl (-CF3) for mutagenicity toxicity.</p><p>Hence, in order to reduce the overlap between the two classes of generated molecules, we only take the top 20% fragments with the smallest attributions less than 0 as the negative fragments, and only the top 20% fragments with the largest attributions higher than 0 as the positive fragments. A total of 3000 negative molecules and 3000 positive molecules are generated for 3 different tasks, respectively, and the corresponding properties are predicted. As shown in Fig. <ref type="figure" target="#fig_9">9b</ref>, the overlap between the two classes of generated molecules is significantly reduced, demonstrating the effectiveness of the above strategy.</p><p>In addition, we also explore the application of attribution-based molecular generation for multiple desired properties. We merge the fragments co-existing in the top 20% Non-Mutag-toxic and Non-hERGtoxic fragments to obtain the Non-Mutag-toxic&amp;Non-hERG-toxic fragments. 3000 molecules are generated from the Non-Mutag-tox-ic&amp;Non-hERG-toxic fragments, and the predictions of the 3000 molecules from the Mutagenicity model and the hERG model can be seen in Fig. <ref type="figure" target="#fig_9">9c</ref>. As shown in Fig. <ref type="figure" target="#fig_9">9c</ref>, the vast majority of the 3000 generated molecules are predicted to be non-toxic, illustrating the potential of the attribution-based molecular generation approach in generating molecules with desired properties.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>How can SME establish SAR information with deeper explanations</head><p>In this section, we show that SME (with its enforced attribution to chemically meaningful fragments) allows one to more easily establish a deeper understanding on why certain fragments make the molecule more ideal for the target property. This deeper understanding is achieved by connecting fragments and some characteristic physiochemical properties that is conceptually known to be relevant to the property of interest, for instance, BBBP in this case.</p><p>Through the analysis of functional group attribution generated by SME, we can construct the desired relationship between molecular functional groups and the BBBP as shown in above Fig. <ref type="figure" target="#fig_10">10a</ref>. Similarly, by constructing different prediction models of fundamental physicochemical properties, we can construct the desired relationship between molecular functional groups and the fundamental physicochemical properties. Subsequently, we then establish the relationship between BBBP and the fundamental physicochemical properties, providing a complementary perspective on what molecular properties (substructure or physiochemical attributions) hold the key to having the desired properties. Four fundamental physicochemical properties include molecular weight (MW), topological polar surface area (TPSA), lipid solubility (LogP) and the number of hydrogen bond donor (HBDs) calculated by RDKIT package are used as labels to construct different prediction models in this case. The overall process is shown in Fig. <ref type="figure" target="#fig_10">10a</ref> and the detailed result can be seen in Fig. <ref type="figure" target="#fig_10">10b-e</ref>. The performance of fundamental physicochemical property models can be seen in Supplementary Table <ref type="table" target="#tab_0">1</ref>. As shown in Fig. <ref type="figure" target="#fig_10">10b-e</ref>, SME does not find a definite correlation between  BBBP and MW. Moreover, SME finds that BBBP is positively correlated with LogP and negatively correlated with HBDs and TPSA, which is consistent with the results reported in previous studies. The above results demonstrate that chemists can mine SAR information through SME and use this valuable information to further expose favorable physiochemical properties these molecules must possess. Furthermore, converting information from favorable molecular substructures to favorable physiochemical/ biochemical properties by SME is an abstraction that may actually inspire further understanding of complex phenomena as done by Mittal, A. et al. <ref type="bibr" target="#b38">39</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>In this study, we propose an intuitive SME to explain GNN models for molecular property predictions. Combining different welldesigned molecular fragmentation methods (BRICS substructures, Murcko substructures, and functional groups), SME provides intuitive and chemistry-compatible explanations for all four tasks considered in this study. By analyzing the attributions of functional groups assigned by SME across the entire dataset, we are able to explore how functional groups affect model predictions and infer structure-activity relationships. More importantly, the attribution analysis of functional groups can also provide guidance for structural optimization, and the experimental results and real-world examples confirm the validity and rationality of the attribution-based guidance. In addition, SME can also help to diagnose problems affecting a model's reliability and provide directions to further improve the predictive model. For example, the attribution of the isocyanate group assigned by SME based on the consensus mutagenicity prediction model is inconsistent with the existing expert knowledge, and we could easily identify the problem that the training data containing such functional groups is insufficient and unbalanced which may cause the model being unable to make correct predictions for molecules containing this functional group. Moreover, the recombination of the BRICS fragments with the attributions assigned by SME can be used to generate molecules with desired properties, which provides a way to efficiently generate molecules with desired properties that does not require training a generative model. Just like all other explanation methods for deep learning models, SME also possesses several limitations. First, since SME (and other GNN-based interpretation methods) aims to explain what the GNN model has learned from the data, it is difficult for SME to mine reasonable SAR information when the GNN model has not learned the true or complete causality due to data paucity or bias. As a noteworthy example, tautomers present a challenge in the pursuit of accurate molecular property predictions and, accordingly, has implications for the effectiveness of SME. Second, as chemically intuitive explanations are enforced, intrinsically chemically meaningless patterns learned from data artifacts may remain concealed. Lastly, the current version of SME only supports the three substructures of BRICS, Murcko, and functional groups, and does not allow the assessment of some other substructures such as bioisosteres. Irrespective of these limitations (some can be easily overcome such as the last point mentioned above), SME provides intuitive and insightful interpretability for chemists based on chemically meaningful substructures. As most existing attribution methods for molecular GNNs in chemistry are directly borrowed from other fields and lacks the kind of chemical intuition that SME insists by design, we believe its benefits outweigh its drawbacks. Particularly, we demonstrate how SME help chemists in 4 key druggability properties tasks (ESOL, Mutagenicity, hERG and BBBP). In sum, SME is a tool with great potential to assist chemists to gain an intuitive understanding of why a GNN model makes a certain prediction, relating structural and physiochemical properties when it is appropriate to do so, and mine SAR information for structure optimization and de novo design.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Datasets</head><p>In order to verify the effectiveness of SME in explaining the predictions from a GNN model, we conduct experiments on four different molecular property datasets, concerning aqueous solubility (ESOL), mutagenicity, hERG-related cardiotoxicity and blood-brain barrier permeation (BBBP). We briefly give a short introduction to these four properties.</p><p>Aqueous solubility is essential for drug candidates and is one of the key physical properties of interest for medicinal chemists <ref type="bibr" target="#b39">40</ref> . The flux of drugs across the intestinal membrane is proportional to the concentration gradient between the intestinal lumen and blood, so drugs with poor water solubility may result in poor absorption even if the permeation rate is high <ref type="bibr" target="#b39">40</ref> . Therefore, accurate prediction of aqueous solubility will help optimize the absorption properties of drug candidates, and a large number of aqueous solubility prediction models based on ML have been reported <ref type="bibr" target="#b40">[41]</ref><ref type="bibr" target="#b41">[42]</ref><ref type="bibr" target="#b42">[43]</ref><ref type="bibr" target="#b43">[44]</ref> . Although accurate prediction of water solubility remains a difficult problem, chemists have explored and broadly understood the effect of a large number of functional groups on water solubility <ref type="bibr" target="#b41">42</ref> . Hence, solubility is often used to validate model explanation methods and it provides a good setting for testing SME <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b44">45</ref> .</p><p>Mutagenicity reflects the ability of a compound to induce mutations in DNA. Many computational approaches have been developed in recent years to predict the mutagenicity of compounds in the early stage of drug development <ref type="bibr" target="#b45">[46]</ref><ref type="bibr" target="#b46">[47]</ref><ref type="bibr" target="#b47">[48]</ref><ref type="bibr" target="#b48">[49]</ref><ref type="bibr" target="#b49">[50]</ref> . A large number of toxicophores and detoxifying groups have been identified and reported, and hence mutagenicity constitutes another popular setup for verifying whether ML models capture essential structure-property relationships to support their predictions <ref type="bibr" target="#b45">46,</ref><ref type="bibr" target="#b47">48,</ref><ref type="bibr" target="#b50">[51]</ref><ref type="bibr" target="#b51">[52]</ref><ref type="bibr" target="#b52">[53]</ref> .</p><p>Cardiotoxicity is another task that we consider, a highly crucial factor in drug design. Undesired hERG-related cardiotoxicity is one of the main reasons for drug candidate failures and drug withdrawal from the market <ref type="bibr" target="#b53">54,</ref><ref type="bibr" target="#b54">55</ref> . And a number of hERG inhibition prediction models have been developed in recent years <ref type="bibr" target="#b45">46,</ref><ref type="bibr" target="#b55">[56]</ref><ref type="bibr" target="#b56">[57]</ref><ref type="bibr" target="#b57">[58]</ref> . We will use this important property to illustrate how a chemistry-compatible explanation method, such as the proposed SME, not only rationalizing how a model makes predictions but also provides actionable insights to help us improve the design of drug candidates. As repeatedly implied in the introduction, a good explanation method should offer more than just a verification tool.</p><p>BBBP is another classic problem in computational chemistry. Since brain drugs need to penetrate the blood-brain barrier, the BBB permeability has been investigated in detail and many BBBP prediction models have been developed in recent years <ref type="bibr" target="#b58">[59]</ref><ref type="bibr" target="#b59">[60]</ref><ref type="bibr" target="#b60">[61]</ref> . In this study, we consider BBBP datasets as an example to illustrate how one can further push the interpretation method discussed so far to generate a deeper explanation. As discussed later, not only will we highlight important fragments responsible for a molecule's BBBP, but also provide a rationale on how the responsible fragment determines some critical physiochemical properties of a molecule that subsequently affects its BBBP.</p><p>The detail on these four datasets is summarized in Supplementary Table <ref type="table">2</ref> and further detail on the data curation can be found in Supplementary Table <ref type="table">3</ref>. In addition, the canonical SMILES of the compounds for analysis are shown in Supplementary Table <ref type="table">4</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Substructure mask explanation</head><p>Under many real-world settings for molecular property predictions, a common practice is to integrate the predictions from multiple models. Thus, in this study, we first build 10 relational graph convolution networks (RGCN) models based on different random seeds for initialization and then construct the consensus model by integrating the 10 RGCN models. The mean of the ten individual predictions will be used as the output of the final consensus model.</p><p>In recent years, GNN has attracted increasing attention in molecular property predictions due to its strong predictive power on graphstructured data. All GNN variants, such as graph convolution neural networks (GCN) <ref type="bibr" target="#b61">62</ref> , graph attention networks (GAT) <ref type="bibr" target="#b62">63</ref> , attentive FP <ref type="bibr" target="#b63">64</ref> , and directed message-passing neural networks (D-MPNN) <ref type="bibr" target="#b2">3</ref> , can be regarded as the special cases of differentiable message-passing frameworks. RGCN is an extension of the standard GCN by introducing edge features to enrich the messages used to update the hidden states in the network and has achieved excellent performance in link predictions and entity classification <ref type="bibr" target="#b64">65</ref> . The propagation rule for each node v is calculated via</p><formula xml:id="formula_0">h ðl + 1Þ υ = σ X rϵR X uϵN r υ W ðlÞ r h ðlÞ u + W ðlÞ 0 h ðlÞ υ 0 @ 1 A<label>ð1Þ</label></formula><formula xml:id="formula_1">where h l + 1 ð Þ ν</formula><p>is the state vector of target node ν after l + 1 iterations, N r v denotes the neighbors of node ν under the relation (edge) rϵR and R denotes the set of edge types. The neighbors of node ν refers to the nodes directly connected to node ν. σð Þ is an element-wise activation function, and ReLUð Þ is adopted in this study. W l ð Þ r is the weight for neighbor node u connecting to node v by an edge attributed with the relation rϵR, and W l ð Þ 0 is the weight for target node v. As shown above, the edge information is explicitly incorporated into a RGCN under the relation rϵR. The weight W l ð Þ r is a linear combination of the basis transformation. The initial node and edge representation can be found in Supplementary Table <ref type="table">5</ref>. The initial node (atom) and edge (bond) information used in RGCN.</p><p>By aggregating the information from each node through attention pooling, the embedding of a molecule can be obtained, and the molecular properties can be predicted by feeding the molecular embedding through three fully connected (FC) layers. The attention pooling is defined as follows:</p><formula xml:id="formula_2">ω v = sigmoidðW Áh v + biasÞ ð 2Þ molecular embedding = X N v = 1 ðω v Áh v Þ<label>ð3Þ</label></formula><p>where W and bias are the trainable matrixes of the linear transformations in model training, N is the number of nodes for a molecular graph, sigmoidð Þ is an activation function that limits the attention weight ω v of each node to between 0 and 1, ω v is the attention weight of node v, and h v is the general feature of node v.</p><p>The key idea of perturbation-based methods is to generate masks to hide certain atoms/bonds/fragments from a GNN model in order to find which substructures may dramatically influence a model's prediction when they are absent in the input. However, the lack of chemical knowledge of the mask unit is prone to outputting confusing patterns of crucial molecular substructures that are difficult to be understood by chemists. Therefore, in this study, we adopt some common ways of splitting compounds in computational chemistry and used well-defined substructures as mask units.</p><p>As shown in Fig. <ref type="figure" target="#fig_11">11d</ref>, BRICS, Murcko scaffolds and functional groups are used to generate different substructures to explain a molecular GNN model from different perspectives. As to BRICS, compounds are decomposed into the BRICS substructures based on a set of 16 bond types characterized with different chemical environments <ref type="bibr" target="#b24">25</ref> . BRICS incorporates more elaborate medicinal chemistry concepts, and, for example, models explicit isosteric replacements for cyclic and acyclic cases. In addition, BRICS substructures can be assembled to form novel molecules by following a set of complementary rules. Molecular scaffold is another widely applied concept in medicinal chemistry and is mostly used to represent the core structures of bioactive compounds. A representative definition for scaffold is the Murcko framework proposed by Bemis and Murcko. Every molecule can be fragmented into a Murcko scaffold and the associated side chains <ref type="bibr" target="#b26">27</ref> . Furthermore, the practice of analyzing molecules in terms of well-defined functional groups is also omnipresent in every branch of organic chemistry. In this study, we use 33 common functional groups collected in RDKit. Equipped with these three fragmentation methods, we should be able to take apart any organic molecule in terms of chemically meaningful substructures for any prediction task in medicinal chemistry and drug discovery.</p><p>Let us now elaborate on how the perturbation-based method works in detail. As mentioned earlier, the key idea is to identify a substructure (when missing from the input, e.g., see the masked carboxylic acid shown in Fig. <ref type="figure" target="#fig_11">11a</ref>) that could dramatically influence a GNN's prediction. Since a GNN predicts molecular properties by feeding a molecular embedding to a properly trained FC layer, we need to give a masked molecule a proper embedding. To this end, we consider the following definition:</p><formula xml:id="formula_3">molecular embedding mask = X N v = 1 ðω v Áh v Ámask v Þ<label>ð4Þ</label></formula><formula xml:id="formula_4">mask v = 1, if node v is not mask 0, if node v is mask<label>ð5Þ</label></formula><p>where N is the number of nodes, ω v is the attention weight of node v, and h v is the general feature of node v.</p><p>In this study, we refer to the extent of the influence of a masked substructure on the overall prediction as the attribution. The attribution for each substructure may be determined as follows. Two GNN predictions before and after applying substructure masks onto a molecular graph are performed, and the difference between the predicted values is simply taken as the attribution:</p><formula xml:id="formula_5">Y = X m i Y i<label>ð6Þ</label></formula><formula xml:id="formula_6">Y sub = X m i Y i,sub<label>ð7Þ</label></formula><formula xml:id="formula_7">Attribution sub = Y À sub<label>ð8Þ</label></formula><p>where sub is the mask substructure, m is the number of the RGCN models and 10 is used in this study, and i is the i th RGCN model. For a more intuitive visualization of interpretation analysis, we normalize the attribution scores of molecular substructures to Attri-bution_N with values ranging between 0 and 1.</p><p>After message passing, a node's hidden state gets updated by the information conveyed by adjacent atoms/bonds. Therefore, when we mask a node, it is not just about masking an atom but about masking the chemical environment centered on that atom. And the chemical environment contains information of adjacent atoms, while the information of the adjacent atoms weakens as the path to the central atom grows. Therefore, masking a node can be considered as masking the main information of the central atom, and also masking part of the information of the adjacent atoms/bonds. For ease of understanding, in this article, the masking of a node is simply depicted as masking just the node itself.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Combination of the BRICS and Murcko substructures</head><p>Chemical substructures often do not exhibit biological activity by themselves alone, while the manifestation of biological activity emerges when certain chemical substructures in a compound interact together. For example, a single amino group does not pose a risk of mutagenicity, but it becomes a genotoxic group with a high risk of mutagenicity when it is attached to a benzene ring. For the sac of ensuring calculation efficiency, SME does not adopt Shapley values to fairly assign attribute values to different substructures, but only calculates attribute values based on the changes between predicted values, which may overlook contribution by some substructures. In order to solve the above problems, we adopt a compensation strategy: find the most positive/negative substructures through the combination of substructures to avoid overlooking some important substructures, and thus explore the SAR more comprehensively. We randomly combined and masked the BRICS substructures and Murcko substructures of a molecule, and calculated the attribution for each substructure combination. Some representative combinations of the Murcko substructures of Aspirin are provided in Fig. <ref type="figure" target="#fig_0">1d</ref>, and there are 7 combinations base on 3 substructures. As the number of fragments increases, the number of possible substructure combinations increases exponentially and leads to extremely large cost. Hence, we adopt a suboptimal solution in this study that a maximum of 100 combinations of BRICS substructures and 100 combinations of Murcko fragments are analyzed per molecule. The current combination method is a simple random combination, and advanced algorithms such as Monte Carlo tree search will be adopted to explore the attribution of different fragment combinations more efficiently in the future.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Model construction and evaluation</head><p>Each dataset is randomly split into the training set, validation set, and test set by a ratio of 8:1:1. First, we conduct the hyperparameter optimization based on the predictive performance on the validation set. And the Tree Parzen Estimator (TPE) algorithm in Hyperopt (version 0.2.7) is used for the hyperparameter optimization in this study. The optimized hyperparameters are then used to build the RGCN submodels with different random seeds, and the ten sub-models are integrated to build the consensus model. The model construction is implemented using python (3.7) with dgl-cuda11.0(0.7.1), hyperopt (0.2.7) and pytorch (1.11.0). The data processing and metrics calculation are implemented using python (3.7) with scikit-learn (1.0.2), numpy (1.21.5) and pandas (1.3.5). The detailed information about the hyperparameters is listed in Supplementary Table <ref type="table">6</ref>. The regression tasks are evaluated by the squared determination coefficient (R²), and the classification tasks are evaluated by the area under the receiver operating characteristic curve (ROC-AUC).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 |</head><label>1</label><figDesc>Fig. 1 | The SME explanation of aqueous solubility. a The attribution visualization of compound 1; b The attribution visualization of compound 2; c The attribution of the different functional groups in the whole ESOL dataset. Only the functional groups that appear more than ten times in the dataset are included in Fig. 1. Blue</figDesc><graphic coords="3,73.33,396.50,464.44,283.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 |</head><label>2</label><figDesc>Fig. 2 | The structural optimization of compound 1. The source data can be found in Supplementary Data 1. The methyl group are changed to one of the functional groups in Fig. 1c and each point represents a compound. Yellow represents the initial functional groups, red represents a more hydrophobic functional group, and blue represents a more hydrophilic functional group. Regression line with the 95% confidence interval (the blue shading) and the spearman rank correlation test are used to describe the correlation between the hydrophilicity of molecules and the attribution of functional groups. The two-sided p-value indicates the significance of the correlation.</figDesc><graphic coords="4,60.46,48.74,480.24,217.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 |</head><label>3</label><figDesc>Fig. 3 | The attribution visualization of compound 3. a The SME explanation of compound 3 based on atoms; b The SME explanation of compound 3 based on BRICS substructures; c The SME explanation of compound 3 based on functional groups; d The SME explanation of compound 3 based on Murcko substructure; e The most positive/negative component of compound 3; f The identified toxicophores; g The identified detoxifying groups.</figDesc><graphic coords="5,73.39,59.96,449.32,189.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 |</head><label>4</label><figDesc>Fig. 4 | The explanation results of compounds 7 for different methods. The right side of the figure displays explanation results from SME, and the left side presents results from other methods.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 |</head><label>5</label><figDesc>Fig. 5 | The attributions of different functional groups in the whole Mutagenicity dataset. Blue colors represent attributions lower than 0, while orange colors represent attributions higher than 0.</figDesc><graphic coords="6,47.23,48.76,239.98,313.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 |</head><label>6</label><figDesc>Fig.6| The attributions of different functional groups in the whole hERG dataset. Blue colors represent attributions lower than 0 and the substructure is unfavorable to induce toxicity, while orange colors represent attributions higher than 0 and the substructure is conductive to inducing toxicity.</figDesc><graphic coords="6,313.68,48.76,239.98,315.21" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 7 |</head><label>7</label><figDesc>Fig. 7 | The correlation of the average attributions between hERG and ESOL's functional groups. The source data can be found in Supplementary Data 2. The regression line with the 95% confidence interval (the blue shading) and the spearman rank correlation test are used to describe the correlation of the average attributions; The two-sided p-value indicates the significance of the correlation.</figDesc><graphic coords="7,138.46,48.74,324.21,157.51" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 8 |</head><label>8</label><figDesc>Fig. 8 | Some real-world structural optimization examples of hERG toxicity. a Add a functional group with an average attribution &lt;0 to reduce the hERG toxicity; b Remove a functional group with an average attribution &gt; 0 to reduce the hERG toxicity; c Replace a functional group with a more negative attribution to reduce the hERG toxicity.</figDesc><graphic coords="8,72.28,50.21,457.00,359.41" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head></head><label></label><figDesc>Article https://doi.org/10.1038/s41467-023-38192-3 Nature Communications | (2023) 14:2585</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 9 |</head><label>9</label><figDesc>Fig. 9 | Attribution-based molecule generation for desired properties. a The molecules generated by recombination of BRICS fragments; b The molecules generated by recombination of top 20% BRICS fragments; c The molecules</figDesc><graphic coords="9,60.49,48.76,480.02,428.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 10 |</head><label>10</label><figDesc>Fig. 10 | The SAR information of BBBP mined by SME. The source data can be found in Supplementary Data 3. a The flow chart of using SME to mine SAR information. The analysis of functional group attribution generated by SME are used to construct a desired relationship between molecular functional groups and the BBBP. By constructing different prediction models of physicochemical properties, the relationship linking molecular functional groups and physicochemical properties can be obtained based on the functional group attribution. With the functional group as a link, the relationship between BBBP and the physicochemical properties can be established. Regression lines with the 95% confidence interval (the blue shading) and spearman rank correlation test are used to describe the correlation between BBBP and the physicochemical properties. The two-sided pvalue indicates the significance of the correlation. b The correlation of the average attributions between BBBP and BBBP_MW's functional groups; c The correlation of the average attributions between BBBP and BBBP_LogP's functional groups; d The correlation of the average attributions between BBBP and BBBP_TPSA' functional groups; e The correlation of the average attributions between BBBP and BBBP_HBDs's functional groups.</figDesc><graphic coords="10,68.74,61.52,471.78,433.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 11 |</head><label>11</label><figDesc>Fig. 11 | The architecture of the consensus models and substructure mask explanation methods. a The architecture of the RGCN sub-models; b The consensus model used for molecular property prediction; c The attribution calculation based on substructure mask explanation; d BRICS substructures, Murcko substructures, functional groups and the combination of Murcko substructures.</figDesc><graphic coords="12,60.52,48.74,480.04,297.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 |</head><label>1</label><figDesc>The performance of the consensus models on the test sets</figDesc><table><row><cell>Model</cell><cell>Type</cell><cell>Metric</cell><cell>Performance</cell></row><row><cell>ESOL</cell><cell>regression</cell><cell>R 2</cell><cell>0.927</cell></row><row><cell>Mutagenicity</cell><cell>classification</cell><cell>ROC-AUC</cell><cell>0.901</cell></row><row><cell>hERG</cell><cell>classification</cell><cell>ROC-AUC</cell><cell>0.862</cell></row><row><cell>BBBP</cell><cell>classification</cell><cell>ROC-AUC</cell><cell>0.919</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Nature Communications | (2023) 14:2585</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>https://doi.org/10.1038/s41467-023-38192-3 Nature Communications | (2023) 14:2585</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This study was financially supported by <rs type="funder">National Key R&amp;D Program of China</rs> (<rs type="grantNumber">2021YFF1201400</rs>), <rs type="funder">National Natural Science Foundation of China</rs> (<rs type="grantNumber">22220102001</rs>), and <rs type="funder">Natural Science Foundation of Zhejiang Province of China</rs> (<rs type="grantNumber">LD22H300001</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_BrYbDmN">
+					<idno type="grant-number">2021YFF1201400</idno>
+				</org>
+				<org type="funding" xml:id="_KdyKYCr">
+					<idno type="grant-number">22220102001</idno>
+				</org>
+				<org type="funding" xml:id="_ZcPxe6J">
+					<idno type="grant-number">LD22H300001</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>The ESOL, Mutagenicity, hERG and BBBP datasets used in this study and the data generated in this study are available at <ref type="url" target="https://doi.org/10">https://doi.org/10</ref>. 5281/zenodo.7707093 <ref type="bibr" target="#b65">66</ref> . Supplementary Data, including Supplementary Data 1, Supplementary Data 2, and Supplementary Data 3, is provided alongside this paper.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Code availability</head><p>The Supplementary Data and codes of SME are available at <ref type="url" target="https://doi">https://doi</ref>. org/10.5281/zenodo.7707093 <ref type="bibr" target="#b65">66</ref> .</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reporting summary</head><p>Further information on research design is available in the Nature Portfolio Reporting Summary linked to this article. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional information</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary information</head><p>The online version contains supplementary material available at <ref type="url" target="https://doi.org/10.1038/s41467-023-38192-3">https://doi.org/10.1038/s41467-023-38192-3</ref>.</p><p>Correspondence and requests for materials should be addressed to Dongsheng Cao, Chang-Yu Hsieh or Tingjun Hou.</p><p>Peer review information Nature Communications thanks Gunnar Mathiason and the anonymous reviewers for their contribution to the peer review of this work. A peer review report is available.</p><p>Reprints and permissions information is available at <ref type="url" target="http://www.nature.com/reprints">http://www.nature.com/reprints</ref> Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p><p>Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ref type="url" target="http://creativecommons.org/">http://creativecommons.org/</ref> licenses/by/4.0/.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">PotentialNet for molecular property prediction</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">N</forename><surname>Feinberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Cent. Sci</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="1520" to="1530" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Feinberg, E. N. et al. PotentialNet for molecular property prediction. ACS Cent. Sci. 4, 1520-1530 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">A compact review of molecular property prediction with graph neural networks</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Wieder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Drug Discov. Today.: Technol</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wieder, O. et al. A compact review of molecular property prediction with graph neural networks. Drug Discov. Today.: Technol. 37, 1-12 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Analyzing learned molecular representations for property prediction</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Inf. Modeling</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="3370" to="3388" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yang, K. et al. Analyzing learned molecular representations for property prediction. J. Chem. Inf. Modeling 59, 3370-3388 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Deep learning in drug discovery</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gawehn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schneider</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Inform</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="3" to="14" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gawehn, E., Hiss, J. A. &amp; Schneider, G. Deep learning in drug dis- covery. Mol. Inform. 35, 3-14 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">QSAR without borders</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">N</forename><surname>Muratov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Soc. Rev</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="3525" to="3564" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muratov, E. N. et al. QSAR without borders. Chem. Soc. Rev. 49, 3525-3564 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rudin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mach. Intell</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="206" to="215" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rudin, C. Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead. Nat. Mach. Intell. 1, 206-215 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Model agnostic generation of counterfactual explanations for molecules</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Wellawatte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Seshadri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>White</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Sci</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="3697" to="3705" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wellawatte, G. P., Seshadri, A. &amp; White, A. D. Model agnostic gen- eration of counterfactual explanations for molecules. Chem. Sci. 13, 3697-3705 (2022).</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Drug discovery with explainable artificial intelligence</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jiménez-Luna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Grisoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schneider</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mach. Intell</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="573" to="584" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jiménez-Luna, J., Grisoni, F. &amp; Schneider, G. Drug discovery with explainable artificial intelligence. Nat. Mach. Intell. 2, 573-584 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The blood-brain barrier (BBB) score</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Barden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Weaver</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Medicinal Chem</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="9824" to="9836" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gupta, M., Lee, H. J., Barden, C. J. &amp; Weaver, D. F. The blood-brain barrier (BBB) score. J. Medicinal Chem. 62, 9824-9836 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">CNS physicochemical property space shaped by a diverse set of molecules with experimentally determined exposure in the mouse brain: miniperspective</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Rankovic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Medicinal Chem</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="5943" to="5954" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rankovic, Z. CNS physicochemical property space shaped by a diverse set of molecules with experimentally determined exposure in the mouse brain: miniperspective. J. Medicinal Chem. 60, 5943-5954 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Molecular property design: does everyone get it?</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Leeson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Young</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<publisher>ACS Publications</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Leeson, P. D. &amp; Young, R.J. Molecular property design: does everyone get it?). ACS Publications (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Interpretation of quantitative structure-activity relationship models: past, present, and future</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Polishchuk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Inf. Modeling</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="2618" to="2639" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Polishchuk, P. Interpretation of quantitative structure-activity rela- tionship models: past, present, and future. J. Chem. Inf. Modeling 57, 2618-2639 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Improving molecular graph neural network explainability with orthonormalization and induced sparsity</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Henderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D.-A</forename><surname>Clevert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Montanari</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Machine Learning) PMLR</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Henderson, R., Clevert, D.-A., &amp; Montanari, F. Improving molecular graph neural network explainability with orthonormalization and induced sparsity. In: International Conference on Machine Learning) PMLR (2021).</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Explainability in graph neural networks: A taxonomic survey</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Pattern Analysis and Machine Intelligence</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yuan, H., Yu, H., Gui, S. &amp; Ji, S. Explainability in graph neural net- works: A taxonomic survey. In: IEEE Transactions on Pattern Analysis and Machine Intelligence (2022).</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Gnnexplainer: generating explanations for graph neural networks</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ying</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bourgeois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>You</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zitnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Leskovec</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advances in neural information processing systems</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ying, Z., Bourgeois, D., You, J., Zitnik, M. &amp; Leskovec, J. Gnnexplai- ner: generating explanations for graph neural networks. Advances in neural information processing systems 32, (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Parameterized explainer for graph neural network</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Luo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. neural Inf. Process. Syst</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="19620" to="19631" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Luo, D. et al. Parameterized explainer for graph neural network. Adv. neural Inf. Process. Syst. 33, 19620-19631 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Pgm-explainer: Probabilistic graphical model explanations for graph neural networks</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Thai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. neural Inf. Process. Syst</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="12225" to="12235" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vu, M. &amp; Thai, M. T. Pgm-explainer: Probabilistic graphical model explanations for graph neural networks. Adv. neural Inf. Process. Syst. 33, 12225-12235 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Explainability techniques for graph convolutional networks</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Baldassarre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Azizpour</surname></persName>
+		</author>
+		<idno>arXiv:190513686</idno>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+	<note type="raw_reference">Baldassarre, F. &amp; Azizpour, H. Explainability techniques for graph convolutional networks. arXiv preprint arXiv:190513686 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">On explainability of graph neural networks via subgraph explorations</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Machine Learning) PMLR</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yuan, H., Yu, H., Wang, J., Li, K., &amp; Ji, S. On explainability of graph neural networks via subgraph explorations. In: International Con- ference on Machine Learning) PMLR (2021).</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Explainability methods for graph convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Pope</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kolouri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rostami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hoffmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition)</title>
+		<meeting>the IEEE/CVF Conference on Computer Vision and Pattern Recognition)</meeting>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pope, P. E., Kolouri, S., Rostami, M., Martin, C. E., &amp; Hoffmann, H. Explainability methods for graph convolutional neural networks. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition) (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Layerwise Relevance Visualization in Convolutional Text Graph Classifiers</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schwarzenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hübner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Harbecke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Alt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hennig</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Thirteenth Workshop on Graph-Based Methods for Natural Language Processing (TextGraphs-13))</title>
+		<meeting>the Thirteenth Workshop on Graph-Based Methods for Natural Language Processing (TextGraphs-13))</meeting>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="58" to="62" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schwarzenberg, R., Hübner, M., Harbecke, D., Alt, C. &amp; Hennig, L. Layerwise Relevance Visualization in Convolutional Text Graph Classifiers. In: Proceedings of the Thirteenth Workshop on Graph- Based Methods for Natural Language Processing (TextGraphs-13)). 58-62 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Higher-order explanations of graph neural networks via relevant walks</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Schnake</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE transactions on pattern analysis and machine intelligence</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="7581" to="7596" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schnake, T. et al. Higher-order explanations of graph neural net- works via relevant walks. In: IEEE transactions on pattern analysis and machine intelligence 44, 7581-7596 (2021).</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Local interpretable model explanations for graph neural networks</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Graphlime</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Knowledge and Data Engineering</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huang, Q., Yamada, M., Tian, Y., Singh, D. &amp; Chang, Y. Graphlime: Local interpretable model explanations for graph neural networks. IEEE Transactions on Knowledge and Data Engineering, 1-6 (2022).</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Towards model-level explanations of graph neural networks</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Xgnn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining)</title>
+		<meeting>the 26th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining)</meeting>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yuan, H., Tang, J., Hu, X. &amp; Ji, S. Xgnn: Towards model-level explanations of graph neural networks. In: Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining) (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">On the Art of Compiling and Using&apos;Drug-Like&apos;Chemical Fragment Spaces</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Degen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wegscheid-Gerlach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zaliani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rarey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemMedChem: Chem. Enabling Drug Discov</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1503" to="1507" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Degen, J., Wegscheid-Gerlach, C., Zaliani, A. &amp; Rarey, M. On the Art of Compiling and Using&apos;Drug-Like&apos;Chemical Fragment Spaces. ChemMedChem: Chem. Enabling Drug Discov. 3, 1503-1507 (2008).</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Computational exploration of molecular scaffolds in medicinal chemistry: Miniperspective</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Stumpfe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jr</forename><surname>Bajorath</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Medicinal Chem</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="4062" to="4076" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hu, Y., Stumpfe, D. &amp; Bajorath, Jr. Computational exploration of molecular scaffolds in medicinal chemistry: Miniperspective. J. Medicinal Chem. 59, 4062-4076 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The properties of known drugs. 1. Molecular frameworks</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Bemis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Murcko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Medicinal Chem</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="2887" to="2893" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bemis, G. W. &amp; Murcko, M. A. The properties of known drugs. 1. Molecular frameworks. J. Medicinal Chem. 39, 2887-2893 (1996).</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Beyond generative models: superfast traversal, optimization, novelty, exploration and discovery (STONED) algorithm for molecules using SELFIES</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nigam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pollice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Krenn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dos Passos Gomes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aspuru-Guzik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Sci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="7079" to="7090" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nigam, A., Pollice, R., Krenn, M., dos Passos Gomes, G. &amp; Aspuru- Guzik, A. Beyond generative models: superfast traversal, optimi- zation, novelty, exploration and discovery (STONED) algorithm for molecules using SELFIES. Chem. Sci. 12, 7079-7090 (2021).</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Explaining molecular properties with natural language</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Gandhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>White</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gandhi, H. A. &amp; White A. D. Explaining molecular properties with natural language. (2022).</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Medicinal chemistry of hERG optimizations: highlights and hang-ups</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jamieson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Moir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Rankovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wishart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Medicinal Chem</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="5029" to="5046" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jamieson, C., Moir, E. M., Rankovic, Z. &amp; Wishart, G. Medicinal chemistry of hERG optimizations: highlights and hang-ups. J. Medicinal Chem. 49, 5029-5046 (2006).</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">hERG toxicity assessment: Useful guidelines for drug design</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Garrido</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lepailleur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Mignani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dallemagne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rochais</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Medicinal Chem</title>
+		<imprint>
+			<biblScope unit="volume">195</biblScope>
+			<biblScope unit="page">112290</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Garrido, A., Lepailleur, A., Mignani, S. M., Dallemagne, P. &amp; Rochais, C. hERG toxicity assessment: Useful guidelines for drug design. Eur. J. Medicinal Chem. 195, 112290 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Development of safe drugs: the hERG challenge</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kalyaanamoorthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Barakat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Medicinal Res. Rev</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="525" to="555" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kalyaanamoorthy, S. &amp; Barakat, K. H. Development of safe drugs: the hERG challenge. Medicinal Res. Rev. 38, 525-555 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Lead compound optimization strategy (5)-reducing the hERG cardiac toxicity in drug development</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Yao xue xue bao= Acta Pharmaceutica Sin</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="1530" to="1539" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhou, S., Wang, J. &amp; Liu, H. Lead compound optimization strategy (5)-reducing the hERG cardiac toxicity in drug development. Yao xue xue bao= Acta Pharmaceutica Sin. 51, 1530-1539 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Design of bivalent ligands using hydrogen bond linkers: synthesis and evaluation of inhibitors for human β-tryptase</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Vaz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioorg. Medicinal Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="6053" to="6056" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vaz, R. J. et al. Design of bivalent ligands using hydrogen bond linkers: synthesis and evaluation of inhibitors for human β-tryptase. Bioorg. Medicinal Chem. Lett. 14, 6053-6056 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Fluoroethoxy-1, 4-diphenethylpiperidine and piperazine derivatives: Potent and selective inhibitors of [3H] dopamine uptake at the vesicular monoamine transporter-2</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Hankosky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioorg. Medicinal Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="5467" to="5472" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hankosky, E. R. et al. Fluoroethoxy-1, 4-diphenethylpiperidine and piperazine derivatives: Potent and selective inhibitors of [3H] dopamine uptake at the vesicular monoamine transporter-2. Bioorg. Medicinal Chem. Lett. 27, 5467-5472 (2017).</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Antagonists of human CCR5 receptor containing 4-(pyrazolyl) piperidine side chains. Part 3: SAR studies on the benzylpyrazole segment</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioorg. Medicinal Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="947" to="952" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shu, M. et al. Antagonists of human CCR5 receptor containing 4- (pyrazolyl) piperidine side chains. Part 3: SAR studies on the ben- zylpyrazole segment. Bioorg. Medicinal Chem. Lett. 14, 947-952 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">NR2B-selective N-methyl-D-aspartate antagonists: synthesis and evaluation of 5-substituted benzimidazoles</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Mccauley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Medicinal Chem</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="2089" to="2096" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McCauley, J. A. et al. NR2B-selective N-methyl-D-aspartate antagonists: synthesis and evaluation of 5-substituted benzimida- zoles. J. Medicinal Chem. 47, 2089-2096 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Quantitative evaluation of explainable graph neural networks for molecular property prediction</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Patterns</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">100628</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rao, J., Zheng, S., Lu, Y. &amp; Yang, Y. Quantitative evaluation of explainable graph neural networks for molecular property predic- tion. Patterns 3, 100628 (2022).</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence uncovers carcinogenic human metabolites</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mittal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1204" to="1213" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mittal, A. et al. Artificial intelligence uncovers carcinogenic human metabolites. Nat. Chem. Biol. 18, 1204-1213 (2022).</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Improvement in aqueous solubility in small molecule drug discovery programs by disruption of molecular planarity and symmetry</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ishikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hashimoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Medicinal Chem</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="1539" to="1554" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ishikawa, M. &amp; Hashimoto, Y. Improvement in aqueous solubility in small molecule drug discovery programs by disruption of mole- cular planarity and symmetry. J. Medicinal Chem. 54, 1539-1554 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">ESOL: estimating aqueous solubility directly from molecular structure</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Delaney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Inf. computer Sci</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="1000" to="1005" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Delaney, J. S. ESOL: estimating aqueous solubility directly from molecular structure. J. Chem. Inf. computer Sci. 44, 1000-1005 (2004).</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Recent advances on aqueous solubility prediction</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Combinatorial Chem. high. throughput Screen</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="328" to="338" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, J. &amp; Hou, T. Recent advances on aqueous solubility predic- tion. Combinatorial Chem. high. throughput Screen. 14, 328-338 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">A self-attention based message passing neural network for predicting molecular lipophilicity and aqueous solubility</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cheminformatics</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tang, B. et al. A self-attention based message passing neural net- work for predicting molecular lipophilicity and aqueous solubility. J. Cheminformatics 12, 1-9 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Deep architectures and deep learning in chemoinformatics: the prediction of aqueous solubility for drug-like molecules</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lusci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pollastri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Baldi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Inf. Modeling</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="1563" to="1575" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lusci, A., Pollastri, G. &amp; Baldi, P. Deep architectures and deep learning in chemoinformatics: the prediction of aqueous solubility for drug-like molecules. J. Chem. Inf. Modeling 53, 1563-1575 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Drug solubility: importance and enhancement techniques</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Savjani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Gajjar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Savjani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Scholarly Research Notices</title>
+		<imprint>
+			<date type="published" when="2012">2012. 2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Savjani, K. T., Gajjar, A. K. &amp; Savjani, J. K. Drug solubility: importance and enhancement techniques. International Scholarly Research Notices 2012 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Mining toxicity information from large amounts of toxicity data</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Medicinal Chem</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="6924" to="6936" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wu, Z. et al. Mining toxicity information from large amounts of toxicity data. J. Medicinal Chem. 64, 6924-6936 (2021).</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Comparison of in silico models for prediction of mutagenicity</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Bakhtyari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Raitano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Benfenati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Young</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Environ. Sci. Health, Part C</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="45" to="66" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bakhtyari, N. G., Raitano, G., Benfenati, E., Martin, T. &amp; Young, D. Comparison of in silico models for prediction of mutagenicity. J. Environ. Sci. Health, Part C. 31, 45-66 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">In silico prediction of chemical Ames mutagenicity</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Inf. Modeling</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="2840" to="2847" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xu, C. et al. In silico prediction of chemical Ames mutagenicity. J. Chem. Inf. Modeling 52, 2840-2847 (2012).</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Benchmark data set for in silico prediction of Ames mutagenicity</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hansen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Inf. Modeling</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="2077" to="2081" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hansen, K. et al. Benchmark data set for in silico prediction of Ames mutagenicity. J. Chem. Inf. Modeling 49, 2077-2081 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Universal approach for structural interpretation of QSAR/QSPR models</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Polishchuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">E</forename><surname>Kuz'min</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Artemenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">N</forename><surname>Muratov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Inform</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="843" to="853" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Polishchuk, P. G., Kuz&apos;min, V. E., Artemenko, A. G. &amp; Muratov, E. N. Universal approach for structural interpretation of QSAR/QSPR models. Mol. Inform. 32, 843-853 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Derivation and validation of toxicophores for mutagenicity prediction</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kazius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mcguire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bursi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. medicinal Chem</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="312" to="320" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kazius, J., McGuire, R. &amp; Bursi, R. Derivation and validation of tox- icophores for mutagenicity prediction. J. medicinal Chem. 48, 312-320 (2005).</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Development of structural alerts for the in vivo micronucleus assay in rodents</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Benigni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bossa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Tcheremenskaia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Worth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EUR</title>
+		<imprint>
+			<biblScope unit="volume">23844</biblScope>
+			<biblScope unit="page" from="1" to="43" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Benigni, R., Bossa, C., Tcheremenskaia, O. &amp; Worth, A. Development of structural alerts for the in vivo micronucleus assay in rodents. EUR 23844 EN, 1-43 (2009).</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Mechanism-based insights into removing the mutagenicity of aromatic amines by small structural alterations</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Shamovsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Medicinal Chem</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="8545" to="8563" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shamovsky, I. et al. Mechanism-based insights into removing the mutagenicity of aromatic amines by small structural alterations. J. Medicinal Chem. 64, 8545-8563 (2021).</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Recent developments in computational prediction of HERG blockage</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Top. Medicinal Chem</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1317" to="1326" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, S., Li, Y., Xu, L., Li, D. &amp; Hou, T. Recent developments in computational prediction of HERG blockage. Curr. Top. Medicinal Chem. 13, 1317-1326 (2013).</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">How can we improve our understanding of cardiovascular safety liabilities to develop safer medicines?</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Laverty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br. J. Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">163</biblScope>
+			<biblScope unit="page" from="675" to="693" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Laverty, H. et al. How can we improve our understanding of cardi- ovascular safety liabilities to develop safer medicines? Br. J. Phar- macol. 163, 675-693 (2011).</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">In silico prediction of hERG inhibition</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Easter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Enyedy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Future Medicinal Chem</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="571" to="586" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jing, Y., Easter, A., Peters, D., Kim, N. &amp; Enyedy, I. J. In silico pre- diction of hERG inhibition. Future Medicinal Chem. 7, 571-586 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Pred-hERG: a novel web-accessible computational tool for predicting cardiac toxicity</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Braga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Inform</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="698" to="701" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Braga, R. C. et al. Pred-hERG: a novel web-accessible computational tool for predicting cardiac toxicity. Mol. Inform. 34, 698-701 (2015).</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">a deep learning framework for prediction of hERG-induced cardiotoxicity</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Ryu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-S</forename><surname>Oh</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Deephit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="3049" to="3055" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ryu, J. Y., Lee, M. Y., Lee, J. H., Lee, B. H. &amp; Oh, K.-S. DeepHIT: a deep learning framework for prediction of hERG-induced cardiotoxicity. Bioinformatics 36, 3049-3055 (2020).</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Blood-brain barrier penetration prediction enhanced by uncertainty estimation</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Tong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cheminformatics</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tong, X. et al. Blood-brain barrier penetration prediction enhanced by uncertainty estimation. J. Cheminformatics 14, 1-15 (2022).</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Prediction of blood-brain barrier penetration (bbbp) based on molecular descriptors of the free-form and in-blood-form datasets</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sakiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fukuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Okuno</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecules</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page">7428</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sakiyama, H., Fukuda, M. &amp; Okuno, T. Prediction of blood-brain barrier penetration (bbbp) based on molecular descriptors of the free-form and in-blood-form datasets. Molecules 26, 7428 (2021).</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">MoleculeNet: a benchmark for molecular machine learning</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="513" to="530" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wu, Z. et al. MoleculeNet: a benchmark for molecular machine learning. Chem. Sci. 9, 513-530 (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Molecular graph convolutions: moving beyond fingerprints</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kearnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mccloskey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Berndl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Pande</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Riley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Computer-aided Mol. Des</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="595" to="608" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kearnes, S., McCloskey, K., Berndl, M., Pande, V. &amp; Riley, P. Mole- cular graph convolutions: moving beyond fingerprints. J. Computer-aided Mol. Des. 30, 595-608 (2016).</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Graph Attention Networks</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Veličković</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Learning Representations</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Veličković, P. et al. Graph Attention Networks. In: International Conference on Learning Representations (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Pushing the boundaries of molecular representation for drug discovery with the graph attention mechanism</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xiong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Medicinal Chem</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="8749" to="8760" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xiong, Z. et al. Pushing the boundaries of molecular representation for drug discovery with the graph attention mechanism. J. Medicinal Chem. 63, 8749-8760 (2019).</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Modeling relational data with graph convolutional networks</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schlichtkrull</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Kipf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bloem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rvd</forename><surname>Berg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Titov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Welling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">European semantic web conference</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schlichtkrull, M., Kipf, T. N., Bloem, P., Berg, Rvd., Titov, I., &amp; Well- ing, M. Modeling relational data with graph convolutional networks. In: European semantic web conference) Springer (2018).</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Chemistry-intuitive explanation of graph neural networks for molecular property prediction with substructure masking</title>
+		<author>
+			<persName><forename type="first">Wu</forename><surname>Zhenxing</surname></persName>
+		</author>
+		<idno type="DOI">10.5281/zenodo.7707093</idno>
+		<ptr target="https://doi.org/10.5281/zenodo.7707093" />
+	</analytic>
+	<monogr>
+		<title level="m">Substructure-Mask-Explanation</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhenxing, Wu. et al. Chemistry-intuitive explanation of graph neural networks for molecular property prediction with substructure masking. Substructure-Mask-Explanation. https://doi.org/10.5281/ zenodo.7707093 (2022).</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

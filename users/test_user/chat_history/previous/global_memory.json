@@ -1,0 +1,107 @@
+[
+    {
+        "角色": "用户",
+        "内容": "这是很多篇文献摘要，请总结一下这里面的研究领域有哪些，请问里面涉及哪些具体的酶的类型（如金属蛋白酶、β-内酰胺酶、超氧化物歧化酶），哪种金属在酶中最为广泛？文档里面设计哪些具体研究方法和技术？请按出现频率多到少排序输出。然后你们可以聊一聊，这个领域已经取得了什么进展，未来有什么可以做的有价值的研究？尤其是，我们是做计算的，使用分子模拟或人工智能的技术有何可为？\\\\nA large fraction of metalloenzymes harbors multiple metal-centers that are electronically and/or functionally arranged within their proteinaceous environments. To explore the orchestration of inorganic and biochemical components and to develop bioinorganic catalysts and materials, we have described selected examples of artificial metalloproteins having multiple metallocofactors that were grouped depending on their initial protein scaffolds, the nature of introduced inorganic moieties, and the method used to propagate the number of metal ions within a protein. They demonstrated that diverse inorganic moieties can be selectively grafted and modulated in protein environments, providing a retrosynthetic bottom-up approach in the design of versatile and proficient biocatalysts and biomimetic model systems to explore fundamental questions in bioinorganic chemistry.\\t\\\\n Metalloproteins and metalloenzymes play important roles in biological systems by using the limited metal ions, complexes, and clusters that are associated with the protein matrix. The design of artificial metalloproteins and metalloenzymes not only reveals the structure and function relationship of natural proteins, but also enables the synthesis of artificial proteins and enzymes with improved properties and functions. Acknowledging the progress in rational design from single to multiple active sites, this review focuses on recent achievements in the design of artificial metalloproteins and metalloenzymes with metal clusters, including zinc clusters, cadmium clusters, iron-sulfur clusters, and copper-sulfur clusters, as well as noble metal clusters and others. These metal clusters were designed in both native and de novo protein scaffolds for structural roles, electron transfer, or catalysis. Some synthetic metal clusters as functional models of native enzymes are also discussed. These achievements provide valuable insights for deep understanding of the natural proteins and enzymes, and practical clues for the further design of artificial enzymes with functions comparable or even beyond those of natural counterparts.\\\\nNoncovalent weak interactions [hydrophobic interaction and hydrogen (H)-bond] play crucial roles in controlling the functions of biomolecules, and thus have been used to design artificial metalloproteins/metalloenzymes during the past few decades. In this review, we focus on the recent progresses in protein design by tuning the noncovalent interactions, including hydrophobic and H-bonding interactions. The topics include redesign and reuse of the heme pocket and other protein scaffolds, design of the heme protein interface, and de novo design of metalloproteins. The informations not only give insights into the metalloenzyme reaction mechanisms but also provide new reactions for future applications.\\\\n Artificial metalloenzymes result from the insertion of a catalytically active metal complex into a biological scaffold, generally a protein devoid of other catalytic functionalities. As such, their design requires efforts to engineer substrate binding, in addition to accommodating the artificial catalyst. Here we constructed and characterised artificial metalloenzymes using alcohol dehydrogenase as starting point, an enzyme which has both a cofactor and a substrate binding pocket. A docking approach was used to determine suitable positions for catalyst anchoring to single cysteine mutants, leading to an artificial metalloenzyme capable to reduce both natural cofactors and the hydrophobic 1-benzylnicotinamide mimic. Kinetic studies revealed that the new construct displayed a Michaelis-Menten behaviour with the native nicotinamide cofactors, which were suggested by docking to bind at a surface exposed site, different compared to their native binding position. On the other hand, the kinetic and docking data suggested that a typical enzyme behaviour was not observed with the hydrophobic 1-benzylnicotinamide mimic, with which binding events were plausible both inside and outside the protein. This work demonstrates an extended substrate scope of the artificial metalloenzymes and provides information about the binding sites of the nicotinamide substrates, which can be exploited to further engineer artificial metalloenzymes for cofactor regeneration. SYNOPSIS ABOUT GRAPHICAL ABSTRACT: The manuscript provides information on the design of artificial metalloenzymes based on the bioconjugation of rhodium complexes to alcohol dehydrogenase, to improve their ability to reduce hydrophobic substrates. The graphical abstract presents different binding modes and results observed with native cofactors as substrates, compared to the hydrophobic benzylnicotinamide. \\\\n Protein design: toward functional metalloenzymes \\\\n Heteronuclear metalloenzymes catalyze some of the most fundamentally interesting and practically useful reactions in nature. However, the presence of two or more metal ions in close proximity in these enzymes makes them more difficult to prepare and study than homonuclear metalloenzymes. To meet these challenges, heteronuclear metal centers have been designed into small and stable proteins with rigid scaffolds to understand how these heteronuclear centers are constructed and the mechanism of their function. This chapter describes methods for designing heterobinuclear metal centers in a protein scaffold by giving specific examples of a few heme-nonheme bimetallic centers engineered in myoglobin and cytochrome c peroxidase. We provide step-by-step procedures on how to choose the protein scaffold, design a heterobinuclear metal center in the protein scaffold computationally, incorporate metal ions into the protein, and characterize the resulting metalloproteins, both structurally and functionally. Finally, we discuss how an initial design can be further improved by rationally tuning its secondary coordination sphere, electron/proton transfer rates, and the substrate affinity.",
+        "阶段": "用户提问"
+    },
+    {
+        "角色": "Biophysist",
+        "内容": "### 总结\n\n本研究领域集中在生物无机化学和人工酶设计，涉及金属离子在生物体系中的作用及其催化功能。主要研究方向包括蛋白质折叠与设计、蛋白质-金属相互作用、以及优化非共价相互作用。 \n\n**金属酶类型**涵盖锌簇酶、铜-硫簇酶、铁硫簇酶及人工和异核金属酶，其中锌离子是最常见的活性中心。\n\n**研究方法与技术**采用分子模拟、对接技术、动力学研究、蛋白质工程和结构表征等，以设计和优化金属酶的结构与功能。\n\n**领域进展**包括开发多种金属簇的人工酶，显示优于天然酶的催化性能，并加深了对酶结构与功能关系的理解。\n\n**未来研究方向**建议集中于改良设计中的非共价相互作用、探索新型金属-蛋白质复合物、以及利用分子模拟与人工智能加速新型人工酶的发现，进而推动生物医学、环境和工业应用的进步。",
+        "阶段": "First_Answer"
+    },
+    {
+        "角色": "Computer Scientist",
+        "内容": "本研究领域重点关注金属酶及其相应的蛋白质，包括金属离子对其结构与功能的影响。主要研究方向包括人工金属酶的设计、生物无机化学、非共价相互作用及蛋白质工程，涉及多种酶如金属蛋白酶、异核金属酶和含铁、锌和铜等簇的酶。其中，锌和铁是最常见的金属元素。\n\n研究方法上，分子模拟与计算设计技术应用广泛，其次是非共价相互作用的调节、酶动力学研究和底物结合位点设计。未来研究可集中在量子计算与分子模拟结合、多金属中心的设计、机器学习在酶设计的应用，以及生物分子系统的模块化研究。\n\n整体而言，该领域因计算与人工智能进步而充满活力，未来存在诸多尚待探索的研究方向与潜力。",
+        "阶段": "First_Answer"
+    },
+    {
+        "角色": "Tingjun Hou_Simulator",
+        "内容": "总结如下：\n\n### 研究领域\n1. **金属蛋白和金属酶**：探讨金属位点在生化反应中的角色。\n2. **计算药物设计**：运用计算化学和分子模拟优化金属酶及其底物。\n3. **人造金属酶**：构建具催化活性的人造金属酶，通过将金属复合物整合进生物支架。\n4. **非共价相互作用在蛋白质设计中的应用**：研究非共价相互作用对金属蛋白设计的影响。\n5. **多金属中心的设计**：关注蛋白质中的多金属中心设计和功能。\n6. **药物候选化合物的药物相似性研究**：研究天然产物的药物相似性及其药物开发价值。\n\n### 涉及的具体酶类型\n- **金属蛋白**（如铁硫蛋白、铜硫蛋白、锌类、铂类等）\n- **人工金属酶**（如酒精脱氢酶变体）\n- **异金属酶**（含有多个金属的酶）\n\n### 主要金属\n- **锌**：作为许多金属酶的结构或催化中心。\n- **铁**：常见于铁硫簇中。\n- **铜**：参与重要的催化反应，如氧化还原。\n\n### 研究方法和技术\n1. **计算模型和分子对接**\n2. **电势计算**\n3. **同源建模**\n4. **动力学研究**\n5. **非共价相互作用分析**\n\n### 领域进展与未来研究\n- **进展**：\n   - 建立了金属位点的设计理念，推动人造金属酶的发展。\n   - 加深了对非共价相互作用的理解，增强设计控制能力。\n   - 计算药物设计技术提升了药物发现效率。\n\n- **未来研究方向**：\n   - 开发新型人造金属酶，提高底物特异性和催化效率。\n   - 采用人工智能加速金属酶的发掘与优化。\n   - 深入研究金属酶的反应机制，理解其催化路径。\n   - 探索天然产物的药用潜力，结合计算化学技术筛选候选化合物。\n\n### 计算和分子模拟的潜力\n- 加速分子设计，优化金属中心。\n- 绘制复杂反应机制。\n- 利用机器学习挖掘潜在催化剂。\n\n综上所述，这些研究方向及方法将推动金属酶领域的发展，并促进新药物的发现和开发。",
+        "阶段": "First_Answer"
+    },
+    {
+        "角色": "Initiator",
+        "内容": "提问者对Biophysist提问: 在人工金属酶的设计过程中，您认为哪些具体的非共价相互作用是最关键的，它们如何能够影响金属中心的催化效率？",
+        "阶段": "Initiator_Question1"
+    },
+    {
+        "角色": "Biophysist",
+        "内容": "在设计人工金属酶的过程中，非共价相互作用对金属中心的催化效率具有重要影响。关键相互作用包括：\n\n1. **氢键**：增强金属中心及其配体的稳定性，优化底物结合，提升催化速率。\n2. **静电相互作用**：影响金属的几何配位和电子状态，改善底物亲和力和转化效率。\n3. **范德华力**：维持金属中心的几何构型和酶构象，提升催化性能。\n4. **疏水作用**：稳定酶的三维结构，促进底物接近催化位点，提高反应效率。\n5. **π-π叠加作用**：增强芳香族氨基酸之间的相互作用，影响金属配体的稳定性和电子特性。\n\n综上所述，通过优化和调控这些非共价相互作用，可以设计出具有更高催化效率和选择性的人工金属酶。实现这一目标需结合分子动力学模拟与实验验证。",
+        "阶段": "Initiator_Question1"
+    },
+    {
+        "角色": "Computer Scientist",
+        "内容": "该讨论深入探讨了人工金属酶设计中非共价相互作用的重要性，主要观点包括：\n\n1. **数据驱动设计**：人工金属酶设计依赖数据驱动的方法，如机器学习和人工智能，以识别和优化非共价相互作用。\n\n2. **分子动力学模拟**：结合经典力场和量子化学计算的分子动力学模拟是研究非共价相互作用的关键工具，有助于分析金属中心的动态行为。\n\n3. **结构预测及优化**：使用计算机辅助的结构预测工具（如同源建模和分子对接）加速设计，并帮助理解各种相互作用对催化效率的影响。\n\n4. **实验验证**：计算模型需通过实验验证其准确性，实验反馈可以进一步优化模型，实现更闭环的设计流程。\n\n5. **多尺度模拟**：考虑多个尺度的模拟（从微观到宏观）可以提供更全面的理解，涵盖分子相互作用到整体酶动力学行为。\n\n6. **拓展因素**：除了非共价相互作用，还应考虑金属分类、配体空间构型及溶液环境pH等因素对催化效率的影响。\n\n综合来看，讨论强调了非共价相互作用在人工金属酶设计中的重要性，并指出结合现代计算工具与实验研究可提升设计的准确性与效率。",
+        "阶段": "Initiator_Question1"
+    },
+    {
+        "角色": "Initiator",
+        "内容": "提问者对Tingjun Hou_Simulator提问: 在讨论人工金属酶的设计时，您对于多金属中心的研究似乎呈现出一种草率的态度。您的文献中有关异核酶的设计方法缺乏详细的实证支持，很多创新想法也未经过严格的测试和验证，这样的做法不仅无法推动领域的发展，反而可能导致误导其他研究者。您是否有反思过自己在这一领域的深度与严谨性？",
+        "阶段": "Initiator_Question1"
+    },
+    {
+        "角色": "Tingjun Hou_Simulator",
+        "内容": "感谢对研究的反馈，认识到在多金属中心和异核酶设计方法上的文献深度和严谨性不足。科学研究需严谨的实证支持，不能单靠创新想法。将认真反思研究方法，注重提供全面实验数据和科学解释，并寻求同行反馈以保证假设和结果的可靠性。期待通过严格研究和验证，为人工金属酶研究的进展贡献力量。",
+        "阶段": "Initiator_Question1"
+    },
+    {
+        "角色": "Initiator",
+        "内容": "提问者对Tingjun Hou_Simulator提问: 你的文献中对于多金属中心的研究似乎显得非常草率，缺乏必要的实证支持。你的设计方法基本上是在缺乏严谨测试的情况下提出的，这种做法不仅有可能误导其他研究者，而且完全无法推动这一领域的进步。你是否考虑过反思自己在这一领域的真实贡献与可信度？",
+        "阶段": "Initiator_Question2"
+    },
+    {
+        "角色": "Tingjun Hou_Simulator",
+        "内容": "Hou Tingjun 对评论者的反馈表示感谢，并重视关于多金属中心研究中的实证支持和研究设计的重要性。他承认在研究中可能未提供充分的实证数据，并承诺会反思方法和数据的有效性，以确保未来研究的严谨性。同时，他计划在文献中进一步解释研究设计，并进行深入实验验证。他强调每位研究者都有责任推动科学进步，并希望能收集到更具体的建议，以改进自己的研究，推动多金属中心的研究更趋严格。",
+        "阶段": "Initiator_Question2"
+    },
+    {
+        "角色": "Tingjun Hou_Simulator",
+        "内容": "总结：\n\n讨论中强调了在优化人工金属酶设计中针对非共价相互作用的实施方案具备的创新性，并提出了以下建议以提升研究的针对性与可行性：\n\n1. **明确实际问题与创新性**：\n   - 需清晰阐述当前金属酶设计的局限性，如催化效率低和特异性不足，并强调非共价相互作用在改善这些问题中的重要性。\n   - 强调分子动力学模拟与机器学习结合的独特应用，以应对传统方法的不足，并说明高通量筛选在设计进程中的优势。\n\n2. **进一步明确实验计划**：\n   - 具体化实验步骤及目标，包括选择目标金属酶的理由、分子动力学模拟的详细参数、机器学习模型的选择及训练数据的获取方式。\n   - 对突变体的设计需提供具体类型及其预期影响。\n\n3. **验证假设与实验设计的漏洞**：\n   - 列出可检验假设，如突变对非共价作用的影响与催化效率的相关性，并关注可能的副作用。\n   - 考虑机器学习模型的训练和测试数据的平衡性，以避免过拟合，并在实验验证中设计多个实验以全面捕捉非共价相互作用的影响。\n   - 建议实施迭代反馈机制，根据实验结果不断优化模型和策略。\n\n通过以上建议，研究将更具操作性和科学价值，有助于在提交顶级期刊前展示其重要性。",
+        "阶段": "Idea Boost"
+    },
+    {
+        "角色": "Tingjun Hou_Simulator",
+        "内容": "本讨论提出了一项关于优化人工金属酶设计的研究计划，重点在于改进非共价相互作用以提高催化效率。当前面临的挑战包括非共价相互作用的复杂性和缺乏系统性调控手段，导致人工金属酶的催化效率低、特异性差和稳定性不足。研究将利用分子动力学模拟和机器学习技术，系统识别并优化重要的非共价相互作用，结合计算方法与实验结果，推动药物酶的高效设计。\n\n实验计划包括以下步骤：\n1. 选择一款典型的目标人工金属酶，以确保研究的可行性和基础；\n2. 进行初步分子动力学模拟，识别非共价相互作用及其在催化机制中的作用；\n3. 应用机器学习算法分析非共价相互作用对催化效率的影响；\n4. 根据分析结果设计新的金属酶突变体，以优化非共价相互作用；\n5. 通过实验验证新设计金属酶的催化效率，并在此基础上迭代调整模型和突变策略。\n\n这一研究旨在通过系统性的优化方法提升人工金属酶的性能，并推动相应领域的研究发展。",
+        "阶段": "Idea Boost"
+    },
+    {
+        "角色": "Tingjun Hou_Simulator",
+        "内容": "总结：\n\n该讨论强调了利用量子计算技术深入研究金属酶反应机制与催化路径的创新性和潜在应用价值。专业评审提出了以下建议：\n\n1. **明晰问题背景与创新性**：在引言中需明确金属酶研究中的具体挑战，如传统计算方法在复杂配位环境下的局限性，并突出量子计算如何克服这些挑战，优化金属酶催化效果。\n\n2. **具体可行的实验计划**：选择具有详尽结构的经典金属酶进行研究，明确量子计算方法与所需资源，同时提出将量子计算预测与实验结果结合的验证步骤。\n\n3. **验证假设与实验设计**：清晰列出假设并提供文献支持，设计模拟实验以强化理论与实验的联系，并制定应对实验限制的备选方案。\n\n通过细化问题与创新、明确实验设计及验证步骤，此研究有望在顶级期刊上发表，推动该领域的进一步发展。",
+        "阶段": "Idea Boost"
+    },
+    {
+        "角色": "Tingjun Hou_Simulator",
+        "内容": "本研究旨在利用量子计算技术深入探讨金属酶的反应机制和催化路径，面对传统计算方法在金属配位环境处理上的高成本与低效率问题，量子计算将提供更高的精确度和有效性。研究将选择结构和反应机制已知的金属酶（如过氧化氢酶或尿酸酶）作为研究对象，采用量子蒙特卡洛或变分量子特征求解器进行模拟，并结合传统分子模拟结果分析其新信息对反应机制的影响。此外，研究还将设计实验验证关键氨基酸的作用，并制定备选方案以应对实验潜在挑战。最终目标是通过量子计算优化金属酶的催化效果，提高其在工业和医药领域的应用效率。",
+        "阶段": "Idea Boost"
+    },
+    {
+        "角色": "Tingjun Hou_Simulator",
+        "内容": "讨论总结：\n\n该研究提议了开发新型多金属中心人工酶的潜力，尤其在催化领域的前景。然而，为提升研究的清晰度和创新性，以及增强实验的可行性，以下建议被提出：\n\n1. **明确问题与创新性**：\n   - 阐述多金属酶在催化中的局限性，如单金属酶的低效率和选择性。\n   - 突显多金属中心相较于单金属酶的具体优势，并结合已有数据支持该观点。\n   - 详细说明人工智能在多金属中心发现与优化中的具体应用，提供实际案例。\n\n2. **具体化实验计划**：\n   - 选择适合的蛋白质骨架，提供其来源和催化机制细节。\n   - 明确计算方法，如分子动态模拟和量子化学计算，及其在催化潜力评估中的应用。\n   - 计划实验合成和表征手段，如重组DNA、UV-Vis光谱等，列出常用的评估方法。\n   - 建立数据收集与分析流程，利用数据优化设计。\n\n3. **验证假设及考虑漏洞**：\n   - 确保提出的假设有充分文献支持，并验证多金属中心的催化性能。\n   - 考虑实验设计时的潜在漏洞，如反应中间体问题，并建议采用鲁棒技术确保实验可靠性。\n   - 提议进行单金属对照实验，研究不同金属组合对催化效果的影响。\n\n以上建议旨在帮助研究者进一步完善其研究设计，从而提升其可行性和创新性。",
+        "阶段": "Idea Boost"
+    },
+    {
+        "角色": "Tingjun Hou_Simulator",
+        "内容": "该项目旨在开发一种新型多金属中心的人工酶，克服当前单金属酶在催化效率、选择性和适应范围方面的不足。通过文献调研，项目将探讨这些问题对工业催化和生物转化的影响，并强调多金属中心在催化活性和条件适应性方面的优势。研究方法包括结合生物合成与计算设计，利用人工智能和深度学习技术优化催化反应。\n\n实验计划包括四个步骤：\n1. 选择合适的蛋白质骨架，提供潜在的蛋白质模板信息及其催化机制和结构特点。\n2. 采用分子动力学模拟和量子化学计算预测多金属中心的结构和催化潜力，并设定评价标准。\n3. 实验合成多金属酶，利用重组DNA技术及多种表征技术（如UV-Vis光谱、NMR和X射线晶体学）来确定其结构和功能。\n4. 评估多金属酶在催化反应中的表现，建立数据收集与分析流程，并通过机器学习算法优化催化性能，还计划与单金属对照实验比较不同金属组合对催化效果的影响。",
+        "阶段": "Idea Boost"
+    },
+    {
+        "角色": "Tingjun Hou_Simulator",
+        "内容": "本评审总结了对您Idea的评价和建议，重点包含以下几个方面：\n\n1. **实际问题与创新性**：\n   - 需明确传统金属酶筛选方法（如高通量筛选）的不足之处，强调机器学习在改进筛选流程中的必要性。突出深度学习在复杂数据处理和特征选择中的优势，并引用相关文献支持创新性。\n\n2. **实验计划具体化**：\n   - 明确数据来源，包括公开数据库和文献，确保数据多样性。详细说明选择的深度学习算法及其适用性，并制定严谨的模型验证计划，包括交叉验证和比较已知酶的测试。\n\n3. **假设验证与设计调整**：\n   - 设计控制实验以验证机器学习的有效性，检查实验设计中的潜在漏洞并寻求解决方案。建议进行小规模实验以测试算法的实际应用效果，并据此调整策略。\n\n总体而言，您的Idea显示出利用机器学习提升金属酶筛选效率的巨大潜力，希望以上建议有助于您明确目标，制定全面的实验计划，并确保研究设计的有效性。期待您的后续进展与讨论！",
+        "阶段": "Idea Boost"
+    },
+    {
+        "角色": "Tingjun Hou_Simulator",
+        "内容": "本项目计划运用机器学习技术，特别是深度学习模型，筛选和预测潜在催化活性的金属酶，以克服传统实验方法在时间成本、效率和准确性上的局限。具体步骤包括：\n\n1. 收集公开的金属酶数据集，确保数据的多样性与全面性。\n2. 选择适合金属酶性能预测的深度学习算法并验证其优越性。\n3. 通过k折交叉验证等方法建立和评估模型的准确性。\n4. 依据预测结果挑选金属酶进行实验验证，并设计实验方案。\n5. 在实验过程中迭代优化模型，以提升预测效果和效率。\n\n最终目标是在一年内提高金属酶筛选效率30%以上，促进催化活性的发现和应用。",
+        "阶段": "Idea Boost"
+    },
+    {
+        "角色": "Tingjun Hou_Simulator",
+        "内容": "本讨论总结围绕“基于生物分子系统的模块化设计方法以构建灵活的人工金属酶平台”进行。评审员提出了以下建议：\n\n1. **清晰性与创新性**：\n   - 强调市场需求及人工金属酶的局限性，明确模块化设计如何提高灵活性，并通过案例分析现有设计的不足。\n   - 与传统设计方法对比，突出新方法在快速迭代与多功能性上的优势，指出其在制药、环境治理等领域的潜在应用。\n\n2. **实验计划明确化**：\n   - 细化模块类型及功能设计，阐明采用的生物工程技术及表达系统。\n   - 明确结构与功能表征所需的实验方法，以及模块优化的具体机制。\n\n3. **验证假设与实验设计漏洞识别**：\n   - 验证各模块的独立功能及组合效果，确保设计简化过程并提升催化活性。\n   - 关注模块间相互作用的潜在问题，建议进行小规模预筛选。\n\n总体而言，该提案在创新性和应用价值上具有潜力，推荐进一步清晰陈述实际问题、细化实验步骤并验证假设，以提升研究的严谨性及应用潜力。",
+        "阶段": "Idea Boost"
+    },
+    {
+        "角色": "Tingjun Hou_Simulator",
+        "内容": "本讨论探讨了一种基于生物分子系统的模块化设计方法，旨在构建灵活的人工金属酶平台。当前人工金属酶在制药、环境治理和生物催化等领域面临选择性不足和反应速度慢的局限性。通过模块化设计，可以快速重组不同功能模块，提高设计的灵活性与响应速度，以适应市场需求的变化。这种方法能够开发多种功能的人工金属酶，增强其应用的多样性与个性化，特别适用于工业中需要快速反应的场景。\n\n实验计划包括七个步骤：首先，设计功能模块并明确其功能，接着选择生物工程技术整合模块，随后进行结构与功能表征，基于实验数据进行优化，验证模块独立性，评估不同模块组合的效果，并加入小规模预筛选确保模块间的兼容性。这一系列步骤强调了模块化设计在人工金属酶开发中的创新性及其重要性。",
+        "阶段": "Idea Boost"
+    }
+]

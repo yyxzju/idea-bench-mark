@@ -1,0 +1,17 @@
+[
+    {
+        "Name": "System",
+        "question": "参与讨论的英雄名称",
+        "answer": [
+            "John Jumper_Simulator",
+            "Kenneth M. Merz Jr_Simulator",
+            "Michael Levitt_Simulator",
+            "David Baker_Simulator"
+        ]
+    },
+    {
+        "Name": "System",
+        "question": "提问者参与次数",
+        "answer": 2
+    }
+]

@@ -1,0 +1,39 @@
+{
+  "articles": [
+    {
+      "title": "Destructive extraction of phospholipids from Escherichia coli membranes by graphene nanosheets",
+      "authors": "Yusong Tu, Min Lv, Peng Xiu, Tien Huynh, Meng Zhang, Matteo Castelli, Zengrong Liu, Qing Huang, Chunhai Fan, Haiping Fang, Ruhong Zhou",
+      "summary": "Understanding how nanomaterials interact with cell membranes is critical for designing safer biomedical applications. This study shows that pristine graphene and graphene oxide nanosheets can induce the degradation of the inner and outer cell membranes of Escherichia coli, reducing their viability.",
+      "conclusion": "Graphene nanosheets can penetrate into and extract large amounts of phospholipids from cell membranes.",
+      "image": "/path/to/your/image1.png"
+    },
+    {
+      "title": "Patient HLA class I genotype influences cancer response to checkpoint blockade immunotherapy",
+      "authors": "Diego Chowell, Luc GT Morris, Claud M Grigg, Jeffrey K Weber, Robert M Samstein, Vladimir Makarov, Fengshen Kuo, Sviatoslav M Kendall, David Requena, Nadeem Riaz, Benjamin Greenbaum, James Carroll, Edward Garon, David M Hyman, Ahmet Zehir, David Solit, Michael Berger, Ruhong Zhou, Naiyer A Rizvi, Timothy A Chan",
+      "summary": "This study investigates the influence of patient-specific HLA-I genotype on response to immune checkpoint blockade therapy. It was found that maximal heterozygosity at HLA-I loci improved overall survival compared to patients homozygous for at least one HLA locus.",
+      "conclusion": "HLA-B44 supertype is associated with extended survival, while HLA-B62 is associated with poor outcome.",
+      "image": "/path/to/your/image2.png"
+    },
+    {
+      "title": "Binding of blood proteins to carbon nanotubes reduces cytotoxicity",
+      "authors": "Cuicui Ge, Jiangfeng Du, Lina Zhao, Liming Wang, Ying Liu, Denghua Li, Yanlian Yang, Ruhong Zhou, Yuliang Zhao, Zhifang Chai, Chunying Chen",
+      "summary": "The study explores the interaction of carbon nanotubes with human serum proteins and its implications for cytotoxicity. It reveals that protein binding to carbon nanotubes can significantly reduce their cytotoxicity.",
+      "conclusion": "The π-π stacking interactions between carbon nanotubes and aromatic residues play a crucial role in determining adsorption capacity.",
+      "image": "/path/to/your/image3.png"
+    },
+    {
+      "title": "Hydrophobic collapse in multidomain protein folding",
+      "authors": "Ruhong Zhou, Xuhui Huang, Claudio J Margulis, Bruce J Berne",
+      "summary": "This paper reports molecular dynamics simulations of the collapse of a two-domain protein, examining how water molecules mediate hydrophobic collapse of proteins.",
+      "conclusion": "Water depletion and hydrophobic collapse occur on a nanosecond time scale, significantly slower than idealized models.",
+      "image": "/path/to/your/image4.png"
+    },
+    {
+      "title": "The free energy landscape for β hairpin folding in explicit water",
+      "authors": "Ruhong Zhou, Bruce J Berne, Robert Germain",
+      "summary": "The folding free energy landscape of the C-terminal β hairpin of protein G is explored using molecular dynamics simulations, revealing insights into the formation of hydrophobic core and hydrogen bonds.",
+      "conclusion": "No significant helical content was found; the landscape transitions from rugged to smooth as temperature increases.",
+      "image": "/path/to/your/image5.png"
+    }
+  ]
+}

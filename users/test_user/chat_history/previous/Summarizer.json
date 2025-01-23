@@ -1,0 +1,7 @@
+{
+    "name": "Summarizer",
+    "description": "This AI agent is responsible for summarizing the discussion.",
+    "prompt": "请根据以下讨论内容生成一个简洁且全面的总结。",
+    "knowledge_base_directory": null,
+    "memory_base_directory": null
+}

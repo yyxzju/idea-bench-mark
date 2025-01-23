@@ -1,0 +1,93 @@
+{
+    "articles": [
+        {
+            "title": "A small molecule inhibitor of the UBE2F-CRL5 axis induces apoptosis and radiosensitization in lung cancer",
+            "authors": [
+                "Tiantian Xu",
+                "Qisheng Ma",
+                "Yanan Li",
+                "Qing Yu",
+                "Peichen Pan",
+                "Yawen Zheng",
+                "Zhijian Li",
+                "Xiufang Xiong",
+                "Tingjun Hou",
+                "Bin Yu",
+                "Hongmin Liu",
+                "Yi Sun"
+            ],
+            "citation_string": "Signal Transduction and Targeted Therapy 7 (1), 354, 2022",
+            "summary": "通过基于结构的虚拟筛选和化学优化首次发现小分子 HA-9104，其靶向 UBE2F，抑制 cullin-5 类泛素化，诱导细胞凋亡并造成 DNA 损伤及 G2/M 阻滞，能有效抑制肺癌细胞生长并具有放疗增敏作用。",
+            "link": "http://dx.doi.org/10.1038/s41392-022-01182-w",
+            "conclusion": "",
+            "image": ""
+        },
+        {
+            "title": "Structural insights into ligand recognition and activation of the melanocortin-4 receptor",
+            "authors": [
+                "Huibing Zhang",
+                "Li-Nan Chen",
+                "Dehua Yang",
+                "Chunyou Mao",
+                "Qingya Shen",
+                "Wenbo Feng",
+                "Dan-Dan Shen",
+                "Antao Dai",
+                "Shanshan Xie",
+                "Yan Zhou",
+                "Jiao Qin",
+                "Jin-Peng Sun",
+                "Daniel H Scharf",
+                "Tingjun Hou",
+                "Tianhua Zhou",
+                "Ming-Wei Wang",
+                "Yan Zhang"
+            ],
+            "citation_string": "Cell Research 31 (11), 1163-1175, 2021",
+            "summary": "报道了与 Gs 蛋白复合物状态下全长 MC4R 结合内源肽配体、FDA 批准药物及小分子配体的四个高分辨率结构，揭示了结合模式和激活机制，有助于发现靶向 MC4R 的选择性治疗剂。",
+            "link": "http://dx.doi.org/10.1038/s41422-021-00552-3",
+            "conclusion": "",
+            "image": ""
+        },
+        {
+            "title": "ADMETlab 2.0: an integrated online platform for accurate and comprehensive predictions of ADMET properties",
+            "authors": [
+                "Guoli Xiong",
+                "Zhenxing Wu",
+                "Jiacai Yi",
+                "Li Fu",
+                "Zhijiang Yang",
+                "Changyu Hsieh",
+                "Mingzhu Yin",
+                "Xiangxiang Zeng",
+                "Chengkun Wu",
+                "Aiping Lu",
+                "Xiang Chen",
+                "Tingjun Hou",
+                "Dongsheng Cao"
+            ],
+            "citation_string": "Nucleic acids research 49 (W1), W5-W14, 2021",
+            "summary": "发布 ADMETlab 2.0，用于预测化学品药代动力学和毒性特性，支持的相关端点约为上一版本两倍，采用多任务图注意力框架，增加了批量计算模块并优化结果展示，可免费访问。",
+            "link": "http://dx.doi.org/10.1093/nar/gkab255",
+            "conclusion": "",
+            "image": ""
+        },
+        {
+            "title": "HawkDock: a web server to predict and analyze the protein–protein complex based on computational docking and MM/GBSA",
+            "authors": [
+                "Gaoqi Weng",
+                "Ercheng Wang",
+                "Zhe Wang",
+                "Hui Liu",
+                "Feng Zhu",
+                "Dan Li",
+                "Tingjun Hou"
+            ],
+            "citation_string": "Nucleic acids research 47 (W1), W322-W330, 2019",
+            "summary": "本研究开发了免费开放的 HawkDock 网络服务器预测和分析蛋白质间相互作用（PPI）结构，整合多种算法，能更好预测 PPI 结构并识别关键残基，是强大的 PPI 研究工具，可免费访问 http://cadd.zju.edu.cn/hawkdock/。",
+            "link": "http://dx.doi.org/10.1093/nar/gkz397",
+            "conclusion": "",
+            "image": ""
+        }
+    ]
+}

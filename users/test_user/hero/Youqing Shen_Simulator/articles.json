@@ -1,0 +1,123 @@
+{
+    "articles": [
+        {
+            "title": "Shape memory polymer with programmable recovery onset",
+            "authors": [
+                "Chujun Ni",
+                "Di Chen",
+                "Yu Yin",
+                "Xin Wen",
+                "Xiaolan Chen",
+                "Chen Yang",
+                "Guancong Chen",
+                "Zhuo Sun",
+                "Jihang Wen",
+                "Yurong Jiao",
+                "Chunyang Wang",
+                "Ning Wang",
+                "Xiangxing Kong",
+                "Shihong Deng",
+                "Youqing Shen",
+                "Rui Xiao",
+                "Xiuming Jin",
+                "Jun Li",
+                "Xueqian Kong",
+                "Qian Zhao",
+                "Tao Xie"
+            ],
+            "citation_string": "Nature 622 (7984), 748-753, 2023",
+            "summary": "开发一种四维可打印形状记忆水凝胶，通过相分离实现自然触发且可主动控制的形状变化，其在自然环境温度下可形变且恢复起始可延迟并能编程控制，降低了设备实施的障碍。",
+            "link": "http://dx.doi.org/10.1038/s41586-023-06520-8",
+            "conclusion": "",
+            "image": ""
+        },
+        {
+            "title": "Enzyme-activatable polymer–drug conjugate augments tumour penetration and treatment efficacy",
+            "authors": [
+                "Quan Zhou",
+                "Shiqun Shao",
+                "Jinqiang Wang",
+                "Changhuo Xu",
+                "Jiajia Xiang",
+                "Ying Piao",
+                "Zhuxian Zhou",
+                "Qingsong Yu",
+                "Jianbin Tang",
+                "Xiangrui Liu",
+                "Zhihua Gan",
+                "Ran Mo",
+                "Zhen Gu",
+                "Youqing Shen"
+            ],
+            "citation_string": "Nature nanotechnology 14 (8), 799-809, 2019",
+            "summary": "提出γ-谷氨酰转肽酶响应的喜树碱-聚合物偶联物，可通过转胞吞作用主动渗透肿瘤组织，在小鼠模型中有强效抗肿瘤活性。",
+            "link": "http://dx.doi.org/10.1038/s41565-019-0485-z",
+            "conclusion": "",
+            "image": ""
+        },
+        {
+            "title": "Neural stem cells transfected with reactive oxygen species–responsive polyplexes for effective treatment of ischemic stroke",
+            "authors": [
+                "Xin‐Chi Jiang",
+                "Jia‐Jia Xiang",
+                "Hong‐Hui Wu",
+                "Tian‐Yuan Zhang",
+                "Dan‐Ping Zhang",
+                "Qian‐Hao Xu",
+                "Xiao‐Li Huang",
+                "Xiang‐Lei Kong",
+                "Ji‐Hong Sun",
+                "Yu‐Lan Hu",
+                "Kai Li",
+                "Yasuhiko Tabata",
+                "You‐Qing Shen",
+                "Jian‐Qing Gao"
+            ],
+            "citation_string": "Advanced Materials 31 (10), 1807591, 2019",
+            "summary": "研发出首个聚合物载体 B-PDEA，可实现神经干细胞高效基因转染，增强其对缺血性中风的治疗效果，转染后的细胞能更高效产生脑源性神经营养因子并提高小鼠存活率。",
+            "link": "http://dx.doi.org/10.1002/adma.201807591",
+            "conclusion": "",
+            "image": ""
+        },
+        {
+            "title": "Esterase‐Labile Quaternium Lipidoid Enabling Improved mRNA‐LNP Stability and Spleen‐Selective mRNA Transfection",
+            "authors": [
+                "Runnan Zhang",
+                "Shiqun Shao",
+                "Ying Piao",
+                "Jiajia Xiang",
+                "Xuyong Wei",
+                "Zhen Zhang",
+                "Zhuxian Zhou",
+                "Jianbin Tang",
+                "Nasha Qiu",
+                "Xiao Xu",
+                "Yanpeng Liu",
+                "Youqing Shen"
+            ],
+            "citation_string": "Advanced Materials 35 (46), 2303614, 2023",
+            "summary": "设计酯酶触发的可去阳离子化季铵脂质样分子用于开发新型脂质纳米颗粒，提高递送效率和储存稳定性，经优化的配方可在脾脏实现高效 mRNA 转染，用于癌症免疫治疗。",
+            "link": "http://dx.doi.org/10.1002/adma.202303614",
+            "conclusion": "",
+            "image": ""
+        },
+        {
+            "title": "High‐throughput screening of surface engineered cyanine nanodots for active transport of therapeutic antibodies into solid tumor",
+            "authors": [
+                "Yating Qin",
+                "Guowei Wang",
+                "Linying Chen",
+                "Yuji Sun",
+                "Jiajia Yang",
+                "Ying Piao",
+                "Youqing Shen",
+                "Zhuxian Zhou"
+            ],
+            "citation_string": "Advanced Materials 36 (9), 2302292, 2024",
+            "summary": "制备了一系列不同周边氨基酸的菁 5 核聚赖氨酸 G5 树枝状大分子纳米点，通过荧光高通量筛选评估其诱导细胞内吞、外排和跨细胞转运能力，优化后与αPD-L1 结合，用于治疗小鼠肿瘤，可增强肿瘤穿透能力、减少复发并延长生存期，为治疗性生物大分子高效递送至肿瘤提供了有前景的平台。",
+            "link": "http://dx.doi.org/10.1002/adma.202302292",
+            "conclusion": "",
+            "image": ""
+        }
+    ]
+}

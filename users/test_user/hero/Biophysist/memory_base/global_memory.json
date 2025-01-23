@@ -1,0 +1,32 @@
+[
+    {
+        "date": "2024.11.15",
+        "content": "Discussed the potential impact of quantum computing on artificial intelligence.",
+        "link": "/docs/quantum_ai_impact.pdf"
+    },
+    {
+        "date": "2024.11.16",
+        "content": "Reviewed the latest advancements in deep learning architectures.",
+        "link": "/docs/deep_learning_review.pdf"
+    },
+    {
+        "date": "2024.11.17",
+        "content": "Explored ethical considerations in AI deployment, focusing on bias mitigation.",
+        "link": "/docs/ai_ethics_bias.pdf"
+    },
+    {
+        "date": "2024.11.18",
+        "content": "Analyzed trends in edge computing and their implications for IoT systems.",
+        "link": "/docs/edge_computing_trends.pdf"
+    },
+    {
+        "date": "2024.11.19",
+        "content": "Summarized discussions on multimodal AI systems combining text and image inputs.",
+        "link": "/docs/multimodal_ai_summary.pdf"
+    },
+    {
+        "date": "2024.11.19",
+        "content": "Discussed AI advancements.",
+        "link": "/docs/ai_advancements.pdf"
+    }
+]
