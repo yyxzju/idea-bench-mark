@@ -1,0 +1,232 @@
+[
+    [
+        {
+            "title": {
+                "title": "开发具有Ni依赖性类黄酮氧化酶活性的人工金属蛋白"
+            },
+            "ideadetails": {
+                "problem_statement": {
+                    "research_background": "镍依赖性类黄酮氧化酶是一种重要的生物催化剂，但其功能和机制尚未完全理解。现有研究显示，通过引入非天然金属活性位点可以构建新功能的人工金属蛋白，但设计高选择性和高效性的Ni依赖性类黄酮氧化酶仍是一个关键问题。",
+                    "research_question": "如何设计一种人工金属蛋白，使其具有高效的Ni依赖性类黄酮氧化酶活性？",
+                    "significance_of_the_problem": "解决这一问题将有助于揭示镍酶的催化机制，并为开发新型人工金属酶提供理论和技术支持，推动类黄酮生物转化技术的发展。"
+                },
+                "motivation": {
+                    "limitations_of_existing_methods": "目前缺乏对金属适应性配位环境的设计及其对底物结合和催化效率影响的理解。",
+                    "advantages_of_the_new_method": "本研究采用定向进化和从头设计的方法优化tHisF变体，以实现高效的Ni依赖性类黄酮氧化酶活性。这不仅有助于理解镍酶的催化机制，还为其他类型人工金属酶的设计提供了新的思路。"
+                },
+                "proposedmethod": {
+                    "method_overview": "通过计算模拟和实验验证设计多种金属适应性配位位点，利用定向进化技术进一步优化tHisF变体的催化性能，解析优化后的tHisF变体的三维结构，评估其对不同类黄酮底物的催化活性。",
+                    "key_steps": "1. 设计与筛选最优的Ni依赖性配位环境；2. 通过定向进化提高催化性能；3. 解析优化后变体的三维结构；4. 进行酶促反应实验评估催化活性。",
+                    "theoretical_foundation": "基于定向进化和从头设计的原则，以及对镍酶催化机制的理解。",
+                    "tools_and_resources": "计算模拟软件、实验设备（如X射线晶体学和NMR）、高通量筛选技术等。"
+                }
+            }
+        },
+        {
+            "titles": [
+                "Design and engineering of artificial metalloproteins: from de novo metal coordination to catalysis",
+                "Protein-based models offer mechanistic insight into complex nickel metalloenzymes",
+                "An artificial metalloprotein with metal-adaptive coordination sites and Ni-dependent quercetinase activity"
+            ],
+            "abstracts": [
+                "Metalloproteins are essential to sustain life. Natural evolution optimized them for intricate structural, regulatory and catalytic functions that cannot be fulfilled by either a protein or a metal ion alone. In order to understand this synergy and the complex design principles behind the natural systems, simpler mimics were engineered from the bottom up by installing de novo metal sites in either natural or fully designed, artificial protein scaffolds. This review focuses on key challenges associated with this approach. We discuss how proteins can be equipped with binding sites that provide an optimal coordination environment for a metal cofactor of choice, which can be a single metal ion or a complex multinuclear cluster. Furthermore, we highlight recent studies in which artificial metalloproteins were engineered towards new functions, including electron transfer and catalysis. In this context, the powerful combination of de novo protein design and directed evolution is emphasized for metalloenzyme development.",
+                "There are ten nickel enzymes found across biological systems, each with a distinct active site and reactivity that spans reductive, oxidative, and redox-neutral processes. We focus on the reductive enzymes, which catalyze reactions that are highly germane to the modern-day climate crisis: [NiFe] hydrogenase, carbon monoxide dehydrogenase, acetyl coenzyme A synthase, and methyl coenzyme M reductase. The current mechanistic understanding of each enzyme system is reviewed along with existing knowledge gaps, which are addressed through the development of protein-derived models, as described here. This opinion is intended to highlight the advantages of using robust protein scaffolds for modeling multiscale contributions to reactivity and inspire the development of novel artificial metalloenzymes for other small molecule transformations.",
+                "Engineering non-native metal active sites into proteins using canonical amino acids offers many advantages but is hampered by significant challenges. The TIM barrel protein, imidazole glycerol phosphate synthase from the hyperthermophilic organism Thermotoga maritima (tHisF), is well-suited for the construction of artificial metalloenzymes by this approach. To this end, we have generated a tHisF variant (tHisFEHH) with a Glu/His/His motif for metal ion coordination. Crystal structures of ZnII:tHisFEHH and NiII:tHisFEHH reveal that both metal ions bind to the engineered histidines. However, the two metals bind at distinct sites with different geometries, demonstrating the adaptability of tHisF. Only ZnII additionally ligates the Glu residue and adopts a tetrahedral geometry. The pseudo-octahedral NiII site comprises the two His and a native Ser residue. NiII:tHisFEHH catalyzes the oxidative cleavage of the flavanols quercetin and myricetin, providing an unprecedented example of an artificial metalloprotein with quercetinase activity."
+            ],
+            "authors": [
+                "AS. Klein and C. Zeymer",
+                "RE. Treviño and HS. Shafaat",
+                "M. Beaumet, A. Dose, A. Bräuer, JP. Mahy, W. Ghattas, M. Groll and CR. Hess"
+            ],
+            "years": [
+                "2021",
+                "2022",
+                "2022"
+            ]
+        }
+    ],
+    [
+        {
+            "title": {
+                "title": "设计具有高效铜中心的新型人工金属酶用于生物正交催化反应"
+            },
+            "ideadetails": {
+                "problem_statement": {
+                    "research_background": "人工金属酶结合了过渡金属催化剂的内在反应性和天然酶的复杂反应控制能力，为生物正交化学和生物催化提供了新的机遇。然而，当前大多数人工金属酶的设计主要集中在少数几种蛋白质支架上，限制了其多样性和应用范围。特别是对于铜中心的应用，尽管铜离子在自然界中广泛参与催化反应，但如何在人工系统中实现高效的铜基催化仍然是一个挑战。",
+                    "research_question": "如何通过从头设计构建具有稳定二级结构和高铜离子亲和力的人工金属酶，以解决铜基催化在人工系统中的应用问题？",
+                    "significance_of_the_problem": "这一研究不仅有助于理解铜离子在生物催化中的作用机制，还为开发新型生物正交化学工具提供了理论和技术支持。"
+                },
+                "motivation": {
+                    "limitations_of_existing_methods": "当前人工金属酶的设计主要集中在少数几种蛋白质支架上，这限制了其多样性和应用范围。特别是在铜中心的应用方面，如何在人工系统中实现高效的铜基催化仍然是一个挑战。",
+                    "advantages_of_the_new_method": "新方法将首次把从头设计与定向进化相结合，构建具有高铜离子亲和力和催化活性的全新蛋白质支架，并通过引入铜中心显著提升人工金属酶在生物正交反应中的选择性和效率。"
+                },
+                "proposedmethod": {
+                    "method_overview": "本研究聚焦于通过从头设计构建具有稳定二级结构和高铜离子亲和力的人工金属酶，包括蛋白质支架的选择与优化、铜中心的安装、催化性能测试以及稳定性和活性优化等步骤。",
+                    "key_steps": "1. 筛选具有高稳定性和良好空腔结构的天然或合成蛋白质作为铜中心的载体；2. 通过定点突变和从头设计方法引入铜离子结合位点；3. 使用一系列生物正交反应评估新设计的人工金属酶的催化效率和选择性；4. 结合定向进化技术优化人工金属酶的稳定性和催化活性。",
+                    "theoretical_foundation": "人工金属酶的设计原理基于蛋白质工程学和生物催化理论，利用计算生物学工具进行大规模筛选，并结合实验验证，确保选出的蛋白质支架具有理想的结构和功能特性。",
+                    "tools_and_resources": "分子动力学模拟软件、定点突变和从头设计技术、生物正交反应试剂、定向进化技术等"
+                }
+            }
+        },
+        {
+            "titles": [
+                "Design and engineering of artificial metalloproteins: from de novo metal coordination to catalysis",
+                "Proteins as diverse, efficient, and evolvable scaffolds for artificial metalloenzymes",
+                "Artificial metalloenzymes in a nutshell: the quartet for efficient catalysis"
+            ],
+            "abstracts": [
+                "Metalloproteins are essential to sustain life. Natural evolution optimized them for intricate structural, regulatory and catalytic functions that cannot be fulfilled by either a protein or a metal ion alone. In order to understand this synergy and the complex design principles behind the natural systems, simpler mimics were engineered from the bottom up by installing de novo metal sites in either natural or fully designed, artificial protein scaffolds. This review focuses on key challenges associated with this approach. We discuss how proteins can be equipped with binding sites that provide an optimal coordination environment for a metal cofactor of choice, which can be a single metal ion or a complex multinuclear cluster. Furthermore, we highlight recent studies in which artificial metalloproteins were engineered towards new functions, including electron transfer and catalysis. In this context, the powerful combination of de novo protein design and directed evolution is emphasized for metalloenzyme development.",
+                "By combining synthetic catalysts and biochemical tools, numerous artificial metalloenzymes have been designed to exhibit high catalytic activity and selectivity in diverse chemical transformations. Out of the nearly infinite number of discovered or characterised proteins, however, only a handful of proteins have been employed as scaffolds for artificial metalloenzymes, implying that specific proteins are preferred owing to their native structural, functional, or biochemical properties. In the present review, we extract and group the biochemical and structural properties of proteins that are advantageous in the design of artificial metalloenzymes; protein stability, pre-existing metal centre, native binding affinity for small molecules, confined and empty space, well-defined secondary structure, and native cellular location. The desirable properties highlight proteins as the key players in the design of metal-dependent biocatalysts. We also propose rarely considered, yet promising, proteins that could be versatile and unique scaffolds for novel metalloenzymes.",
+                "Artificial metalloenzymes combine the inherent reactivity of transition metal catalysis with the sophisticated reaction control of natural enzymes. By providing new opportunities in bioorthogonal chemistry and biocatalysis, artificial metalloenzymes have the potential to overcome certain limitations in both drug discovery and green chemistry or related research fields. Ongoing advances in organometallic catalysis, directed evolution, and bioinformatics are enabling the design of increasingly powerful systems that outperform conventional catalysis in a growing number of cases. Therefore, this review article collects challenges and opportunities in designing artificial metalloenzymes described in recent review articles. This will provide an equitable insight for those new to and interested in the field."
+            ],
+            "authors": [
+                "AS. Klein and C. Zeymer",
+                "WJ. Jeong, J. Yu and WJ. Song",
+                "Paul Ebensperger, C. Jessen-Trefzer"
+            ],
+            "years": [
+                "2021",
+                "2020",
+                "2021"
+            ]
+        }
+    ],
+    [
+        {
+            "title": {
+                "title": "基于化学蛋白合成技术构建镍依赖型槲皮素酶的人工金属酶以实现氧化裂解活性"
+            },
+            "ideadetails": {
+                "problem_statement": {
+                    "research_background": "镍依赖型槲皮素酶（Ni-dependent quercetinase）是一类重要的生物催化酶，能够特异性地催化黄酮类化合物的转化。然而，其在实际应用中的催化效率和底物范围受限，尤其是在处理复杂天然产物时表现不佳。当前，通过化学蛋白合成技术构建人工金属酶已成为一种极具潜力的方法，可以在蛋白质骨架中引入特定的金属中心，从而赋予其新的催化功能。",
+                    "research_question": "如何通过化学蛋白合成技术优化镍依赖型槲皮素酶的催化性能，并拓展其底物范围？",
+                    "significance_of_the_problem": "本研究旨在解决如何通过化学蛋白合成技术优化镍依赖型槲皮素酶的催化性能，并拓展其底物范围，这不仅有助于深入理解镍依赖型槲皮素酶的催化机制，还可能为开发新型高效生物催化剂提供理论和技术支持。成功实现这一目标将显著提升该酶在环境修复、药物合成等领域的应用潜力。"
+                },
+                "motivation": {
+                    "limitations_of_existing_methods": "现有的镍依赖型槲皮素酶在实际应用中的催化效率和底物范围受限，尤其是在处理复杂天然产物时表现不佳。",
+                    "advantages_of_the_new_method": "新方法结合了化学蛋白合成技术和铜中心构建，实现了镍依赖型槲皮素酶的多功能化改造，为其在复杂天然产物转化中的应用提供了新的思路。"
+                },
+                "proposedmethod": {
+                    "method_overview": "通过化学蛋白合成技术，在镍依赖型槲皮素酶的活性位点引入铜中心，构建具有氧化裂解活性的人工金属酶。",
+                    "key_steps": "- 化学蛋白合成：利用半合成策略，将镍依赖型槲皮素酶的关键氨基酸残基替换为带有强配体的非天然氨基酸（如N,N-bis(pyridylmethyl)amine, DPA），以模拟铜单加氧酶的功能。\n- 铜中心构建：通过定点突变和化学修饰，在酶的活性位点引入铜离子，形成稳定的CuII-DPA复合物。\n- 催化性能评估：使用4-硝基苯基-β-D-葡萄糖苷（PNPG）作为模型底物，测试新构建的人工金属酶在H2O2驱动下的氧化裂解反应活性，并通过UV-Vis、CD和EPR光谱分析其结构特征。\n- 底物范围扩展：筛选并验证多种黄酮类化合物作为潜在底物，评估其在新构建酶中的转化效率。",
+                    "theoretical_foundation": "通过逐步优化突变位点和修饰条件，确保蛋白质正确折叠；系统性筛选不同配体组合，找到最稳定的CuII-DPA复合物；通过定向进化和理性设计，进一步优化酶的活性位点，提高其对目标底物的选择性和催化效率。",
+                    "tools_and_resources": "需要使用到的工具包括但不限于半合成策略所需的化学试剂、定点突变和化学修饰的技术平台、用于催化性能评估的光谱仪器以及各种实验设备。"
+                }
+            }
+        },
+        {
+            "titles": [
+                "Protein-based models offer mechanistic insight into complex nickel metalloenzymes",
+                "Design of artificial metalloenzymes for the reduction of nicotinamide cofactors",
+                "Chemical protein synthesis enabled engineering of saccharide oxidative cleavage activity in artificial metalloenzymes"
+            ],
+            "abstracts": [
+                "There are ten nickel enzymes found across biological systems, each with a distinct active site and reactivity that spans reductive, oxidative, and redox-neutral processes. We focus on the reductive enzymes, which catalyze reactions that are highly germane to the modern-day climate crisis: [NiFe] hydrogenase, carbon monoxide dehydrogenase, acetyl coenzyme A synthase, and methyl coenzyme M reductase. The current mechanistic understanding of each enzyme system is reviewed along with existing knowledge gaps, which are addressed through the development of protein-derived models, as described here. This opinion is intended to highlight the advantages of using robust protein scaffolds for modeling multiscale contributions to reactivity and inspire the development of novel artificial metalloenzymes for other small molecule transformations.",
+                "Artificial metalloenzymes result from the insertion of a catalytically active metal complex into a biological scaffold, generally a protein devoid of other catalytic functionalities. As such, their design requires efforts to engineer substrate binding, in addition to accommodating the artificial catalyst. Here we constructed and characterised artificial metalloenzymes using alcohol dehydrogenase as starting point, an enzyme which has both a cofactor and a substrate binding pocket. A docking approach was used to determine suitable positions for catalyst anchoring to single cysteine mutants, leading to an artificial metalloenzyme capable to reduce both natural cofactors and the hydrophobic 1-benzylnicotinamide mimic. Kinetic studies revealed that the new construct displayed a Michaelis-Menten behaviour with the native nicotinamide cofactors, which were suggested by docking to bind at a surface exposed site, different compared to their native binding position. On the other hand, the kinetic and docking data suggested that a typical enzyme behaviour was not observed with the hydrophobic 1-benzylnicotinamide mimic, with which binding events were plausible both inside and outside the protein. This work demonstrates an extended substrate scope of the artificial metalloenzymes and provides information about the binding sites of the nicotinamide substrates, which can be exploited to further engineer artificial metalloenzymes for cofactor regeneration. SYNOPSIS ABOUT GRAPHICAL ABSTRACT: The manuscript provides information on the design of artificial metalloenzymes based on the bioconjugation of rhodium complexes to alcohol dehydrogenase, to improve their ability to reduce hydrophobic substrates. The graphical abstract presents different binding modes and results observed with native cofactors as substrates, compared to the hydrophobic benzylnicotinamide.",
+                "Chemical protein (semi-)synthesis is a powerful technique allowing the incorporation of unnatural functionalities at any desired protein site. Herein we describe a facile one-pot semi-synthetic strategy for the construction of a type 2 copper center in the active site of azurin, which is achieved by substitution of Met121 with unnatural amino acid residues bearing a strong ligand N,N-bis(pyridylmethyl)amine (DPA) to mimic the function of typical histidine brace-bearing copper monooxygenases, such as lytic polysaccharide monooxygenases (LPMOs) involved in polysaccharide breakdown. The semi-synthetic proteins were routinely obtained in over 10-mg scales to allow for spectroscopic measurements (UV-Vis, CD, and EPR), which provides structural evidences for the CuII-DPA-modified azurins. 4-nitrophenyl-β-D-glucopyranoside (PNPG) was used as a model substrate for the H2O2-driven oxidative cleavage reaction facilitated by semi-synthetic azurins, and the CuII-6 complex showed a highest activity (TTN 253). Interestingly, our semi-synthetic azurins were able to tolerate high H2O2 concentrations (up to 4000-fold of the enzyme), making them promising for practical applications. Collectively, we establish that chemical protein synthesis can be exploited as a reliable technology in affording large quantities of artificial metalloproteins to facilitate the transformation of challenging chemical reactions."
+            ],
+            "authors": [
+                "RE. Treviño and HS. Shafaat",
+                "M. Basle, HAW. Padley, FL. Martins, GS. Winkler, CM. Jäger and A. Pordea",
+                "J. Luo and C. He"
+            ],
+            "years": [
+                "2022",
+                "2021",
+                "2024"
+            ]
+        }
+    ],
+    [
+        {
+            "title": {
+                "title": "设计基于化学蛋白合成的铜中心人工金属酶用于高效还原烟酰胺辅因子"
+            },
+            "ideadetails": {
+                "problem_statement": {
+                    "research_background": "在生物催化领域，特别是处理复杂的小分子转化时，如烟酰胺辅因子（nicotinamide cofactors）的还原反应，传统酶的活性和选择性受到限制。目前，通过将金属催化剂锚定到蛋白质支架中构建具有新型催化功能的人工金属酶，但如何实现高效且特异性的底物结合仍然是一个亟待解决的关键问题。",
+                    "research_question": "如何利用化学蛋白合成技术，在特定蛋白质位点引入功能性铜中心，构建高效的人工金属酶以实现对烟酰胺辅因子的高效还原？",
+                    "significance_of_the_problem": "本研究不仅能够加深对铜中心在生物催化中的机制理解，还为开发新型催化剂提供了理论基础和技术支持，成功解决这一问题将推动人工金属酶在生物催化、药物合成等领域的实际应用进展。"
+                },
+                "motivation": {
+                    "limitations_of_existing_methods": "现有方法在处理复杂的小分子转化时，如烟酰胺辅因子的还原反应，传统酶的活性和选择性往往受到限制，并且如何实现高效且特异性的底物结合是一个亟待解决的问题。",
+                    "advantages_of_the_new_method": "首次将化学蛋白合成技术应用于铜中心人工金属酶的设计，实现了精确的催化剂锚定和底物结合优化，为未来开发更多高效的人工金属酶提供了新的思路和技术平台。"
+                },
+                "proposedmethod": {
+                    "method_overview": "该方法的核心思想是通过化学蛋白合成技术，在特定蛋白质位点引入功能性铜中心，构建高效的人工金属酶，以实现对烟酰胺辅因子的高效还原。",
+                    "key_steps": "- 蛋白质选择与改造：选择具有天然辅因子结合口袋的醇脱氢酶作为蛋白质支架，并通过定点突变引入半胱氨酸残基，为后续催化剂锚定提供位点。\n- 催化剂锚定：利用化学蛋白合成技术，将含有强配体N,N-双(吡啶基甲基)胺（DPA）的铜络合物锚定到突变后的蛋白质位点，形成稳定的Cu-DPA复合物。\n- 底物结合优化：通过分子对接模拟，确定烟酰胺辅因子的最佳结合模式，并根据模拟结果进一步优化蛋白质结构，提高底物结合效率。\n- 催化性能评估：使用动力学分析（Michaelis-Menten行为）和光谱学手段（UV-Vis, CD, EPR），评估新构建的人工金属酶对烟酰胺辅因子的还原活性及其稳定性。",
+                    "theoretical_foundation": "通过化学蛋白合成技术构建高效的人工金属酶，可以更深入地了解铜中心在生物催化中的作用机制，同时也为开发新型催化剂提供了理论基础和技术支持。",
+                    "tools_and_resources": "实验所需的工具和资源包括但不限于：化学试剂（如铜络合物、N,N-双(吡啶基甲基)胺）、生物材料（如醇脱氢酶）、实验设备（如光谱仪、计算机辅助设计软件）。"
+                }
+            }
+        },
+        {
+            "titles": [
+                "Protein-based models offer mechanistic insight into complex nickel metalloenzymes",
+                "Design of artificial metalloenzymes for the reduction of nicotinamide cofactors",
+                "Chemical protein synthesis enabled engineering of saccharide oxidative cleavage activity in artificial metalloenzymes"
+            ],
+            "abstracts": [
+                "There are ten nickel enzymes found across biological systems, each with a distinct active site and reactivity that spans reductive, oxidative, and redox-neutral processes. We focus on the reductive enzymes, which catalyze reactions that are highly germane to the modern-day climate crisis: [NiFe] hydrogenase, carbon monoxide dehydrogenase, acetyl coenzyme A synthase, and methyl coenzyme M reductase. The current mechanistic understanding of each enzyme system is reviewed along with existing knowledge gaps, which are addressed through the development of protein-derived models, as described here. This opinion is intended to highlight the advantages of using robust protein scaffolds for modeling multiscale contributions to reactivity and inspire the development of novel artificial metalloenzymes for other small molecule transformations.",
+                "Artificial metalloenzymes result from the insertion of a catalytically active metal complex into a biological scaffold, generally a protein devoid of other catalytic functionalities. As such, their design requires efforts to engineer substrate binding, in addition to accommodating the artificial catalyst. Here we constructed and characterised artificial metalloenzymes using alcohol dehydrogenase as starting point, an enzyme which has both a cofactor and a substrate binding pocket. A docking approach was used to determine suitable positions for catalyst anchoring to single cysteine mutants, leading to an artificial metalloenzyme capable to reduce both natural cofactors and the hydrophobic 1-benzylnicotinamide mimic. Kinetic studies revealed that the new construct displayed a Michaelis-Menten behaviour with the native nicotinamide cofactors, which were suggested by docking to bind at a surface exposed site, different compared to their native binding position. On the other hand, the kinetic and docking data suggested that a typical enzyme behaviour was not observed with the hydrophobic 1-benzylnicotinamide mimic, with which binding events were plausible both inside and outside the protein. This work demonstrates an extended substrate scope of the artificial metalloenzymes and provides information about the binding sites of the nicotinamide substrates, which can be exploited to further engineer artificial metalloenzymes for cofactor regeneration. SYNOPSIS ABOUT GRAPHICAL ABSTRACT: The manuscript provides information on the design of artificial metalloenzymes based on the bioconjugation of rhodium complexes to alcohol dehydrogenase, to improve their ability to reduce hydrophobic substrates. The graphical abstract presents different binding modes and results observed with native cofactors as substrates, compared to the hydrophobic benzylnicotinamide.",
+                "Chemical protein (semi-)synthesis is a powerful technique allowing the incorporation of unnatural functionalities at any desired protein site. Herein we describe a facile one-pot semi-synthetic strategy for the construction of a type 2 copper center in the active site of azurin, which is achieved by substitution of Met121 with unnatural amino acid residues bearing a strong ligand N,N-bis(pyridylmethyl)amine (DPA) to mimic the function of typical histidine brace-bearing copper monooxygenases, such as lytic polysaccharide monooxygenases (LPMOs) involved in polysaccharide breakdown. The semi-synthetic proteins were routinely obtained in over 10-mg scales to allow for spectroscopic measurements (UV-Vis, CD, and EPR), which provides structural evidences for the CuII-DPA-modified azurins. 4-nitrophenyl-β-D-glucopyranoside (PNPG) was used as a model substrate for the H2O2-driven oxidative cleavage reaction facilitated by semi-synthetic azurins, and the CuII-6 complex showed a highest activity (TTN 253). Interestingly, our semi-synthetic azurins were able to tolerate high H2O2 concentrations (up to 4000-fold of the enzyme), making them promising for practical applications. Collectively, we establish that chemical protein synthesis can be exploited as a reliable technology in affording large quantities of artificial metalloproteins to facilitate the transformation of challenging chemical reactions."
+            ],
+            "authors": [
+                "RE. Treviño and HS. Shafaat",
+                "M. Basle, HAW. Padley, FL. Martins, GS. Winkler, CM. Jäger and A. Pordea",
+                "J. Luo and C. He"
+            ],
+            "years": [
+                "2022",
+                "2021",
+                "2024"
+            ]
+        }
+    ],
+    [
+        {
+            "title": {
+                "title": "设计具有多金属中心的新型人工铜酶用于高效氧化裂解反应"
+            },
+            "ideadetails": {
+                "problem_statement": {
+                    "research_background": "在生物催化领域，人工酶的设计已成为开发新型催化剂的关键方向。然而，当前大多数研究集中在单金属中心的人工酶上，而对多金属中心的设计和功能调控仍处于初步阶段。具体来说，如何在蛋白质支架中精确引入多个铜中心，并使其协同作用以实现高效的氧化裂解反应，是一个亟待解决的挑战。",
+                    "research_question": "本研究旨在通过化学蛋白合成技术，在特定蛋白质支架（如azurin）中引入多个铜中心，构建新型人工铜酶，以实现高效、选择性的氧化裂解反应。",
+                    "significance_of_the_problem": "成功解决这一问题不仅能推动生物催化领域的前沿进展，还可能为工业应用（如生物质转化、药物合成等）带来新的突破。"
+                },
+                "motivation": {
+                    "limitations_of_existing_methods": "当前大多数研究集中在单金属中心的人工酶上，而对多金属中心的设计和功能调控仍处于初步阶段。",
+                    "advantages_of_the_new_method": "该研究将揭示多金属中心在生物催化中的协同作用机制，为开发高性能生物无机催化剂提供理论基础和技术支持。创新点在于首次通过化学蛋白合成技术实现了多铜中心的精确引入和调控。"
+                },
+                "proposedmethod": {
+                    "method_overview": "1. 蛋白质支架选择与改造；2. 多铜中心引入；3. 催化性能评估；4. 机制解析。",
+                    "key_steps": "1. 利用化学蛋白合成技术，定点引入含有强配体N,N-双(吡啶基甲基)胺（DPA）的非天然氨基酸，替代Met121位点，形成稳定的CuII-DPA配合物；2. 通过逐步引入额外的铜离子，构建包含多个铜中心的人工酶；3. 以4-硝基苯基-β-D-葡萄糖苷（PNPG）为底物，评估半合成azurin在H2O2驱动下的氧化裂解活性；4. 结合实验数据与计算模拟，深入探讨多铜中心之间的电子传递路径及其对催化性能的影响。",
+                    "theoretical_foundation": "人工酶的设计已成为开发新型催化剂的关键方向。特别是人工金属酶，通过引入多个金属中心，能够模拟天然金属酶的功能并实现自然界中不存在的新反应。",
+                    "tools_and_resources": "UV-Vis, CD, EPR等多种光谱技术，化学蛋白合成技术。"
+                }
+            }
+        },
+        {
+            "titles": [
+                "Design of Artificial Enzymes: Insights into Protein Scaffolds",
+                "Design of artificial metalloenzymes with multiple inorganic elements: The more the merrier",
+                "Chemical protein synthesis enabled engineering of saccharide oxidative cleavage activity in artificial metalloenzymes"
+            ],
+            "abstracts": [
+                "The design of artificial enzymes has emerged as a promising tool for the generation of potent biocatalysts able to promote new-to-nature reactions with improved catalytic performances, providing a powerful platform for wide-ranging applications and a better understanding of protein functions and structures. The selection of an appropriate protein scaffold plays a key role in the design process. This review aims to give a general overview of the most common protein scaffolds that can be exploited for the generation of artificial enzymes. Several examples are discussed and categorized according to the strategy used for the design of the artificial biocatalyst, namely the functionalization of natural enzymes, the creation of a new catalytic site in a protein scaffold bearing a wide hydrophobic pocket and de novo protein design. The review is concluded by a comparison of these different methods and by our perspective on the topic.",
+                "A large fraction of metalloenzymes harbors multiple metal-centers that are electronically and/or functionally arranged within their proteinaceous environments. To explore the orchestration of inorganic and biochemical components and to develop bioinorganic catalysts and materials, we have described selected examples of artificial metalloproteins having multiple metallocofactors that were grouped depending on their initial protein scaffolds, the nature of introduced inorganic moieties, and the method used to propagate the number of metal ions within a protein. They demonstrated that diverse inorganic moieties can be selectively grafted and modulated in protein environments, providing a retrosynthetic bottom-up approach in the design of versatile and proficient biocatalysts and biomimetic model systems to explore fundamental questions in bioinorganic chemistry.",
+                "Chemical protein (semi-)synthesis is a powerful technique allowing the incorporation of unnatural functionalities at any desired protein site. Herein we describe a facile one-pot semi-synthetic strategy for the construction of a type 2 copper center in the active site of azurin, which is achieved by substitution of Met121 with unnatural amino acid residues bearing a strong ligand N,N-bis(pyridylmethyl)amine (DPA) to mimic the function of typical histidine brace-bearing copper monooxygenases, such as lytic polysaccharide monooxygenases (LPMOs) involved in polysaccharide breakdown. The semi-synthetic proteins were routinely obtained in over 10-mg scales to allow for spectroscopic measurements (UV-Vis, CD, and EPR), which provides structural evidences for the CuII-DPA-modified azurins. 4-nitrophenyl-β-D-glucopyranoside (PNPG) was used as a model substrate for the H2O2-driven oxidative cleavage reaction facilitated by semi-synthetic azurins, and the CuII-6 complex showed a highest activity (TTN 253). Interestingly, our semi-synthetic azurins were able to tolerate high H2O2 concentrations (up to 4000-fold of the enzyme), making them promising for practical applications. Collectively, we establish that chemical protein synthesis can be exploited as a reliable technology in affording large quantities of artificial metalloproteins to facilitate the transformation of challenging chemical reactions."
+            ],
+            "authors": [
+                "S. Hanreich, E. Bonandi and I. Drienovská",
+                "SM. Jung, J. Lee and WJ. Song",
+                "J. Luo and C. He"
+            ],
+            "years": [
+                "2023",
+                "2021",
+                "2024"
+            ]
+        }
+    ]
+]
